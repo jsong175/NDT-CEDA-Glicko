@@ -1,4 +1,8 @@
-<!doctype html><meta charset="utf-8"><body><pre id="out">pending</pre>
+<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex">
+<!-- Test fixture, not part of the dashboard. Loads the real app.js and dumps
+     window.__glicko output so tests/test_js_parity.py can check the browser
+     maths against scripts/glicko2.py. Must live here to be same-origin. -->
+<body><pre id="out">pending</pre>
 <script>
 window.__cases = [
   [[[1500,50],[1500,50]], [[1500,50],[1500,50]]],
