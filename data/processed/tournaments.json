@@ -1,0 +1,466 @@
+[
+ {
+  "tourn_id": 35973,
+  "name": "George Mason Debate Tournament",
+  "season": "2025-26",
+  "start": "2025-09-12",
+  "location": "Fairfax, VA",
+  "divisions_listed": "Nov, Open"
+ },
+ {
+  "tourn_id": 36669,
+  "name": "MoState College Tournament",
+  "season": "2025-26",
+  "start": "2025-09-12",
+  "location": "Springfield, MO",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 36165,
+  "name": "53rd Annual Run for the Roses hosted by UK",
+  "season": "2025-26",
+  "start": "2025-09-24",
+  "location": "Lexington, KY",
+  "divisions_listed": "RR"
+ },
+ {
+  "tourn_id": 36431,
+  "name": "Binghamton 8th Annual Phyllis Schatz Invitational",
+  "season": "2025-26",
+  "start": "2025-09-25",
+  "location": "Binghamton, NY",
+  "divisions_listed": "JV, Novice, Open"
+ },
+ {
+  "tourn_id": 36166,
+  "name": "55th Annual JW Patterson Debates hosted by UK",
+  "season": "2025-26",
+  "start": "2025-09-27",
+  "location": "Lexington, KY",
+  "divisions_listed": "CX-N, CX-O, CX-JV"
+ },
+ {
+  "tourn_id": 37322,
+  "name": "Baird Debates",
+  "season": "2025-26",
+  "start": "2025-10-03",
+  "location": "Iowa City, IA",
+  "divisions_listed": "RR"
+ },
+ {
+  "tourn_id": 36816,
+  "name": "University of Houston College Debate Tournament",
+  "season": "2025-26",
+  "start": "2025-10-11",
+  "location": "Houston, TX",
+  "divisions_listed": "JV, NOV, OPN"
+ },
+ {
+  "tourn_id": 36167,
+  "name": "Minnesota College Debate Invitational",
+  "season": "2025-26",
+  "start": "2025-10-17",
+  "location": "Online",
+  "divisions_listed": "JV, Nov, Open, X-OBS"
+ },
+ {
+  "tourn_id": 37376,
+  "name": "West Point Debate Tournament",
+  "season": "2025-26",
+  "start": "2025-10-17",
+  "location": "West Point, NY",
+  "divisions_listed": "JV, Novice, Open"
+ },
+ {
+  "tourn_id": 37029,
+  "name": "James Madison University College Debate Tournament",
+  "season": "2025-26",
+  "start": "2025-10-31",
+  "location": "Harrisonburg, VA",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 36936,
+  "name": "University of Oklahoma Tournament",
+  "season": "2025-26",
+  "start": "2025-10-31",
+  "location": "NORMAN, OK",
+  "divisions_listed": "Nov, Open, JV"
+ },
+ {
+  "tourn_id": 36419,
+  "name": "Gonzaga University Jesuit Debates",
+  "season": "2025-26",
+  "start": "2025-11-01",
+  "location": "Spokane, WA",
+  "divisions_listed": "OpenPol, OpenCARD, JunCARD, JVPol"
+ },
+ {
+  "tourn_id": 37578,
+  "name": "Robert Barbera Invitational",
+  "season": "2025-26",
+  "start": "2025-11-07",
+  "location": "Northridge, CA",
+  "divisions_listed": "N-Pol, O-Pol, O-CARD, J-CARD"
+ },
+ {
+  "tourn_id": 36743,
+  "name": "Rochester Brad Smith Memorial",
+  "season": "2025-26",
+  "start": "2025-11-08",
+  "location": "Rochester,",
+  "divisions_listed": "Novice, Open, JV"
+ },
+ {
+  "tourn_id": 36610,
+  "name": "FR Shirley and ADA Fall Champions at WFU",
+  "season": "2025-26",
+  "start": "2025-11-15",
+  "location": "Winston Salem, NC",
+  "divisions_listed": "JV, Nov, SHIR, Obsvr"
+ },
+ {
+  "tourn_id": 37971,
+  "name": "Jersey Shore Invitational at Monmouth",
+  "season": "2025-26",
+  "start": "2025-11-21",
+  "location": "Monmouth, NJ, NY",
+  "divisions_listed": "JV, Novice"
+ },
+ {
+  "tourn_id": 37011,
+  "name": "4th Big Tent Online",
+  "season": "2025-26",
+  "start": "2025-12-05",
+  "location": "Online",
+  "divisions_listed": "ACCA, ACEX, ACINF, ACPOI, ACPRO, BCADS, BCDI, BCDUO, BImp2, BCPer, BCPOE, JVAPD, JVBP, JVCARD, JVCPF, JHSLD, JHSCX, JHSPF, JIPDA, JCEDA, JNEDA, JVLD, JNPDA, JTIPDA, NAPDA, NBP, NCARD, NCPF, NHSLD, NHSCX, NHSPF, NCEDA, NNEDA, NLD, NNPDA, NIPDA, VAPDA, VBP, VCARD, VCPF, VHSLD, VHSCX, VHSPF, VIPDA, VCEDA, VNEDA, VLD, VNPDA, VTIPDA"
+ },
+ {
+  "tourn_id": 38004,
+  "name": "3rd Annual Sunflower Swing Part 1 hosted by KU",
+  "season": "2025-26",
+  "start": "2026-01-03",
+  "location": "Lawrence, KS",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 37193,
+  "name": "Georgetown College Tournament",
+  "season": "2025-26",
+  "start": "2026-01-03",
+  "location": "NSDA Campus",
+  "divisions_listed": "Open, JV"
+ },
+ {
+  "tourn_id": 37980,
+  "name": "Sunflower Swing 2 K State 2026",
+  "season": "2025-26",
+  "start": "2026-01-07",
+  "location": "Manhattan, KS",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 37762,
+  "name": "Great Salt Lake Invitational",
+  "season": "2025-26",
+  "start": "2026-01-16",
+  "location": "Salt Lake City, UT",
+  "divisions_listed": "CEDARR, NPDA, NPTE, CEDA"
+ },
+ {
+  "tourn_id": 37885,
+  "name": "UTSA Earthseed Invitational",
+  "season": "2025-26",
+  "start": "2026-01-16",
+  "location": "TX",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 38966,
+  "name": "Herbert L James Debates at Dartmouth",
+  "season": "2025-26",
+  "start": "2026-01-17",
+  "location": "Dartmouth, NH",
+  "divisions_listed": "DRR"
+ },
+ {
+  "tourn_id": 38986,
+  "name": "Rutgers University Newark Brick City Round Robin",
+  "season": "2025-26",
+  "start": "2026-01-17",
+  "location": "Newark, NJ",
+  "divisions_listed": "BCRR"
+ },
+ {
+  "tourn_id": 38522,
+  "name": "USNA Crowe Warken Debates",
+  "season": "2025-26",
+  "start": "2026-01-17",
+  "location": "Arnold, MD",
+  "divisions_listed": "JV, Novic, Open"
+ },
+ {
+  "tourn_id": 38490,
+  "name": "ASU College Tournament",
+  "season": "2025-26",
+  "start": "2026-01-24",
+  "location": "Tempe, AZ",
+  "divisions_listed": "jcard, vcard, ocx"
+ },
+ {
+  "tourn_id": 36226,
+  "name": "Hoosier Invitational Tournament HIT",
+  "season": "2025-26",
+  "start": "2026-01-24",
+  "location": "Bloomington, IN",
+  "divisions_listed": "1-Open, 3-Nov"
+ },
+ {
+  "tourn_id": 37010,
+  "name": "Texas Open",
+  "season": "2025-26",
+  "start": "2026-01-31",
+  "location": "Austin, TX",
+  "divisions_listed": "JV, NOV, OP"
+ },
+ {
+  "tourn_id": 39031,
+  "name": "Gotham Debates at The New SchoolNYC",
+  "season": "2025-26",
+  "start": "2026-02-07",
+  "location": "NEW YORK, NY",
+  "divisions_listed": "Open, JV, Nov"
+ },
+ {
+  "tourn_id": 39405,
+  "name": "D6 Districts",
+  "season": "2025-26",
+  "start": "2026-02-14",
+  "location": "",
+  "divisions_listed": "NDT"
+ },
+ {
+  "tourn_id": 38955,
+  "name": "NDT District VII Qualifier",
+  "season": "2025-26",
+  "start": "2026-02-16",
+  "location": "Towson, MD",
+  "divisions_listed": "Varsity"
+ },
+ {
+  "tourn_id": 38796,
+  "name": "D1 Pacific Champs NDT Qual and CARD at Beach",
+  "season": "2025-26",
+  "start": "2026-02-20",
+  "location": "Long Beach, CA",
+  "divisions_listed": "Qual, Nov, Open, O-CARD, J-CARD"
+ },
+ {
+  "tourn_id": 39462,
+  "name": "D4 D5 NDT Qualifiers",
+  "season": "2025-26",
+  "start": "2026-02-20",
+  "location": "Online",
+  "divisions_listed": "D4, D5"
+ },
+ {
+  "tourn_id": 39452,
+  "name": "District 2 NDT Qualifier Rankings",
+  "season": "2025-26",
+  "start": "2026-02-20",
+  "location": "Online",
+  "divisions_listed": "Open"
+ },
+ {
+  "tourn_id": 38995,
+  "name": "NDT D3 And The Mid America Championship",
+  "season": "2025-26",
+  "start": "2026-02-20",
+  "location": "Bethany, OK",
+  "divisions_listed": "MAC, D3"
+ },
+ {
+  "tourn_id": 39232,
+  "name": "D8 NDT Qualifier and NE Championship At Suffolk University",
+  "season": "2025-26",
+  "start": "2026-02-21",
+  "location": "Suffolk, MA",
+  "divisions_listed": "D8, JV, Novi"
+ },
+ {
+  "tourn_id": 38894,
+  "name": "JVNovice Nationals at Fairmont State University",
+  "season": "2025-26",
+  "start": "2026-02-27",
+  "location": "Fairmont, WV",
+  "divisions_listed": "JV, Nov"
+ },
+ {
+  "tourn_id": 37153,
+  "name": "ADA Nationals at Emory University",
+  "season": "2025-26",
+  "start": "2026-03-07",
+  "location": "Atlanta, GA",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 37783,
+  "name": "Pi Kappa Delta",
+  "season": "2025-26",
+  "start": "2026-03-18",
+  "location": "Springfield, MO",
+  "divisions_listed": "JV, Open"
+ },
+ {
+  "tourn_id": 39306,
+  "name": "80th National Debate Tournament",
+  "season": "2025-26",
+  "start": "2026-03-26",
+  "location": "Houston, TX",
+  "divisions_listed": "Open"
+ },
+ {
+  "tourn_id": 38602,
+  "name": "CEDA Nationals at Binghamton University",
+  "season": "2025-26",
+  "start": "2026-04-02",
+  "location": "Binghamton, NY",
+  "divisions_listed": "Open"
+ },
+ {
+  "tourn_id": 40615,
+  "name": "George Mason Debate Tournament",
+  "season": "2026-27",
+  "start": "2026-09-11",
+  "location": "Fairfax, VA",
+  "divisions_listed": "Nov, Open, JV"
+ },
+ {
+  "tourn_id": 40465,
+  "name": "Owen L Coon Memorial Debates at Northwestern",
+  "season": "2026-27",
+  "start": "2026-09-12",
+  "location": "Evanston, IL",
+  "divisions_listed": "JV, Open"
+ },
+ {
+  "tourn_id": 41070,
+  "name": "MoState College Tournament",
+  "season": "2026-27",
+  "start": "2026-09-18",
+  "location": "Springfield, MO",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 40771,
+  "name": "54th Annual Run for the Roses hosted by UK",
+  "season": "2026-27",
+  "start": "2026-09-23",
+  "location": "Lexington, KY",
+  "divisions_listed": "RR"
+ },
+ {
+  "tourn_id": 40669,
+  "name": "Phyllis Schatz Invitational at Binghamton",
+  "season": "2026-27",
+  "start": "2026-09-25",
+  "location": "Binghamton, NY",
+  "divisions_listed": "JV, Novice, Open"
+ },
+ {
+  "tourn_id": 40663,
+  "name": "56th Annual JW Patterson Debates hosted by UK",
+  "season": "2026-27",
+  "start": "2026-09-26",
+  "location": "Lexington, KY",
+  "divisions_listed": "CX-N, CX-O, CX-JV"
+ },
+ {
+  "tourn_id": 41056,
+  "name": "Liberty University",
+  "season": "2026-27",
+  "start": "2026-10-02",
+  "location": "Lynchburg, VA",
+  "divisions_listed": "JV, Novice, Open"
+ },
+ {
+  "tourn_id": 40862,
+  "name": "University of Houston College Debate Tournament",
+  "season": "2026-27",
+  "start": "2026-10-10",
+  "location": "Houston, TX",
+  "divisions_listed": "JV, NOV, OPN"
+ },
+ {
+  "tourn_id": 40482,
+  "name": "University of Minnesota College Invitational",
+  "season": "2026-27",
+  "start": "2026-10-16",
+  "location": "Minneapolis, MN",
+  "divisions_listed": "JV, Nov, Open, X-OBS"
+ },
+ {
+  "tourn_id": 41265,
+  "name": "West Point Debate Tournament",
+  "season": "2026-27",
+  "start": "2026-10-23",
+  "location": "West Point, NY",
+  "divisions_listed": "JV, Novice, Open"
+ },
+ {
+  "tourn_id": 40425,
+  "name": "University of New Mexico College Debate Tournament",
+  "season": "2026-27",
+  "start": "2026-10-24",
+  "location": "Albuquerque, NM",
+  "divisions_listed": "Open, Novice"
+ },
+ {
+  "tourn_id": 40954,
+  "name": "Weber State Debate Classic",
+  "season": "2026-27",
+  "start": "2026-10-24",
+  "location": "Ogden, UT",
+  "divisions_listed": "CardJV, CardOP, CX-OP"
+ },
+ {
+  "tourn_id": 40740,
+  "name": "The Doug Duke Invitational at UCO",
+  "season": "2026-27",
+  "start": "2026-10-30",
+  "location": "Edmond, OK",
+  "divisions_listed": "JV, NOV, Open"
+ },
+ {
+  "tourn_id": 40923,
+  "name": "Harvard College Tournament",
+  "season": "2026-27",
+  "start": "2026-10-31",
+  "location": "Online",
+  "divisions_listed": "JV, NOV, Open"
+ },
+ {
+  "tourn_id": 41002,
+  "name": "FR Shirley and ADA Champs at Wake Forest",
+  "season": "2026-27",
+  "start": "2026-11-14",
+  "location": "Winston Salem, NC",
+  "divisions_listed": "JV, Nov, SHIR, Obsvr"
+ },
+ {
+  "tourn_id": 41101,
+  "name": "ASU College Tournament",
+  "season": "2026-27",
+  "start": "2027-01-22",
+  "location": "Tempe, AZ",
+  "divisions_listed": "jcard, ocx, vcard"
+ },
+ {
+  "tourn_id": 41199,
+  "name": "UTSA Earthseed Invitational",
+  "season": "2026-27",
+  "start": "2027-02-12",
+  "location": "TX",
+  "divisions_listed": "JV, Nov, Open"
+ }
+]

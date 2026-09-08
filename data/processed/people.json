@@ -1,0 +1,5062 @@
+{
+ "hana-bergstrom": {
+  "id": "hana-bergstrom",
+  "name": "Hana Bergstrom",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-moreau": {
+  "id": "hugo-moreau",
+  "name": "Hugo Moreau",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-underwood": {
+  "id": "miles-underwood",
+  "name": "Miles Underwood",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-castillo": {
+  "id": "freya-castillo",
+  "name": "Freya Castillo",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "andre-ndiaye": {
+  "id": "andre-ndiaye",
+  "name": "Andre Ndiaye",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kai-sharma": {
+  "id": "kai-sharma",
+  "name": "Kai Sharma",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "malik-cohen": {
+  "id": "malik-cohen",
+  "name": "Malik Cohen",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "quinn-sandoval": {
+  "id": "quinn-sandoval",
+  "name": "Quinn Sandoval",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-fontaine": {
+  "id": "nora-fontaine",
+  "name": "Nora Fontaine",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-jansen": {
+  "id": "talia-jansen",
+  "name": "Talia Jansen",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mira-kaur": {
+  "id": "mira-kaur",
+  "name": "Mira Kaur",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "amos-ustinov": {
+  "id": "amos-ustinov",
+  "name": "Amos Ustinov",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "amara-kaur": {
+  "id": "amara-kaur",
+  "name": "Amara Kaur",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "yuki-weber": {
+  "id": "yuki-weber",
+  "name": "Yuki Weber",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "maya-fontaine": {
+  "id": "maya-fontaine",
+  "name": "Maya Fontaine",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-kowalski": {
+  "id": "caleb-kowalski",
+  "name": "Caleb Kowalski",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-ibrahim": {
+  "id": "levi-ibrahim",
+  "name": "Levi Ibrahim",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "gita-delgado": {
+  "id": "gita-delgado",
+  "name": "Gita Delgado",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-bergstrom": {
+  "id": "nadia-bergstrom",
+  "name": "Nadia Bergstrom",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "rafi-delgado": {
+  "id": "rafi-delgado",
+  "name": "Rafi Delgado",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-cohen": {
+  "id": "anika-cohen",
+  "name": "Anika Cohen",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-fontaine": {
+  "id": "aisha-fontaine",
+  "name": "Aisha Fontaine",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-ferreira": {
+  "id": "jonah-ferreira",
+  "name": "Jonah Ferreira",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-achebe": {
+  "id": "priya-achebe",
+  "name": "Priya Achebe",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "maya-maguire": {
+  "id": "maya-maguire",
+  "name": "Maya Maguire",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "vera-reyes": {
+  "id": "vera-reyes",
+  "name": "Vera Reyes",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-rivera": {
+  "id": "lyra-rivera",
+  "name": "Lyra Rivera",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "theo-kim": {
+  "id": "theo-kim",
+  "name": "Theo Kim",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-haddad": {
+  "id": "jonah-haddad",
+  "name": "Jonah Haddad",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "marcus-kaur": {
+  "id": "marcus-kaur",
+  "name": "Marcus Kaur",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "farah-abara": {
+  "id": "farah-abara",
+  "name": "Farah Abara",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-rivera": {
+  "id": "chris-rivera",
+  "name": "Chris Rivera",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-calloway": {
+  "id": "elias-calloway",
+  "name": "Elias Calloway",
+  "schools": [
+   "Mary Washington"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-sharma": {
+  "id": "hana-sharma",
+  "name": "Hana Sharma",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-underwood": {
+  "id": "nia-underwood",
+  "name": "Nia Underwood",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-jansen": {
+  "id": "beau-jansen",
+  "name": "Beau Jansen",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-ibrahim": {
+  "id": "isaac-ibrahim",
+  "name": "Isaac Ibrahim",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elena-mensah": {
+  "id": "elena-mensah",
+  "name": "Elena Mensah",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-halloran": {
+  "id": "nadia-halloran",
+  "name": "Nadia Halloran",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "nia-kaur": {
+  "id": "nia-kaur",
+  "name": "Nia Kaur",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-underwood": {
+  "id": "aisha-underwood",
+  "name": "Aisha Underwood",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-patel": {
+  "id": "hugo-patel",
+  "name": "Hugo Patel",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ravi-petrov": {
+  "id": "ravi-petrov",
+  "name": "Ravi Petrov",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "leila-whitfield": {
+  "id": "leila-whitfield",
+  "name": "Leila Whitfield",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-osei": {
+  "id": "anika-osei",
+  "name": "Anika Osei",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-chowdhury": {
+  "id": "caleb-chowdhury",
+  "name": "Caleb Chowdhury",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "alex-calloway": {
+  "id": "alex-calloway",
+  "name": "Alex Calloway",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tomas-lindqvist": {
+  "id": "tomas-lindqvist",
+  "name": "Tomas Lindqvist",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-okafor": {
+  "id": "amos-okafor",
+  "name": "Amos Okafor",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "simone-cohen": {
+  "id": "simone-cohen",
+  "name": "Simone Cohen",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lena-barlow": {
+  "id": "lena-barlow",
+  "name": "Lena Barlow",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-ashford": {
+  "id": "ethan-ashford",
+  "name": "Ethan Ashford",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "zoe-okafor": {
+  "id": "zoe-okafor",
+  "name": "Zoe Okafor",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mira-lindqvist": {
+  "id": "mira-lindqvist",
+  "name": "Mira Lindqvist",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amara-yamada": {
+  "id": "amara-yamada",
+  "name": "Amara Yamada",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-kaur": {
+  "id": "lyra-kaur",
+  "name": "Lyra Kaur",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "nora-brooks": {
+  "id": "nora-brooks",
+  "name": "Nora Brooks",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-kim": {
+  "id": "aisha-kim",
+  "name": "Aisha Kim",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sam-maguire": {
+  "id": "sam-maguire",
+  "name": "Sam Maguire",
+  "schools": [
+   "Arizona State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-suzuki": {
+  "id": "levi-suzuki",
+  "name": "Levi Suzuki",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "noor-nguyen": {
+  "id": "noor-nguyen",
+  "name": "Noor Nguyen",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-sandoval": {
+  "id": "devon-sandoval",
+  "name": "Devon Sandoval",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "malik-rivera": {
+  "id": "malik-rivera",
+  "name": "Malik Rivera",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "diego-suzuki": {
+  "id": "diego-suzuki",
+  "name": "Diego Suzuki",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-ito": {
+  "id": "nia-ito",
+  "name": "Nia Ito",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "marcus-ibrahim": {
+  "id": "marcus-ibrahim",
+  "name": "Marcus Ibrahim",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "simone-alvarez": {
+  "id": "simone-alvarez",
+  "name": "Simone Alvarez",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "andre-ferreira": {
+  "id": "andre-ferreira",
+  "name": "Andre Ferreira",
+  "schools": [
+   "Michigan State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-ramos": {
+  "id": "hugo-ramos",
+  "name": "Hugo Ramos",
+  "schools": [
+   "Arizona State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "alex-kowalski": {
+  "id": "alex-kowalski",
+  "name": "Alex Kowalski",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sam-mensah": {
+  "id": "sam-mensah",
+  "name": "Sam Mensah",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-fontaine": {
+  "id": "talia-fontaine",
+  "name": "Talia Fontaine",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "idris-bhatt": {
+  "id": "idris-bhatt",
+  "name": "Idris Bhatt",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-jansen": {
+  "id": "freya-jansen",
+  "name": "Freya Jansen",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-achebe": {
+  "id": "felix-achebe",
+  "name": "Felix Achebe",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-salazar": {
+  "id": "elias-salazar",
+  "name": "Elias Salazar",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "ines-underwood": {
+  "id": "ines-underwood",
+  "name": "Ines Underwood",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "andre-kowalski": {
+  "id": "andre-kowalski",
+  "name": "Andre Kowalski",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-lindqvist": {
+  "id": "felix-lindqvist",
+  "name": "Felix Lindqvist",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-fontaine": {
+  "id": "levi-fontaine",
+  "name": "Levi Fontaine",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-quintero": {
+  "id": "cyrus-quintero",
+  "name": "Cyrus Quintero",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-whitfield": {
+  "id": "caleb-whitfield",
+  "name": "Caleb Whitfield",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-moreau": {
+  "id": "priya-moreau",
+  "name": "Priya Moreau",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-fairbanks": {
+  "id": "priya-fairbanks",
+  "name": "Priya Fairbanks",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "leila-oyelaran": {
+  "id": "leila-oyelaran",
+  "name": "Leila Oyelaran",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-delgado": {
+  "id": "caleb-delgado",
+  "name": "Caleb Delgado",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "malik-kim": {
+  "id": "malik-kim",
+  "name": "Malik Kim",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-ferreira": {
+  "id": "hana-ferreira",
+  "name": "Hana Ferreira",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "simone-ramos": {
+  "id": "simone-ramos",
+  "name": "Simone Ramos",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-fontaine": {
+  "id": "lyra-fontaine",
+  "name": "Lyra Fontaine",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-moreau": {
+  "id": "otis-moreau",
+  "name": "Otis Moreau",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-cohen": {
+  "id": "nora-cohen",
+  "name": "Nora Cohen",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-delgado": {
+  "id": "esme-delgado",
+  "name": "Esme Delgado",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-achebe": {
+  "id": "ethan-achebe",
+  "name": "Ethan Achebe",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "tess-sandoval": {
+  "id": "tess-sandoval",
+  "name": "Tess Sandoval",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-moreau": {
+  "id": "isaac-moreau",
+  "name": "Isaac Moreau",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "ravi-alvarez": {
+  "id": "ravi-alvarez",
+  "name": "Ravi Alvarez",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "miles-kaur": {
+  "id": "miles-kaur",
+  "name": "Miles Kaur",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-rahman": {
+  "id": "elias-rahman",
+  "name": "Elias Rahman",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "farah-brooks": {
+  "id": "farah-brooks",
+  "name": "Farah Brooks",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-bergstrom": {
+  "id": "esme-bergstrom",
+  "name": "Esme Bergstrom",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "idris-ndiaye": {
+  "id": "idris-ndiaye",
+  "name": "Idris Ndiaye",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "diego-chowdhury": {
+  "id": "diego-chowdhury",
+  "name": "Diego Chowdhury",
+  "schools": [
+   "Oregon"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-delgado": {
+  "id": "beau-delgado",
+  "name": "Beau Delgado",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dara-reyes": {
+  "id": "dara-reyes",
+  "name": "Dara Reyes",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-bhatt": {
+  "id": "hugo-bhatt",
+  "name": "Hugo Bhatt",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lena-alvarez": {
+  "id": "lena-alvarez",
+  "name": "Lena Alvarez",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "yuki-bergstrom": {
+  "id": "yuki-bergstrom",
+  "name": "Yuki Bergstrom",
+  "schools": [
+   "Cornell"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-oyelaran": {
+  "id": "beau-oyelaran",
+  "name": "Beau Oyelaran",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "freya-fairbanks": {
+  "id": "freya-fairbanks",
+  "name": "Freya Fairbanks",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "liam-abara": {
+  "id": "liam-abara",
+  "name": "Liam Abara",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-lindqvist": {
+  "id": "ethan-lindqvist",
+  "name": "Ethan Lindqvist",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "luis-quintero": {
+  "id": "luis-quintero",
+  "name": "Luis Quintero",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-weber": {
+  "id": "talia-weber",
+  "name": "Talia Weber",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jordan-fontaine": {
+  "id": "jordan-fontaine",
+  "name": "Jordan Fontaine",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-kowalski": {
+  "id": "devon-kowalski",
+  "name": "Devon Kowalski",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "sam-quintero": {
+  "id": "sam-quintero",
+  "name": "Sam Quintero",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-kim": {
+  "id": "lyra-kim",
+  "name": "Lyra Kim",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-osei": {
+  "id": "priya-osei",
+  "name": "Priya Osei",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-castillo": {
+  "id": "caleb-castillo",
+  "name": "Caleb Castillo",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kian-lindqvist": {
+  "id": "kian-lindqvist",
+  "name": "Kian Lindqvist",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "noor-barlow": {
+  "id": "noor-barlow",
+  "name": "Noor Barlow",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-suzuki": {
+  "id": "sofia-suzuki",
+  "name": "Sofia Suzuki",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-yamada": {
+  "id": "tess-yamada",
+  "name": "Tess Yamada",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-ashford": {
+  "id": "cyrus-ashford",
+  "name": "Cyrus Ashford",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ines-fontaine": {
+  "id": "ines-fontaine",
+  "name": "Ines Fontaine",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-castillo": {
+  "id": "nadia-castillo",
+  "name": "Nadia Castillo",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "liam-moreau": {
+  "id": "liam-moreau",
+  "name": "Liam Moreau",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-yamada": {
+  "id": "devon-yamada",
+  "name": "Devon Yamada",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-delgado": {
+  "id": "wren-delgado",
+  "name": "Wren Delgado",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-novak": {
+  "id": "esme-novak",
+  "name": "Esme Novak",
+  "schools": [
+   "Michigan State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "marcus-moreau": {
+  "id": "marcus-moreau",
+  "name": "Marcus Moreau",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "yuki-reyes": {
+  "id": "yuki-reyes",
+  "name": "Yuki Reyes",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-underwood": {
+  "id": "ethan-underwood",
+  "name": "Ethan Underwood",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "malik-kowalski": {
+  "id": "malik-kowalski",
+  "name": "Malik Kowalski",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-kowalski": {
+  "id": "petra-kowalski",
+  "name": "Petra Kowalski",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "alex-achebe": {
+  "id": "alex-achebe",
+  "name": "Alex Achebe",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-quintero": {
+  "id": "amos-quintero",
+  "name": "Amos Quintero",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-alvarez": {
+  "id": "hugo-alvarez",
+  "name": "Hugo Alvarez",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-petrov": {
+  "id": "hana-petrov",
+  "name": "Hana Petrov",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "rowan-alvarez": {
+  "id": "rowan-alvarez",
+  "name": "Rowan Alvarez",
+  "schools": [
+   "Michigan State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-chowdhury": {
+  "id": "hana-chowdhury",
+  "name": "Hana Chowdhury",
+  "schools": [
+   "Mary Washington"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-sandoval": {
+  "id": "beau-sandoval",
+  "name": "Beau Sandoval",
+  "schools": [
+   "Oregon"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-novak": {
+  "id": "freya-novak",
+  "name": "Freya Novak",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-sandoval": {
+  "id": "felix-sandoval",
+  "name": "Felix Sandoval",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-ibrahim": {
+  "id": "hugo-ibrahim",
+  "name": "Hugo Ibrahim",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "juno-kowalski": {
+  "id": "juno-kowalski",
+  "name": "Juno Kowalski",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-calloway": {
+  "id": "lyra-calloway",
+  "name": "Lyra Calloway",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-ferreira": {
+  "id": "elias-ferreira",
+  "name": "Elias Ferreira",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-moreau": {
+  "id": "tess-moreau",
+  "name": "Tess Moreau",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-jansen": {
+  "id": "jonah-jansen",
+  "name": "Jonah Jansen",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-sandoval": {
+  "id": "caleb-sandoval",
+  "name": "Caleb Sandoval",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "leila-barlow": {
+  "id": "leila-barlow",
+  "name": "Leila Barlow",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-kowalski": {
+  "id": "esme-kowalski",
+  "name": "Esme Kowalski",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "maya-yamada": {
+  "id": "maya-yamada",
+  "name": "Maya Yamada",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "dara-grimaldi": {
+  "id": "dara-grimaldi",
+  "name": "Dara Grimaldi",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-lombardi": {
+  "id": "nia-lombardi",
+  "name": "Nia Lombardi",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-barlow": {
+  "id": "sofia-barlow",
+  "name": "Sofia Barlow",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-sharma": {
+  "id": "nora-sharma",
+  "name": "Nora Sharma",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-tremblay": {
+  "id": "lyra-tremblay",
+  "name": "Lyra Tremblay",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-ramos": {
+  "id": "talia-ramos",
+  "name": "Talia Ramos",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "zoe-chowdhury": {
+  "id": "zoe-chowdhury",
+  "name": "Zoe Chowdhury",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jordan-larsen": {
+  "id": "jordan-larsen",
+  "name": "Jordan Larsen",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "farah-duarte": {
+  "id": "farah-duarte",
+  "name": "Farah Duarte",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-kaur": {
+  "id": "talia-kaur",
+  "name": "Talia Kaur",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-sandoval": {
+  "id": "levi-sandoval",
+  "name": "Levi Sandoval",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-lindqvist": {
+  "id": "sofia-lindqvist",
+  "name": "Sofia Lindqvist",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "simone-petrov": {
+  "id": "simone-petrov",
+  "name": "Simone Petrov",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "elias-cohen": {
+  "id": "elias-cohen",
+  "name": "Elias Cohen",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-mensah": {
+  "id": "jonah-mensah",
+  "name": "Jonah Mensah",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-reyes": {
+  "id": "otis-reyes",
+  "name": "Otis Reyes",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dov-calloway": {
+  "id": "dov-calloway",
+  "name": "Dov Calloway",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-moreau": {
+  "id": "esme-moreau",
+  "name": "Esme Moreau",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-yamada": {
+  "id": "amos-yamada",
+  "name": "Amos Yamada",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "devon-quintero": {
+  "id": "devon-quintero",
+  "name": "Devon Quintero",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-barlow": {
+  "id": "isaac-barlow",
+  "name": "Isaac Barlow",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-halloran": {
+  "id": "petra-halloran",
+  "name": "Petra Halloran",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-suzuki": {
+  "id": "nora-suzuki",
+  "name": "Nora Suzuki",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-petrov": {
+  "id": "felix-petrov",
+  "name": "Felix Petrov",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "anika-quintero": {
+  "id": "anika-quintero",
+  "name": "Anika Quintero",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "alex-halloran": {
+  "id": "alex-halloran",
+  "name": "Alex Halloran",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "luis-salazar": {
+  "id": "luis-salazar",
+  "name": "Luis Salazar",
+  "schools": [
+   "Arizona State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kai-nguyen": {
+  "id": "kai-nguyen",
+  "name": "Kai Nguyen",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-villanueva": {
+  "id": "aisha-villanueva",
+  "name": "Aisha Villanueva",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-fairbanks": {
+  "id": "nia-fairbanks",
+  "name": "Nia Fairbanks",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "luis-kim": {
+  "id": "luis-kim",
+  "name": "Luis Kim",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ravi-tremblay": {
+  "id": "ravi-tremblay",
+  "name": "Ravi Tremblay",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-tremblay": {
+  "id": "miles-tremblay",
+  "name": "Miles Tremblay",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rafi-fontaine": {
+  "id": "rafi-fontaine",
+  "name": "Rafi Fontaine",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-ashford": {
+  "id": "chris-ashford",
+  "name": "Chris Ashford",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "leila-maguire": {
+  "id": "leila-maguire",
+  "name": "Leila Maguire",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "andre-kim": {
+  "id": "andre-kim",
+  "name": "Andre Kim",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "rowan-fontaine": {
+  "id": "rowan-fontaine",
+  "name": "Rowan Fontaine",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "quinn-maguire": {
+  "id": "quinn-maguire",
+  "name": "Quinn Maguire",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-rivera": {
+  "id": "nia-rivera",
+  "name": "Nia Rivera",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-haddad": {
+  "id": "miles-haddad",
+  "name": "Miles Haddad",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lena-kowalski": {
+  "id": "lena-kowalski",
+  "name": "Lena Kowalski",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-jansen": {
+  "id": "nadia-jansen",
+  "name": "Nadia Jansen",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-villanueva": {
+  "id": "hugo-villanueva",
+  "name": "Hugo Villanueva",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-salazar": {
+  "id": "lyra-salazar",
+  "name": "Lyra Salazar",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "noor-patel": {
+  "id": "noor-patel",
+  "name": "Noor Patel",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-villanueva": {
+  "id": "cyrus-villanueva",
+  "name": "Cyrus Villanueva",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "hana-ibrahim": {
+  "id": "hana-ibrahim",
+  "name": "Hana Ibrahim",
+  "schools": [
+   "Michigan State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-petrov": {
+  "id": "levi-petrov",
+  "name": "Levi Petrov",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "omar-achebe": {
+  "id": "omar-achebe",
+  "name": "Omar Achebe",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-villanueva": {
+  "id": "talia-villanueva",
+  "name": "Talia Villanueva",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "suri-ferreira": {
+  "id": "suri-ferreira",
+  "name": "Suri Ferreira",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-lombardi": {
+  "id": "beau-lombardi",
+  "name": "Beau Lombardi",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-sandoval": {
+  "id": "anika-sandoval",
+  "name": "Anika Sandoval",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sam-delgado": {
+  "id": "sam-delgado",
+  "name": "Sam Delgado",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-duarte": {
+  "id": "jonah-duarte",
+  "name": "Jonah Duarte",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jordan-duarte": {
+  "id": "jordan-duarte",
+  "name": "Jordan Duarte",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "hana-kim": {
+  "id": "hana-kim",
+  "name": "Hana Kim",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "vera-ibrahim": {
+  "id": "vera-ibrahim",
+  "name": "Vera Ibrahim",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-castillo": {
+  "id": "cyrus-castillo",
+  "name": "Cyrus Castillo",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "noor-sandoval": {
+  "id": "noor-sandoval",
+  "name": "Noor Sandoval",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "diego-okafor": {
+  "id": "diego-okafor",
+  "name": "Diego Okafor",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "mei-ndiaye": {
+  "id": "mei-ndiaye",
+  "name": "Mei Ndiaye",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-maguire": {
+  "id": "isaac-maguire",
+  "name": "Isaac Maguire",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-yamada": {
+  "id": "levi-yamada",
+  "name": "Levi Yamada",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-vasquez": {
+  "id": "aisha-vasquez",
+  "name": "Aisha Vasquez",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "amos-novak": {
+  "id": "amos-novak",
+  "name": "Amos Novak",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kai-ustinov": {
+  "id": "kai-ustinov",
+  "name": "Kai Ustinov",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-patel": {
+  "id": "priya-patel",
+  "name": "Priya Patel",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "simone-ito": {
+  "id": "simone-ito",
+  "name": "Simone Ito",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "omar-castillo": {
+  "id": "omar-castillo",
+  "name": "Omar Castillo",
+  "schools": [
+   "Mary Washington"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-ndiaye": {
+  "id": "wren-ndiaye",
+  "name": "Wren Ndiaye",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kai-delgado": {
+  "id": "kai-delgado",
+  "name": "Kai Delgado",
+  "schools": [
+   "Army"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-duarte": {
+  "id": "petra-duarte",
+  "name": "Petra Duarte",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-ashford": {
+  "id": "lyra-ashford",
+  "name": "Lyra Ashford",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "elias-maguire": {
+  "id": "elias-maguire",
+  "name": "Elias Maguire",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elena-fairbanks": {
+  "id": "elena-fairbanks",
+  "name": "Elena Fairbanks",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-rahman": {
+  "id": "miles-rahman",
+  "name": "Miles Rahman",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "quinn-osei": {
+  "id": "quinn-osei",
+  "name": "Quinn Osei",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-bhatt": {
+  "id": "miles-bhatt",
+  "name": "Miles Bhatt",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-salazar": {
+  "id": "sofia-salazar",
+  "name": "Sofia Salazar",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-eskildsen": {
+  "id": "otis-eskildsen",
+  "name": "Otis Eskildsen",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rosa-patel": {
+  "id": "rosa-patel",
+  "name": "Rosa Patel",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kai-yamada": {
+  "id": "kai-yamada",
+  "name": "Kai Yamada",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "ravi-bergstrom": {
+  "id": "ravi-bergstrom",
+  "name": "Ravi Bergstrom",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "vera-rahman": {
+  "id": "vera-rahman",
+  "name": "Vera Rahman",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-bhatt": {
+  "id": "otis-bhatt",
+  "name": "Otis Bhatt",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-halloran": {
+  "id": "hugo-halloran",
+  "name": "Hugo Halloran",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-suzuki": {
+  "id": "lyra-suzuki",
+  "name": "Lyra Suzuki",
+  "schools": [
+   "Cornell"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-kowalski": {
+  "id": "sofia-kowalski",
+  "name": "Sofia Kowalski",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amara-novak": {
+  "id": "amara-novak",
+  "name": "Amara Novak",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "marcus-quintero": {
+  "id": "marcus-quintero",
+  "name": "Marcus Quintero",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ines-ashford": {
+  "id": "ines-ashford",
+  "name": "Ines Ashford",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-okafor": {
+  "id": "petra-okafor",
+  "name": "Petra Okafor",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-rivera": {
+  "id": "isaac-rivera",
+  "name": "Isaac Rivera",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sofia-abara": {
+  "id": "sofia-abara",
+  "name": "Sofia Abara",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-novak": {
+  "id": "hana-novak",
+  "name": "Hana Novak",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kai-vasquez": {
+  "id": "kai-vasquez",
+  "name": "Kai Vasquez",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-abara": {
+  "id": "caleb-abara",
+  "name": "Caleb Abara",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-achebe": {
+  "id": "hugo-achebe",
+  "name": "Hugo Achebe",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-castillo": {
+  "id": "elias-castillo",
+  "name": "Elias Castillo",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-delgado": {
+  "id": "hana-delgado",
+  "name": "Hana Delgado",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "miles-achebe": {
+  "id": "miles-achebe",
+  "name": "Miles Achebe",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-ibrahim": {
+  "id": "felix-ibrahim",
+  "name": "Felix Ibrahim",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-kaur": {
+  "id": "caleb-kaur",
+  "name": "Caleb Kaur",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "simone-kim": {
+  "id": "simone-kim",
+  "name": "Simone Kim",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-maguire": {
+  "id": "aisha-maguire",
+  "name": "Aisha Maguire",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "chris-achebe": {
+  "id": "chris-achebe",
+  "name": "Chris Achebe",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "esme-okafor": {
+  "id": "esme-okafor",
+  "name": "Esme Okafor",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kian-patel": {
+  "id": "kian-patel",
+  "name": "Kian Patel",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-brooks": {
+  "id": "amos-brooks",
+  "name": "Amos Brooks",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-lindqvist": {
+  "id": "freya-lindqvist",
+  "name": "Freya Lindqvist",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kai-fontaine": {
+  "id": "kai-fontaine",
+  "name": "Kai Fontaine",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-brooks": {
+  "id": "devon-brooks",
+  "name": "Devon Brooks",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "hana-ito": {
+  "id": "hana-ito",
+  "name": "Hana Ito",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "rosa-ferreira": {
+  "id": "rosa-ferreira",
+  "name": "Rosa Ferreira",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-larsen": {
+  "id": "caleb-larsen",
+  "name": "Caleb Larsen",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-sharma": {
+  "id": "wren-sharma",
+  "name": "Wren Sharma",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-yamada": {
+  "id": "jonah-yamada",
+  "name": "Jonah Yamada",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-underwood": {
+  "id": "cyrus-underwood",
+  "name": "Cyrus Underwood",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kai-ramos": {
+  "id": "kai-ramos",
+  "name": "Kai Ramos",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "gita-whitfield": {
+  "id": "gita-whitfield",
+  "name": "Gita Whitfield",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-eskildsen": {
+  "id": "felix-eskildsen",
+  "name": "Felix Eskildsen",
+  "schools": [
+   "Oregon"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-ramos": {
+  "id": "tess-ramos",
+  "name": "Tess Ramos",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-larsen": {
+  "id": "otis-larsen",
+  "name": "Otis Larsen",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "juno-ibrahim": {
+  "id": "juno-ibrahim",
+  "name": "Juno Ibrahim",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elena-ashford": {
+  "id": "elena-ashford",
+  "name": "Elena Ashford",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-sandoval": {
+  "id": "ethan-sandoval",
+  "name": "Ethan Sandoval",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-alvarez": {
+  "id": "jonah-alvarez",
+  "name": "Jonah Alvarez",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jonah-fontaine": {
+  "id": "jonah-fontaine",
+  "name": "Jonah Fontaine",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "juno-villanueva": {
+  "id": "juno-villanueva",
+  "name": "Juno Villanueva",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-maguire": {
+  "id": "anika-maguire",
+  "name": "Anika Maguire",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "noor-delgado": {
+  "id": "noor-delgado",
+  "name": "Noor Delgado",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "levi-zeledon": {
+  "id": "levi-zeledon",
+  "name": "Levi Zeledon",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-weber": {
+  "id": "lyra-weber",
+  "name": "Lyra Weber",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-ito": {
+  "id": "cyrus-ito",
+  "name": "Cyrus Ito",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-whitfield": {
+  "id": "hugo-whitfield",
+  "name": "Hugo Whitfield",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "mira-petrov": {
+  "id": "mira-petrov",
+  "name": "Mira Petrov",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-bhatt": {
+  "id": "chris-bhatt",
+  "name": "Chris Bhatt",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-cohen": {
+  "id": "hana-cohen",
+  "name": "Hana Cohen",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "theo-fontaine": {
+  "id": "theo-fontaine",
+  "name": "Theo Fontaine",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "levi-alvarez": {
+  "id": "levi-alvarez",
+  "name": "Levi Alvarez",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-zeledon": {
+  "id": "wren-zeledon",
+  "name": "Wren Zeledon",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "sam-oyelaran": {
+  "id": "sam-oyelaran",
+  "name": "Sam Oyelaran",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-petrov": {
+  "id": "nora-petrov",
+  "name": "Nora Petrov",
+  "schools": [
+   "Mary Washington"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-ashford": {
+  "id": "tess-ashford",
+  "name": "Tess Ashford",
+  "schools": [
+   "West Virginia"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-vasquez": {
+  "id": "cyrus-vasquez",
+  "name": "Cyrus Vasquez",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-kaur": {
+  "id": "hugo-kaur",
+  "name": "Hugo Kaur",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hana-lindqvist": {
+  "id": "hana-lindqvist",
+  "name": "Hana Lindqvist",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-lindqvist": {
+  "id": "caleb-lindqvist",
+  "name": "Caleb Lindqvist",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "leila-yamada": {
+  "id": "leila-yamada",
+  "name": "Leila Yamada",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-delgado": {
+  "id": "otis-delgado",
+  "name": "Otis Delgado",
+  "schools": [
+   "Mary Washington"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "maya-kim": {
+  "id": "maya-kim",
+  "name": "Maya Kim",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kian-ashford": {
+  "id": "kian-ashford",
+  "name": "Kian Ashford",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "elias-reyes": {
+  "id": "elias-reyes",
+  "name": "Elias Reyes",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-fairbanks": {
+  "id": "nora-fairbanks",
+  "name": "Nora Fairbanks",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "andre-ito": {
+  "id": "andre-ito",
+  "name": "Andre Ito",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "caleb-kim": {
+  "id": "caleb-kim",
+  "name": "Caleb Kim",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-brooks": {
+  "id": "beau-brooks",
+  "name": "Beau Brooks",
+  "schools": [
+   "New Mexico"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-lindqvist": {
+  "id": "hugo-lindqvist",
+  "name": "Hugo Lindqvist",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-calloway": {
+  "id": "nia-calloway",
+  "name": "Nia Calloway",
+  "schools": [
+   "Cornell"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "marcus-nguyen": {
+  "id": "marcus-nguyen",
+  "name": "Marcus Nguyen",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-rahman": {
+  "id": "anika-rahman",
+  "name": "Anika Rahman",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "esme-duarte": {
+  "id": "esme-duarte",
+  "name": "Esme Duarte",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "rosa-rivera": {
+  "id": "rosa-rivera",
+  "name": "Rosa Rivera",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "freya-bergstrom": {
+  "id": "freya-bergstrom",
+  "name": "Freya Bergstrom",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-bergstrom": {
+  "id": "devon-bergstrom",
+  "name": "Devon Bergstrom",
+  "schools": [
+   "Arizona State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-okafor": {
+  "id": "freya-okafor",
+  "name": "Freya Okafor",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-ramos": {
+  "id": "lyra-ramos",
+  "name": "Lyra Ramos",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rowan-fairbanks": {
+  "id": "rowan-fairbanks",
+  "name": "Rowan Fairbanks",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "beau-villanueva": {
+  "id": "beau-villanueva",
+  "name": "Beau Villanueva",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-brooks": {
+  "id": "hugo-brooks",
+  "name": "Hugo Brooks",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "leila-achebe": {
+  "id": "leila-achebe",
+  "name": "Leila Achebe",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-barlow": {
+  "id": "aisha-barlow",
+  "name": "Aisha Barlow",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mei-rivera": {
+  "id": "mei-rivera",
+  "name": "Mei Rivera",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-cohen": {
+  "id": "isaac-cohen",
+  "name": "Isaac Cohen",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-barlow": {
+  "id": "nia-barlow",
+  "name": "Nia Barlow",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-sharma": {
+  "id": "chris-sharma",
+  "name": "Chris Sharma",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "kai-fairbanks": {
+  "id": "kai-fairbanks",
+  "name": "Kai Fairbanks",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "vera-oyelaran": {
+  "id": "vera-oyelaran",
+  "name": "Vera Oyelaran",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-ferreira": {
+  "id": "beau-ferreira",
+  "name": "Beau Ferreira",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "aisha-ndiaye": {
+  "id": "aisha-ndiaye",
+  "name": "Aisha Ndiaye",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-halloran": {
+  "id": "amos-halloran",
+  "name": "Amos Halloran",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-ramos": {
+  "id": "nora-ramos",
+  "name": "Nora Ramos",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "jordan-moreau": {
+  "id": "jordan-moreau",
+  "name": "Jordan Moreau",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "omar-reyes": {
+  "id": "omar-reyes",
+  "name": "Omar Reyes",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "miles-novak": {
+  "id": "miles-novak",
+  "name": "Miles Novak",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "gita-villanueva": {
+  "id": "gita-villanueva",
+  "name": "Gita Villanueva",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-halloran": {
+  "id": "tess-halloran",
+  "name": "Tess Halloran",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-barlow": {
+  "id": "hugo-barlow",
+  "name": "Hugo Barlow",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-cohen": {
+  "id": "nadia-cohen",
+  "name": "Nadia Cohen",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dov-moreau": {
+  "id": "dov-moreau",
+  "name": "Dov Moreau",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "yuki-villanueva": {
+  "id": "yuki-villanueva",
+  "name": "Yuki Villanueva",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "elias-lindqvist": {
+  "id": "elias-lindqvist",
+  "name": "Elias Lindqvist",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lena-vasquez": {
+  "id": "lena-vasquez",
+  "name": "Lena Vasquez",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "omar-suzuki": {
+  "id": "omar-suzuki",
+  "name": "Omar Suzuki",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "silas-ibrahim": {
+  "id": "silas-ibrahim",
+  "name": "Silas Ibrahim",
+  "schools": [
+   "Houston"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "gita-moreau": {
+  "id": "gita-moreau",
+  "name": "Gita Moreau",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "farah-villanueva": {
+  "id": "farah-villanueva",
+  "name": "Farah Villanueva",
+  "schools": [
+   "Long Beach"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "suri-ito": {
+  "id": "suri-ito",
+  "name": "Suri Ito",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-underwood": {
+  "id": "priya-underwood",
+  "name": "Priya Underwood",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "leila-sharma": {
+  "id": "leila-sharma",
+  "name": "Leila Sharma",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ines-reyes": {
+  "id": "ines-reyes",
+  "name": "Ines Reyes",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "maya-alvarez": {
+  "id": "maya-alvarez",
+  "name": "Maya Alvarez",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "gita-castillo": {
+  "id": "gita-castillo",
+  "name": "Gita Castillo",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-lindqvist": {
+  "id": "petra-lindqvist",
+  "name": "Petra Lindqvist",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-jansen": {
+  "id": "nora-jansen",
+  "name": "Nora Jansen",
+  "schools": [
+   "Oregon"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "anika-delgado": {
+  "id": "anika-delgado",
+  "name": "Anika Delgado",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-okafor": {
+  "id": "beau-okafor",
+  "name": "Beau Okafor",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-reyes": {
+  "id": "chris-reyes",
+  "name": "Chris Reyes",
+  "schools": [
+   "Puget Sound"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "farah-barlow": {
+  "id": "farah-barlow",
+  "name": "Farah Barlow",
+  "schools": [
+   "Cornell"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mei-kaur": {
+  "id": "mei-kaur",
+  "name": "Mei Kaur",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-underwood": {
+  "id": "talia-underwood",
+  "name": "Talia Underwood",
+  "schools": [
+   "Dartmouth"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ines-novak": {
+  "id": "ines-novak",
+  "name": "Ines Novak",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dov-patel": {
+  "id": "dov-patel",
+  "name": "Dov Patel",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "noor-ibrahim": {
+  "id": "noor-ibrahim",
+  "name": "Noor Ibrahim",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "otis-alvarez": {
+  "id": "otis-alvarez",
+  "name": "Otis Alvarez",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "priya-grimaldi": {
+  "id": "priya-grimaldi",
+  "name": "Priya Grimaldi",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amos-moreau": {
+  "id": "amos-moreau",
+  "name": "Amos Moreau",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-mensah": {
+  "id": "petra-mensah",
+  "name": "Petra Mensah",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nadia-achebe": {
+  "id": "nadia-achebe",
+  "name": "Nadia Achebe",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "luis-zeledon": {
+  "id": "luis-zeledon",
+  "name": "Luis Zeledon",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "petra-sandoval": {
+  "id": "petra-sandoval",
+  "name": "Petra Sandoval",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nia-duarte": {
+  "id": "nia-duarte",
+  "name": "Nia Duarte",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "farah-kaur": {
+  "id": "farah-kaur",
+  "name": "Farah Kaur",
+  "schools": [
+   "Indiana"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-ito": {
+  "id": "wren-ito",
+  "name": "Wren Ito",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "cyrus-larsen": {
+  "id": "cyrus-larsen",
+  "name": "Cyrus Larsen",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-novak": {
+  "id": "tess-novak",
+  "name": "Tess Novak",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "freya-brooks": {
+  "id": "freya-brooks",
+  "name": "Freya Brooks",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "isaac-rahman": {
+  "id": "isaac-rahman",
+  "name": "Isaac Rahman",
+  "schools": [
+   "Kentucky"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "devon-duarte": {
+  "id": "devon-duarte",
+  "name": "Devon Duarte",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-okafor": {
+  "id": "lyra-okafor",
+  "name": "Lyra Okafor",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rafi-mensah": {
+  "id": "rafi-mensah",
+  "name": "Rafi Mensah",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "devon-osei": {
+  "id": "devon-osei",
+  "name": "Devon Osei",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rosa-yamada": {
+  "id": "rosa-yamada",
+  "name": "Rosa Yamada",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "rafi-kim": {
+  "id": "rafi-kim",
+  "name": "Rafi Kim",
+  "schools": [
+   "Oregon"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "omar-kim": {
+  "id": "omar-kim",
+  "name": "Omar Kim",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "felix-underwood": {
+  "id": "felix-underwood",
+  "name": "Felix Underwood",
+  "schools": [
+   "Texas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dov-novak": {
+  "id": "dov-novak",
+  "name": "Dov Novak",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "beau-lindqvist": {
+  "id": "beau-lindqvist",
+  "name": "Beau Lindqvist",
+  "schools": [
+   "Illinois State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kian-zeledon": {
+  "id": "kian-zeledon",
+  "name": "Kian Zeledon",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "nora-alvarez": {
+  "id": "nora-alvarez",
+  "name": "Nora Alvarez",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "mei-cohen": {
+  "id": "mei-cohen",
+  "name": "Mei Cohen",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "silas-moreau": {
+  "id": "silas-moreau",
+  "name": "Silas Moreau",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "andre-jansen": {
+  "id": "andre-jansen",
+  "name": "Andre Jansen",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lena-haddad": {
+  "id": "lena-haddad",
+  "name": "Lena Haddad",
+  "schools": [
+   "Pittsburgh"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "juno-mensah": {
+  "id": "juno-mensah",
+  "name": "Juno Mensah",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "suri-maguire": {
+  "id": "suri-maguire",
+  "name": "Suri Maguire",
+  "schools": [
+   "Nevada"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "silas-quintero": {
+  "id": "silas-quintero",
+  "name": "Silas Quintero",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "vera-okafor": {
+  "id": "vera-okafor",
+  "name": "Vera Okafor",
+  "schools": [
+   "Missouri State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "lyra-zeledon": {
+  "id": "lyra-zeledon",
+  "name": "Lyra Zeledon",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "hugo-weber": {
+  "id": "hugo-weber",
+  "name": "Hugo Weber",
+  "schools": [
+   "Baylor"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "omar-barlow": {
+  "id": "omar-barlow",
+  "name": "Omar Barlow",
+  "schools": [
+   "Cornell"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mira-duarte": {
+  "id": "mira-duarte",
+  "name": "Mira Duarte",
+  "schools": [
+   "Wyoming"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "liam-underwood": {
+  "id": "liam-underwood",
+  "name": "Liam Underwood",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "diego-novak": {
+  "id": "diego-novak",
+  "name": "Diego Novak",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "ines-weber": {
+  "id": "ines-weber",
+  "name": "Ines Weber",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kian-ibrahim": {
+  "id": "kian-ibrahim",
+  "name": "Kian Ibrahim",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "mira-moreau": {
+  "id": "mira-moreau",
+  "name": "Mira Moreau",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "farah-jansen": {
+  "id": "farah-jansen",
+  "name": "Farah Jansen",
+  "schools": [
+   "Binghamton"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "gita-eskildsen": {
+  "id": "gita-eskildsen",
+  "name": "Gita Eskildsen",
+  "schools": [
+   "Wayne State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tomas-osei": {
+  "id": "tomas-osei",
+  "name": "Tomas Osei",
+  "schools": [
+   "Minnesota"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "amara-villanueva": {
+  "id": "amara-villanueva",
+  "name": "Amara Villanueva",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "wren-castillo": {
+  "id": "wren-castillo",
+  "name": "Wren Castillo",
+  "schools": [
+   "Liberty"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "kian-tremblay": {
+  "id": "kian-tremblay",
+  "name": "Kian Tremblay",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "tess-grimaldi": {
+  "id": "tess-grimaldi",
+  "name": "Tess Grimaldi",
+  "schools": [
+   "Vermont"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "ethan-ustinov": {
+  "id": "ethan-ustinov",
+  "name": "Ethan Ustinov",
+  "schools": [
+   "Rutgers"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "talia-abara": {
+  "id": "talia-abara",
+  "name": "Talia Abara",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "dov-maguire": {
+  "id": "dov-maguire",
+  "name": "Dov Maguire",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "chris-villanueva": {
+  "id": "chris-villanueva",
+  "name": "Chris Villanueva",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "simone-castillo": {
+  "id": "simone-castillo",
+  "name": "Simone Castillo",
+  "schools": [
+   "Arizona State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "alex-alvarez": {
+  "id": "alex-alvarez",
+  "name": "Alex Alvarez",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "vera-suzuki": {
+  "id": "vera-suzuki",
+  "name": "Vera Suzuki",
+  "schools": [
+   "Gonzaga"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": null
+ },
+ "anika-ibrahim": {
+  "id": "anika-ibrahim",
+  "name": "Anika Ibrahim",
+  "schools": [
+   "Samford"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ },
+ "yuki-vasquez": {
+  "id": "yuki-vasquez",
+  "name": "Yuki Vasquez",
+  "schools": [
+   "California"
+  ],
+  "seasons": [
+   "2025-26",
+   "2026-27"
+  ],
+  "tabroom_id": null
+ }
+}

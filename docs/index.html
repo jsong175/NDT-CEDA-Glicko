@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NDT/CEDA Glicko Ratings</title>
+<meta name="description" content="Individual Glicko-2 ratings for college policy debaters on the NDT/CEDA circuit, with a head-to-head win probability calculator.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap topbar">
+    <div class="brand">
+      <span class="mark">NDT<span class="slash">/</span>CEDA</span>
+      <span class="sub">Glicko&#8209;2 Individual Ratings</span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="rankings" class="on">Rankings</button>
+      <button data-tab="h2h">Head&#8209;to&#8209;Head</button>
+      <button data-tab="tournaments">Tournaments</button>
+      <button data-tab="method">Method</button>
+    </nav>
+  </div>
+</header>
+
+<div id="banner" class="banner" hidden></div>
+
+<main class="wrap" id="main">
+
+  <!-- ─────────────────────────── RANKINGS ─────────────────────────── -->
+  <section id="tab-rankings" class="tab on">
+    <div class="statstrip" id="statstrip"></div>
+
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search debater or school…" autocomplete="off" spellcheck="false">
+      <select id="season"></select>
+      <select id="school"></select>
+      <label class="chk"><input type="checkbox" id="showprov"> Show provisional</label>
+      <label class="chk"><input type="checkbox" id="byfloor"> Rank by floor</label>
+      <span class="grow"></span>
+      <span class="count" id="count"></span>
+    </div>
+
+    <div class="tablewrap">
+      <table id="board">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th data-sort="name">Debater</th>
+            <th data-sort="school">School</th>
+            <th data-sort="rating" class="num sorted">Rating</th>
+            <th data-sort="rd" class="num" title="Rating deviation: the 68% confidence half-width">± RD</th>
+            <th data-sort="winpct" class="num">W&#8211;L</th>
+            <th data-sort="rounds" class="num">Rds</th>
+            <th data-sort="peak" class="num">Peak</th>
+            <th>Trend</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <div id="more" class="more" hidden><button id="morebtn">Show more</button></div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── HEAD TO HEAD ─────────────────────────── -->
+  <section id="tab-h2h" class="tab">
+    <h2 class="secttl">Head-to-head win probability</h2>
+    <p class="lede">Pick any four debaters. Ratings are individual, so you can
+      build partnerships that have never actually debated together.</p>
+
+    <div class="h2hgrid">
+      <div class="side" id="sideA">
+        <div class="sidehd"><span class="pill aff">Team A</span><span class="teamrating" id="ratingA"></span></div>
+        <div class="picker" data-slot="A0"></div>
+        <div class="picker" data-slot="A1"></div>
+      </div>
+      <div class="vs">vs</div>
+      <div class="side" id="sideB">
+        <div class="sidehd"><span class="pill neg">Team B</span><span class="teamrating" id="ratingB"></span></div>
+        <div class="picker" data-slot="B0"></div>
+        <div class="picker" data-slot="B1"></div>
+      </div>
+    </div>
+
+    <div class="sideopt">
+      <label class="chk"><input type="checkbox" id="useside" checked> Account for side bias</label>
+      <select id="affteam">
+        <option value="A">Team A is aff</option>
+        <option value="B">Team B is aff</option>
+      </select>
+      <button id="swap" class="ghost">Swap teams</button>
+      <button id="randomize" class="ghost">Random matchup</button>
+    </div>
+
+    <div id="h2hresult" class="h2hresult" hidden></div>
+  </section>
+
+  <!-- ─────────────────────────── TOURNAMENTS ─────────────────────────── -->
+  <section id="tab-tournaments" class="tab">
+    <h2 class="secttl">Tournaments in the rating pool</h2>
+    <p class="lede">Each tournament is one Glicko-2 rating period. Ratings update
+      after every tournament, in date order.</p>
+    <div class="tablewrap">
+      <table id="ttable">
+        <thead><tr><th>Season</th><th>Date</th><th>Tournament</th><th class="num">Debates</th></tr></thead>
+        <tbody id="trows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── METHOD ─────────────────────────── -->
+  <section id="tab-method" class="tab">
+    <h2 class="secttl">How these ratings work</h2>
+
+    <div class="prose">
+      <h3>Why individuals, not teams</h3>
+      <p>Partnerships churn constantly &mdash; people switch partners mid-season, graduate,
+      transfer, or debate with three different people in a year. Rating partnerships
+      would throw away everything each debater did with a previous partner. So every
+      round is credited to the four individuals in it, and a &ldquo;team&rdquo; rating is
+      assembled on demand from whichever two people you name.</p>
+
+      <h3>Glicko-2, not plain Elo</h3>
+      <p>Plain Elo carries a single number per player and moves it by a fixed K after
+      every result. That mis-handles exactly the cases this circuit is full of: a
+      first-year with four rounds on record, and a senior returning in February after
+      a fall away. <a href="http://www.glicko.net/glicko/glicko2.pdf">Glicko-2</a>
+      carries three numbers instead:</p>
+      <ul>
+        <li><b>Rating</b> &mdash; the skill estimate, starting at 1500.</li>
+        <li><b>RD</b> (rating deviation) &mdash; how unsure we are. A debater's true
+        skill is inside <span class="mono">rating&nbsp;±&nbsp;2&nbsp;RD</span> about
+        95% of the time. RD shrinks as you debate and widens while you don't.</li>
+        <li><b>Volatility</b> &mdash; how erratic the results have been, which controls
+        how violently the rating is allowed to swing.</li>
+      </ul>
+      <p>A win against a very uncertain opponent moves you less than a win against a
+      well-established one, because it tells us less.</p>
+
+      <h3>Getting individual ratings out of 2-on-2 rounds</h3>
+      <p>A team's strength is the average of its two debaters. The wrinkle is that
+      you are only half of your team, so your rating moves the outcome only half as
+      much as it would in a one-on-one game. The update accounts for that explicitly:
+      expectations are formed at team level, and each partner absorbs the surprise at
+      slope&nbsp;<span class="mono">1/2</span>.</p>
+      <p>This matters more than it sounds. Skipping it &mdash; judging each debater
+      individually against the opposing <em>team</em> &mdash; punishes strong debaters
+      for carrying weaker partners and rewards the partner, and in testing against
+      known simulated skill it squashed the entire rating scale to less than half its
+      true spread.</p>
+
+      <h3>Rating periods, layoffs, and seasons</h3>
+      <p>One tournament is one rating period: every round you take there is scored
+      against the ratings as they stood <em>before</em> the tournament, so a
+      tournament's own results never contaminate each other. Sit out a while and your
+      RD widens by the month, not by the tournament &mdash; there are ~40 tournaments a
+      year and nobody attends more than a third of them. Between seasons every rating
+      is pulled <span id="m-regress">25%</span> back toward 1500 and RD is reopened to
+      at least <span id="m-floor">150</span>: the topic changes, the field turns over,
+      and April is weak evidence about September.</p>
+
+      <h3>Side bias</h3>
+      <p>The aff win rate is measured from the data rather than assumed, and folded
+      into both the predictions and the updates, so winning on the aff is worth
+      slightly less than winning on the neg when the aff is in fact favoured.</p>
+      <p id="m-side" class="callout"></p>
+
+      <h3>Does it actually work?</h3>
+      <p>Every prediction below was made <em>before</em> the tournament it belongs to
+      was rated &mdash; these are walk-forward numbers, not in-sample fit.</p>
+      <div id="m-metrics" class="metrics"></div>
+      <p>Calibration &mdash; when the model says 70%, does it happen about 70% of the
+      time?</p>
+      <div class="tablewrap">
+        <table id="caltable">
+          <thead><tr><th>Predicted</th><th class="num">Rounds</th><th class="num">Model said</th><th class="num">Actually happened</th><th></th></tr></thead>
+          <tbody id="calrows"></tbody>
+        </table>
+      </div>
+
+      <h3>Known limits</h3>
+      <ul>
+        <li><b>Judges are not modelled.</b> A rating blends debating skill with how
+        well a debater's style matches the judges they happened to draw.</li>
+        <li><b>Only rated divisions count.</b> <span id="m-divs">Open</span> only;
+        JV and novice rounds are collected but excluded, because those pools barely
+        cross over and their ratings would drift on their own scale.</li>
+        <li><b>Ratings are relative.</b> 1500 is the pool average, not an absolute
+        standard, and it is not comparable across circuits or across eras.</li>
+        <li><b>Small samples stay provisional.</b> Anyone under
+        <span id="m-minrounds">12</span> rounds or with a wide RD is flagged and kept
+        out of the default ranking.</li>
+      </ul>
+
+      <h3>Configuration in force</h3>
+      <div class="tablewrap"><table id="cfgtable"><tbody id="cfgrows"></tbody></table></div>
+      <p class="fine" id="m-generated"></p>
+    </div>
+  </section>
+</main>
+
+<!-- debater detail -->
+<div id="sheet" class="sheet" hidden>
+  <div class="sheetbox" role="dialog" aria-modal="true">
+    <button class="close" id="sheetclose" aria-label="Close">&times;</button>
+    <div id="sheetbody"></div>
+  </div>
+</div>
+
+<footer class="wrap foot">
+  <span>Glicko-2 individual ratings for NDT/CEDA college policy debate.</span>
+  <a href="https://github.com/jsong175/NDT-CEDA-Glicko">Source &amp; method on GitHub</a>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

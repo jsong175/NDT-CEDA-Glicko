@@ -1,0 +1,80 @@
+name: Update ratings
+
+# Rolling update for the live season. Tournaments finish on Sundays, so this
+# runs Monday morning US Eastern, scrapes anything new, rebuilds the dashboard
+# data, and commits it. GitHub Pages serves docs/ straight from main.
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Only scrape tournaments starting on/after this date (YYYY-MM-DD)"
+        required: false
+      rebuild_only:
+        description: "Skip scraping; just re-run the rating build"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ratings-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The page cache is not in git (large, and not ours to redistribute), but
+      # carrying it between runs is what keeps our load on Tabroom near zero:
+      # a cached round is never re-fetched.
+      - name: Restore Tabroom page cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw/cache
+          key: tabroom-cache-${{ github.run_id }}
+          restore-keys: tabroom-cache-
+
+      - name: Refresh the tournament calendar
+        run: python scripts/discover.py --years 2025,2026 --refresh
+
+      - name: Scrape new results
+        if: ${{ !inputs.rebuild_only }}
+        env:
+          TABROOM_COOKIE: ${{ secrets.TABROOM_COOKIE }}
+          TABROOM_MIN_INTERVAL: "2.0"
+        run: |
+          if [ -z "$TABROOM_COOKIE" ]; then
+            echo "::warning::TABROOM_COOKIE secret is not set; skipping the scrape and rebuilding from existing data."
+            exit 0
+          fi
+          python scripts/scrape.py --since "${{ inputs.since || '2026-08-01' }}" --divisions open \
+            || echo "::warning::Scrape failed (an expired cookie is the usual cause). Rebuilding from existing data."
+
+      - name: Rebuild ratings
+        run: python scripts/build.py
+
+      - name: Run tests
+        run: |
+          python tests/test_glicko2.py
+          python tests/test_pipeline.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data data/processed
+          if git diff --staged --quiet; then
+            echo "No rating changes."
+          else
+            git commit -m "Update ratings ($(date -u +%Y-%m-%d))"
+            git push
+          fi

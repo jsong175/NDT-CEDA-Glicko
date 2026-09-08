@@ -1,0 +1,10 @@
+# Never commit credentials.
+data/.tabroom_cookie
+.env
+
+# Scraped page cache: large, regenerable, and not ours to redistribute.
+data/raw/cache/
+
+__pycache__/
+*.pyc
+.DS_Store

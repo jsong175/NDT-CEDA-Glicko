@@ -1,0 +1,12 @@
+{
+  "divisions": ["open"],
+  "tau": 0.5,
+  "season_regression": 0.25,
+  "season_rd_floor": 150.0,
+  "inactivity_rd_per_month": 1.0,
+  "elim_weight": 1.0,
+  "ballot_scores": false,
+  "side_bias": "auto",
+  "min_rounds_ranked": 12,
+  "provisional_rd": 110.0
+}
