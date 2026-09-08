@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><body><pre id="out">pending</pre>
+<script>
+window.__cases = [
+  [[[1500,50],[1500,50]], [[1500,50],[1500,50]]],
+  [[[1900,50],[1900,50]], [[1300,50],[1300,50]]],
+  [[[1800,60],[1500,90]], [[1600,70],[1400,80]]],
+  [[[1800,40],[1800,40]], [[1500,40],[1500,40]]],
+  [[[1800,330],[1800,330]], [[1500,330],[1500,330]]],
+  [[[2100,88],[1450,210]], [[1700,120],[1650,140]]]
+];
+</script>
+<script src="/assets/app.js"></script>
+<script>
+setTimeout(function(){
+  var G = window.__glicko, out = [];
+  window.__cases.forEach(function(c){
+    var A = c[0].map(function(x){return {rating:x[0], rd:x[1]};});
+    var B = c[1].map(function(x){return {rating:x[0], rd:x[1]};});
+    out.push([G.team(A).rating.toFixed(4), G.team(B).rating.toFixed(4),
+              G.winProb(A,B,0).toFixed(8), G.winProb(A,B,11/173.7178).toFixed(8)].join(" "));
+  });
+  document.getElementById('out').textContent = out.join("\n");
+}, 300);
+</script></body>

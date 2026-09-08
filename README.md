@@ -149,6 +149,7 @@ Everything above is configurable in `config.json`.
 ```bash
 python tests/test_glicko2.py     # engine, incl. Glickman's own worked example
 python tests/test_pipeline.py    # output integrity (runs against real data too)
+python tests/test_js_parity.py   # the dashboard's JS maths == the Python engine
 python tests/test_recovery.py    # does it recover known latent skill?
 ```
 

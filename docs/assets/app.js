@@ -41,6 +41,11 @@
     return 1 / (1 + Math.exp(-gphi(spread) * (A.mu - B.mu + (advantageMu || 0))));
   }
 
+  // Exposed so tests/test_js_parity.py can check these against scripts/glicko2.py.
+  // The dashboard's probabilities have to agree with the engine that produced
+  // the ratings, or the calculator quietly contradicts the rankings.
+  window.__glicko = { team: team, winProb: winProb, gphi: gphi, SCALE: SCALE };
+
   /* ------------------------------ tabs ------------------------------------- */
   function showTab(name) {
     $$(".tab").forEach(function (t) { t.classList.toggle("on", t.id === "tab-" + name); });
