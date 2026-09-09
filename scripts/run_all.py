@@ -179,7 +179,7 @@ def step_build():
 def step_tests():
     rule("5/6  Running tests")
     ok = True
-    for t in ("test_glicko2", "test_pipeline", "test_js_parity"):
+    for t in ("test_glicko2", "test_pipeline", "test_js_parity", "test_entry_names"):
         r = run(["tests/%s.py" % t], stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL)
         print("  %-18s %s" % (t, "PASS" if r.returncode == 0 else "FAIL"))

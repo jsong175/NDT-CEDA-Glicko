@@ -250,6 +250,22 @@ class PersonRegistry:
             person["seasons"].append(season)
         return pid
 
+    def set_name(self, pid, name):
+        """Correct a display name once the entry resolver knows better.
+
+        Identity is the student id, so a wrong name is only a label -- but it is
+        the label the whole dashboard is read by, and resolve() can only set it
+        from the first sighting. An explicit rename override always wins.
+        """
+        person = self.people.get(pid)
+        if not person or not name or self.rename.get(pid):
+            return False
+        fixed = display_name(name)
+        if fixed and fixed != person["name"]:
+            person["name"] = fixed
+            return True
+        return False
+
     def flag_collisions(self):
         """Name keys that carry several schools in the same season.
 
@@ -276,3 +292,111 @@ def ensure_overrides_file():
     if not os.path.exists(ALIASES_FILE):
         with open(ALIASES_FILE, "w", encoding="utf-8") as fh:
             json.dump({"merge": {}, "split": {}, "rename": {}}, fh, indent=2)
+
+
+# --- Entry name resolution ----------------------------------------------------
+
+class EntryNameResolver:
+    """Works out which student id owns which name, across all entries.
+
+    Tabroom gives an entry's two students in two independent orders: the
+    `team_results?id1=&id2=` link is ascending by student id, while the field
+    list's Entry column and the entry-record heading are in whatever order the
+    tournament typed them. The same pair really does appear both ways --
+    "Vargas & bowman" at one tournament, "bowman & Vargas" at the next -- so
+    pairing the i-th name with the i-th id silently swaps the two students.
+
+    Order is unrecoverable inside a single entry, so we do not try. Instead we
+    collect every (id pair, name pair) sighting and intersect: a student who
+    debated with two different partners can only be the name common to both
+    entries. Resolving one student then removes that name from the partner's
+    candidates, which cascades. What survives is a pair who only ever debated
+    with each other -- siblings, usually -- where we fall back to entry order.
+    That may still swap those two, but they stay two distinct people, which is
+    what stops one partner from vanishing behind a duplicate of the other.
+    """
+
+    def __init__(self):
+        self.obs = []          # [(sid, sid), (name, name)] as seen, in page order
+        self._seen = set()
+
+    def observe(self, ids, names):
+        """Record one entry sighting. Ignored unless it names both students."""
+        if len(ids) != 2 or len(names) != 2:
+            return
+        if not all(names) or not all(ids):
+            return
+        key = (tuple(ids), tuple(name_key(n) for n in names))
+        if key in self._seen:
+            return
+        self._seen.add(key)
+        self.obs.append((tuple(ids), tuple(names)))
+
+    def solve(self):
+        """Return {student_id: display name}, best effort.
+
+        Students we never saw a full name for are simply absent; the caller
+        keeps whatever fallback it already had for them.
+        """
+        display = {}                       # name_key -> nicest spelling seen
+        cand = {}                          # sid -> set of name_keys
+        for ids, names in self.obs:
+            keys = set()
+            for n in names:
+                k = name_key(n)
+                keys.add(k)
+                cur = display.get(k)
+                if cur is None or _nicer(n, cur):
+                    display[k] = display_name(n)
+            for sid in ids:
+                cand[sid] = keys.copy() if sid not in cand else (cand[sid] & keys)
+
+        # A sid whose candidates were emptied by intersection saw contradictory
+        # sightings (a re-used entry code, usually). Fall back to the union so
+        # propagation still has something to work with.
+        for sid, ks in list(cand.items()):
+            if not ks:
+                cand[sid] = set()
+                for ids, names in self.obs:
+                    if sid in ids:
+                        cand[sid] |= {name_key(n) for n in names}
+
+        # Propagate: a settled student's name is not available to their partner.
+        for _ in range(len(cand) + 2):
+            changed = False
+            for ids, _names in self.obs:
+                a, b = ids
+                for x, y in ((a, b), (b, a)):
+                    if len(cand.get(x, ())) == 1 and len(cand.get(y, ())) > 1:
+                        after = cand[y] - cand[x]
+                        if after and after != cand[y]:
+                            cand[y] = after
+                            changed = True
+            if not changed:
+                break
+
+        # Anything still ambiguous only ever appeared with the same partner.
+        # Give the pair distinct names in the order the page listed them.
+        for ids, names in self.obs:
+            a, b = ids
+            if len(cand.get(a, ())) > 1 and len(cand.get(b, ())) > 1:
+                ka, kb = name_key(names[0]), name_key(names[1])
+                if ka != kb:
+                    cand[a], cand[b] = {ka}, {kb}
+
+        out = {}
+        for sid, ks in cand.items():
+            if len(ks) == 1:
+                k = next(iter(ks))
+                if k:
+                    out[sid] = display.get(k) or k
+        return out
+
+
+def _nicer(candidate, current):
+    """Prefer a spelling that is not all-one-case: 'Ronen Bowman' over 'ronen bowman'."""
+    c_mixed = not (candidate.isupper() or candidate.islower())
+    n_mixed = not (current.isupper() or current.islower())
+    if c_mixed != n_mixed:
+        return c_mixed
+    return len(candidate) > len(current)

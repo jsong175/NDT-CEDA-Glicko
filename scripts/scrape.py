@@ -32,7 +32,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import tabroom_client as tc  # noqa: E402
 from normalize import (  # noqa: E402
-    PersonRegistry, classify_division, is_elim, normalize_name,
+    EntryNameResolver, PersonRegistry, classify_division, is_elim, normalize_name,
 )
 
 ROOT = tc.ROOT
@@ -328,7 +328,7 @@ def get_round_pairings(tourn_id, round_id):
 
 # --- orchestration ------------------------------------------------------------
 
-def scrape_tournament(t, registry, debates, report, divisions):
+def scrape_tournament(t, registry, debates, report, divisions, names):
     tid = t["tourn_id"]
     try:
         events = get_events(tid)
@@ -385,22 +385,19 @@ def scrape_tournament(t, registry, debates, report, divisions):
             surnames = info.get("surnames") or []
             full = resolve_entry_names(tid, entry_id, surnames)  # cached on disk
 
+            # Identity is the student id, which is solid. The name is not: the
+            # id1/id2 order and the heading order are independent, so we hand
+            # both to the resolver and let it settle who is who once the whole
+            # scrape is in (see EntryNameResolver). Until then a student is
+            # provisionally labelled in page order, which is right about half
+            # the time and always corrected below when it is not.
+            names.observe(ids, full)
+
             pids = []
             for i, sid in enumerate(ids):
-                surname = surnames[i] if i < len(surnames) else ""
-                # Prefer the full name whose surname matches this student's
-                # field-list surname; fall back to positional order, then to
-                # the surname alone. Identity is the student id either way.
-                name = ""
-                if surname:
-                    for fn in full:
-                        if fn.split()[-1].lower() == surname.split()[-1].lower():
-                            name = fn
-                            break
-                if not name and i < len(full):
-                    name = full[i]
+                name = full[i] if i < len(full) else ""
                 if not name:
-                    name = surname
+                    name = surnames[i] if i < len(surnames) else ""
                 pids.append(registry.resolve(name or ("student %d" % sid),
                                              school=info["school"],
                                              student_id=sid, season=t.get("season")))
@@ -488,6 +485,7 @@ def main():
 
     divisions = {d.strip() for d in args.divisions.split(",") if d.strip()}
     registry = PersonRegistry()
+    names = EntryNameResolver()
     debates = []
     report = defaultdict(list)
 
@@ -496,7 +494,7 @@ def main():
     for i, t in enumerate(tournaments, 1):
         print("  [%2d/%d] %-52s " % (i, len(tournaments), t["name"][:52]), end="", flush=True)
         try:
-            n = scrape_tournament(t, registry, debates, report, divisions)
+            n = scrape_tournament(t, registry, debates, report, divisions, names)
         except tc.AuthError as exc:
             print("\n\nAUTH FAILED: %s" % exc)
             print("Nothing was lost -- everything fetched so far is cached. "
@@ -504,7 +502,39 @@ def main():
             sys.exit(2)
         print("%5d rounds" % n)
 
+    fixed = apply_resolved_names(registry, names, report)
+    if fixed:
+        print("resolved %d debater name(s) from cross-entry evidence" % fixed)
+
     merge_and_write(debates, registry, report)
+
+
+def apply_resolved_names(registry, names, report):
+    """Relabel every student the resolver could pin down.
+
+    Left uncorrected, a swapped name does not just mislabel one person: the
+    partner is registered under a name someone else already holds, so the board
+    shows two people with one name and the real debater never appears.
+    """
+    fixed = 0
+    for sid, name in names.solve().items():
+        pid = "t%s" % sid
+        if registry.set_name(pid, name):
+            fixed += 1
+        # Mark it settled either way, so merge_and_write knows this name is
+        # backed by cross-entry evidence and may overwrite what is on file.
+        if pid in registry.people:
+            registry.people[pid]["name_resolved"] = True
+
+    # Two ids sharing a name after this means nobody debated apart from their
+    # partner all season -- worth a human look, not an error.
+    seen = defaultdict(list)
+    for pid, person in registry.people.items():
+        seen[normalize_name(person["name"])].append(pid)
+    report["shared_names"] = [
+        {"name": registry.people[pids[0]]["name"], "ids": pids}
+        for pids in seen.values() if len(pids) > 1]
+    return fixed
 
 
 def merge_and_write(debates, registry, report):
@@ -546,6 +576,12 @@ def merge_and_write(debates, registry, report):
                 merged_vals = people[pid].get(field, []) + [
                     v for v in person[field] if v not in people[pid].get(field, [])]
                 people[pid][field] = merged_vals
+            # A name the resolver settled this run beats whatever an earlier,
+            # thinner run wrote; an unresolved guess never overwrites a
+            # settled name.
+            if person.get("name_resolved"):
+                people[pid]["name"] = person["name"]
+                people[pid]["name_resolved"] = True
         else:
             people[pid] = person
     with open(people_path, "w", encoding="utf-8") as fh:
@@ -559,7 +595,8 @@ def merge_and_write(debates, registry, report):
     print("%d debates on file (%d new this run), %d people"
           % (len(rows), len(debates), len(people)))
     for k in ("unclassified_events", "unmatched_entries", "empty_fields",
-              "failed_rounds", "failed_events", "failed_tournaments"):
+              "failed_rounds", "failed_events", "failed_tournaments",
+              "shared_names"):
         if report.get(k):
             print("  %-22s %d  (see data/processed/scrape_report.json)"
                   % (k, len(report[k])))
