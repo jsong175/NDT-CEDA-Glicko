@@ -359,6 +359,7 @@
     $("#m-regress").textContent = Math.round((cfg.season_regression || 0) * 100) + "%";
     $("#m-floor").textContent = Math.round(cfg.season_rd_floor || 0);
     $("#m-minrounds").textContent = cfg.min_rounds_ranked;
+    $("#m-provrd").textContent = Math.round(cfg.provisional_rd || 0);
     $("#m-divs").textContent = (cfg.divisions || []).map(function (d) {
       return d.charAt(0).toUpperCase() + d.slice(1);
     }).join(", ");

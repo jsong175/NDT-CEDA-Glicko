@@ -156,6 +156,15 @@ reopened to at least 150.
 **Side bias** is measured from the data rather than assumed, and folded into both
 predictions and updates.
 
+**Who gets ranked.** A debater is provisional — kept off the default board —
+under `min_rounds_ranked` (12) rounds, or with an RD still wider than
+`provisional_rd` (200). Those two are meant to say the same thing, so the RD bar
+is set near the uncertainty a debater actually carries at the round minimum
+(~208 in the 2025-26 pool). It must also stay above `season_rd_floor`: every
+rating is reopened to at least that floor when a season turns over, so a cutoff
+underneath it marks the entire pool provisional every September and empties the
+board until midseason. `load_config()` refuses that combination outright.
+
 Everything above is configurable in `config.json`.
 
 ---

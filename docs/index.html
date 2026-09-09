@@ -190,8 +190,13 @@
         <li><b>Ratings are relative.</b> 1500 is the pool average, not an absolute
         standard, and it is not comparable across circuits or across eras.</li>
         <li><b>Small samples stay provisional.</b> Anyone under
-        <span id="m-minrounds">12</span> rounds or with a wide RD is flagged and kept
-        out of the default ranking.</li>
+        <span id="m-minrounds">12</span> rounds, or still carrying an RD wider than
+        <span id="m-provrd">200</span>, is flagged and kept out of the default
+        ranking. That RD bar is set at roughly the uncertainty a debater still has
+        at the round minimum, so it screens out the barely-rated without becoming a
+        second, stricter sample-size rule; it has to stay above the
+        <span class="mono">150</span> every rating is reopened to between seasons,
+        or the whole pool would read as provisional each September.</li>
       </ul>
 
       <h3>Configuration in force</h3>

@@ -107,6 +107,40 @@ sb = meta["side_bias"]
 check("aff win rate is plausible", 0.35 <= sb["aff_win_rate"] <= 0.65,
       "%.3f" % sb["aff_win_rate"])
 
+# --- the provisional gate -----------------------------------------------------
+# provisional_rd once sat below season_rd_floor. Because every rating is reopened
+# to at least the floor when a season turns over, that flagged the whole pool as
+# provisional on day one of each season and kept the best debaters -- who are
+# rated on plenty of rounds -- off the default board all year.
+cfg = meta.get("config", {})
+check("provisional_rd clears the season RD floor",
+      cfg.get("provisional_rd", 0) > cfg.get("season_rd_floor", 0),
+      "%.0f vs %.0f" % (cfg.get("provisional_rd", 0), cfg.get("season_rd_floor", 0)))
+
+ranked = [r for r in rows if not r["provisional"]]
+check("the RD gate is not stricter than the rounds gate",
+      all(r["provisional"] for r in rows if r["rounds"] < cfg["min_rounds_ranked"])
+      and len(ranked) > 0)
+thin = [r for r in rows if r["rounds"] >= 4 * cfg["min_rounds_ranked"] and r["provisional"]]
+check("nobody with 4x the minimum sample is still provisional",
+      not thin, "%d such: %s" % (len(thin), ", ".join(x["name"] for x in thin[:3])))
+check("a majority of the pool is rankable",
+      len(ranked) > len(rows) / 3, "%d of %d" % (len(ranked), len(rows)))
+
+try:
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    from ratings import check_config
+    bad = dict(cfg); bad["provisional_rd"] = bad["season_rd_floor"]
+    try:
+        check_config(bad)
+        raised = False
+    except ValueError:
+        raised = True
+    check("load_config rejects a cutoff under the floor", raised)
+except ImportError as exc:  # pragma: no cover
+    check("load_config rejects a cutoff under the floor", False, str(exc))
+
+
 # --- person files -------------------------------------------------------------
 person_dir = os.path.join(DATA, "person")
 check("a detail file exists for every debater",

@@ -54,7 +54,7 @@ DEFAULT_CONFIG = {
     "ballot_scores": False,
     "side_bias": "auto",
     "min_rounds_ranked": 12,
-    "provisional_rd": 110.0,
+    "provisional_rd": 200.0,
 }
 
 
@@ -63,6 +63,24 @@ def load_config():
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r", encoding="utf-8") as fh:
             cfg.update(json.load(fh))
+    check_config(cfg)
+    return cfg
+
+
+def check_config(cfg):
+    """Reject settings that quietly contradict each other.
+
+    provisional_rd below season_rd_floor is the one that bit us: every rating is
+    reopened to at least season_rd_floor when a season turns over, so a cutoff
+    beneath it flags the entire pool as provisional on day one of every season
+    and empties the default ranking until midseason.
+    """
+    if cfg["provisional_rd"] <= cfg["season_rd_floor"]:
+        raise ValueError(
+            "provisional_rd (%.0f) must exceed season_rd_floor (%.0f): every "
+            "rating is reset to at least the floor between seasons, so a lower "
+            "cutoff marks everyone provisional for good."
+            % (cfg["provisional_rd"], cfg["season_rd_floor"]))
     return cfg
 
 

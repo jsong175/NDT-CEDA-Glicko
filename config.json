@@ -8,5 +8,5 @@
   "ballot_scores": false,
   "side_bias": "auto",
   "min_rounds_ranked": 12,
-  "provisional_rd": 110.0
+  "provisional_rd": 200.0
 }
