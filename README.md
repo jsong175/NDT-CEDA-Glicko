@@ -65,6 +65,24 @@ publish it widely, the right move is to ask Tabroom for access
 
 ---
 
+## Going from sample data to real ratings
+
+Once the cookie is in place, one command does everything — verifies auth, checks
+the parsers against a real tournament, scrapes, rates, tests, and publishes:
+
+```bash
+python scripts/run_all.py --season 2025-26 --push
+```
+
+It stops at the first thing that looks wrong rather than pressing on. The parser
+check is the step that matters: the scrapers were written without ever seeing a
+logged-in page, so the first real run is where they get verified. If it can't
+read entries, rounds, or pairings — or if entry codes don't match between the
+field list and the pairings — it prints what it *did* see and exits before
+touching the other forty tournaments.
+
+---
+
 ## Scraping and building
 
 ```bash
