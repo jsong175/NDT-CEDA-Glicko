@@ -52,6 +52,9 @@
 }
 
 * { box-sizing: border-box; }
+/* Beats any author `display` further down (e.g. .sheet's flex), so the JS
+   `el.hidden = true/false` toggles actually hide and show these. */
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
