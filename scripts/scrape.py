@@ -483,6 +483,12 @@ def main():
     if not tournaments:
         raise SystemExit("no tournaments matched those filters")
 
+    # A rate-limit notice arrives as HTTP 200 and, once cached, is served
+    # as truth on every later run. Clear any that slipped in before we start.
+    dropped = tc.purge_bad_cache()
+    if dropped:
+        print("dropped %d cached rate-limit page(s); they will be refetched" % dropped)
+
     divisions = {d.strip() for d in args.divisions.split(",") if d.strip()}
     registry = PersonRegistry()
     names = EntryNameResolver()
@@ -495,6 +501,12 @@ def main():
         print("  [%2d/%d] %-52s " % (i, len(tournaments), t["name"][:52]), end="", flush=True)
         try:
             n = scrape_tournament(t, registry, debates, report, divisions, names)
+        except tc.RateLimitError as exc:
+            print("\n\nRATE LIMITED: %s" % exc)
+            print("Everything fetched so far is cached and the throttled "
+                  "pages were not, so nothing is corrupt. Wait about an "
+                  "hour and re-run the same command.")
+            sys.exit(3)
         except tc.AuthError as exc:
             print("\n\nAUTH FAILED: %s" % exc)
             print("Nothing was lost -- everything fetched so far is cached. "

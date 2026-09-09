@@ -46,6 +46,13 @@ MAX_RETRIES = 2
 _last_request = [0.0]
 
 
+class RateLimitError(RuntimeError):
+    """Tabroom served its rate-limit notice. It comes back as HTTP 200 with a
+    normal-looking page, so nothing but the body text gives it away -- and if it
+    reaches the cache it is indistinguishable from a real page on every later
+    run."""
+
+
 class AuthError(RuntimeError):
     """Tabroom bounced us to the login page: the cookie is missing or stale."""
 
@@ -151,6 +158,17 @@ def fetch(path, cookie=None, force=False, allow_anonymous=False):
                 if resp.headers.get("Content-Encoding") == "gzip":
                     body = gzip.decompress(body)
                 text = body.decode("utf-8", errors="replace")
+                if _is_rate_limited(text):
+                    # Never cache this: it is a 200, so it would masquerade as
+                    # the real page forever after.
+                    if attempt < MAX_RETRIES:
+                        time.sleep(60 * (attempt + 1))
+                        last_err = RateLimitError(url)
+                        continue
+                    raise RateLimitError(
+                        "Tabroom rate-limited us at %s. It lifts after about an "
+                        "hour; nothing was cached, so re-running picks up where "
+                        "this left off." % url)
                 _write_cache(url, text)
                 return text
         except urllib.error.HTTPError as exc:
@@ -175,6 +193,44 @@ def fetch(path, cookie=None, force=False, allow_anonymous=False):
             raise FetchError("network error for %s: %s" % (url, exc)) from exc
 
     raise FetchError("exhausted retries for %s: %s" % (url, last_err))
+
+
+RATE_LIMIT_MARKERS = (
+    "hit our rate limit",
+    "may not access this page for another hour",
+)
+
+
+def _is_rate_limited(text):
+    # The notice sits near the END of the page, after all the usual chrome
+    # (offset ~22k of 22.6k on the ones we caught), so a head-only scan misses
+    # it. These pages are small; scan the whole body.
+    low = text.lower()
+    return any(m in low for m in RATE_LIMIT_MARKERS)
+
+
+def purge_bad_cache():
+    """Drop cached pages that are really rate-limit notices.
+
+    Returns the number removed. Anything fetched while Tabroom was throttling us
+    is a 6KB error page wearing a 200, and it will be served as truth forever
+    unless it is taken out.
+    """
+    removed = 0
+    for root, _dirs, files in os.walk(CACHE_DIR):
+        for fn in files:
+            if not fn.endswith(".html.gz"):
+                continue
+            path = os.path.join(root, fn)
+            try:
+                with gzip.open(path, "rt", encoding="utf-8", errors="replace") as fh:
+                    body = fh.read()
+            except OSError:
+                continue
+            if _is_rate_limited(body):
+                os.remove(path)
+                removed += 1
+    return removed
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):

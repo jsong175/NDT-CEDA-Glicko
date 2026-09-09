@@ -209,6 +209,26 @@
    "tourn_id": 39306,
    "tournament": "80th National Debate Tournament",
    "event": "xScouts"
+  },
+  {
+   "tourn_id": 40771,
+   "tournament": "54th Annual Run for the Roses hosted by UK",
+   "event": "Observers"
+  },
+  {
+   "tourn_id": 40771,
+   "tournament": "54th Annual Run for the Roses hosted by UK",
+   "event": "Run for the Roses"
+  },
+  {
+   "tourn_id": 40663,
+   "tournament": "56th Annual JW Patterson Debates hosted by UK",
+   "event": "Wildcat"
+  },
+  {
+   "tourn_id": 41002,
+   "tournament": "FR Shirley and ADA Champs at Wake Forest",
+   "event": "X-Observer Division"
   }
  ],
  "unmatched_entries": [
@@ -902,6 +922,42 @@
   {
    "tourn_id": 38796,
    "event": "Pacific Champs Open"
+  },
+  {
+   "tourn_id": 41101,
+   "event": "Open policy"
+  },
+  {
+   "tourn_id": 41101,
+   "event": "Varsity CARD"
+  },
+  {
+   "tourn_id": 41199,
+   "event": "Varsity"
+  }
+ ],
+ "shared_names": [
+  {
+   "name": "Vaden Kumar",
+   "ids": [
+    "t1695666",
+    "t1848980"
+   ]
+  },
+  {
+   "name": "Benjy Haber-Fawcett",
+   "ids": [
+    "t1232664",
+    "t1660987",
+    "t1661754"
+   ]
+  },
+  {
+   "name": "Gabrielle Smith",
+   "ids": [
+    "t1759069",
+    "t1803225"
+   ]
   }
  ],
  "collisions": []

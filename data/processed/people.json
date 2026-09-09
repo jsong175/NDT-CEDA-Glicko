@@ -1,17 +1,6 @@
 {
  "t1243073": {
   "id": "t1243073",
-  "name": "Maggie Matzen",
-  "schools": [
-   "James Madison"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1243073
- },
- "t1363824": {
-  "id": "t1363824",
   "name": "Anna Oehler",
   "schools": [
    "James Madison"
@@ -19,7 +8,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363824
+  "tabroom_id": 1243073,
+  "name_resolved": true
+ },
+ "t1363824": {
+  "id": "t1363824",
+  "name": "Maggie Matzen",
+  "schools": [
+   "James Madison"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1363824,
+  "name_resolved": true
  },
  "t1621714": {
   "id": "t1621714",
@@ -30,7 +32,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1621714
+  "tabroom_id": 1621714,
+  "name_resolved": true
  },
  "t1700907": {
   "id": "t1700907",
@@ -41,7 +44,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700907
+  "tabroom_id": 1700907,
+  "name_resolved": true
  },
  "t1218803": {
   "id": "t1218803",
@@ -52,7 +56,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218803
+  "tabroom_id": 1218803,
+  "name_resolved": true
  },
  "t1223985": {
   "id": "t1223985",
@@ -63,21 +68,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1223985
+  "tabroom_id": 1223985,
+  "name_resolved": true
  },
  "t1524452": {
   "id": "t1524452",
-  "name": "Dakota Atizol",
-  "schools": [
-   "George Mason"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1524452
- },
- "t1559625": {
-  "id": "t1559625",
   "name": "Andre Esteves",
   "schools": [
    "George Mason"
@@ -85,7 +80,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1559625
+  "tabroom_id": 1524452,
+  "name_resolved": true
+ },
+ "t1559625": {
+  "id": "t1559625",
+  "name": "Dakota Atizol",
+  "schools": [
+   "George Mason"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1559625,
+  "name_resolved": true
  },
  "t1363053": {
   "id": "t1363053",
@@ -96,7 +104,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363053
+  "tabroom_id": 1363053,
+  "name_resolved": true
  },
  "t1366633": {
   "id": "t1366633",
@@ -107,7 +116,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1366633
+  "tabroom_id": 1366633,
+  "name_resolved": true
  },
  "t1367961": {
   "id": "t1367961",
@@ -118,7 +128,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1367961
+  "tabroom_id": 1367961,
+  "name_resolved": true
  },
  "t1525507": {
   "id": "t1525507",
@@ -129,7 +140,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525507
+  "tabroom_id": 1525507,
+  "name_resolved": true
  },
  "t1218855": {
   "id": "t1218855",
@@ -140,7 +152,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218855
+  "tabroom_id": 1218855,
+  "name_resolved": true
  },
  "t1374672": {
   "id": "t1374672",
@@ -151,7 +164,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1374672
+  "tabroom_id": 1374672,
+  "name_resolved": true
  },
  "t1316406": {
   "id": "t1316406",
@@ -162,7 +176,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1316406
+  "tabroom_id": 1316406,
+  "name_resolved": true
  },
  "t1381466": {
   "id": "t1381466",
@@ -173,22 +188,24 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1381466
+  "tabroom_id": 1381466,
+  "name_resolved": true
  },
  "t1370429": {
   "id": "t1370429",
-  "name": "Giavanna Kardos",
+  "name": "Maria Pinto",
   "schools": [
    "James Madison"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1370429
+  "tabroom_id": 1370429,
+  "name_resolved": true
  },
  "t1370430": {
   "id": "t1370430",
-  "name": "Maria Pinto",
+  "name": "Giavanna Kardos",
   "schools": [
    "James Madison",
    "Liberty"
@@ -196,7 +213,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1370430
+  "tabroom_id": 1370430,
+  "name_resolved": true
  },
  "t1520797": {
   "id": "t1520797",
@@ -207,7 +225,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1520797
+  "tabroom_id": 1520797,
+  "name_resolved": true
  },
  "t1520808": {
   "id": "t1520808",
@@ -218,21 +237,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1520808
+  "tabroom_id": 1520808,
+  "name_resolved": true
  },
  "t1534810": {
   "id": "t1534810",
-  "name": "Andrew Freeman",
-  "schools": [
-   "West Point"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1534810
- },
- "t1534812": {
-  "id": "t1534812",
   "name": "Jack Gerber",
   "schools": [
    "West Point"
@@ -240,7 +249,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1534812
+  "tabroom_id": 1534810,
+  "name_resolved": true
+ },
+ "t1534812": {
+  "id": "t1534812",
+  "name": "Andrew Freeman",
+  "schools": [
+   "West Point"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1534812,
+  "name_resolved": true
  },
  "t1523969": {
   "id": "t1523969",
@@ -252,7 +274,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523969
+  "tabroom_id": 1523969,
+  "name_resolved": true
  },
  "t1710483": {
   "id": "t1710483",
@@ -264,7 +287,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710483
+  "tabroom_id": 1710483,
+  "name_resolved": true
  },
  "t1218799": {
   "id": "t1218799",
@@ -275,7 +299,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218799
+  "tabroom_id": 1218799,
+  "name_resolved": true
  },
  "t1363003": {
   "id": "t1363003",
@@ -286,7 +311,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363003
+  "tabroom_id": 1363003,
+  "name_resolved": true
  },
  "t1442173": {
   "id": "t1442173",
@@ -297,7 +323,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1442173
+  "tabroom_id": 1442173,
+  "name_resolved": true
  },
  "t1529763": {
   "id": "t1529763",
@@ -308,7 +335,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1529763
+  "tabroom_id": 1529763,
+  "name_resolved": true
  },
  "t1534807": {
   "id": "t1534807",
@@ -319,7 +347,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1534807
+  "tabroom_id": 1534807,
+  "name_resolved": true
  },
  "t1534811": {
   "id": "t1534811",
@@ -330,7 +359,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1534811
+  "tabroom_id": 1534811,
+  "name_resolved": true
  },
  "t1535986": {
   "id": "t1535986",
@@ -341,7 +371,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1535986
+  "tabroom_id": 1535986,
+  "name_resolved": true
  },
  "t1540837": {
   "id": "t1540837",
@@ -352,21 +383,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1540837
+  "tabroom_id": 1540837,
+  "name_resolved": true
  },
  "t1710015": {
   "id": "t1710015",
-  "name": "Quenten Erikson",
-  "schools": [
-   "West Point"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1710015
- },
- "t1710058": {
-  "id": "t1710058",
   "name": "Josh Little",
   "schools": [
    "West Point"
@@ -374,7 +395,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710058
+  "tabroom_id": 1710015,
+  "name_resolved": true
+ },
+ "t1710058": {
+  "id": "t1710058",
+  "name": "Quenten Erikson",
+  "schools": [
+   "West Point"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1710058,
+  "name_resolved": true
  },
  "t1521979": {
   "id": "t1521979",
@@ -385,7 +419,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1521979
+  "tabroom_id": 1521979,
+  "name_resolved": true
  },
  "t1699109": {
   "id": "t1699109",
@@ -396,21 +431,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699109
+  "tabroom_id": 1699109,
+  "name_resolved": true
  },
  "t1534808": {
   "id": "t1534808",
-  "name": "Lucy Fellman",
-  "schools": [
-   "West Point"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1534808
- },
- "t1566287": {
-  "id": "t1566287",
   "name": "Ailish MacDonnell",
   "schools": [
    "West Point"
@@ -418,21 +443,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1566287
+  "tabroom_id": 1534808,
+  "name_resolved": true
  },
- "t1710305": {
-  "id": "t1710305",
-  "name": "Aisha Mbaye",
+ "t1566287": {
+  "id": "t1566287",
+  "name": "Lucy Fellman",
   "schools": [
-   "Rochester"
+   "West Point"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710305
+  "tabroom_id": 1566287,
+  "name_resolved": true
  },
- "t1710306": {
-  "id": "t1710306",
+ "t1710305": {
+  "id": "t1710305",
   "name": "Sophia Bassingthwaite",
   "schools": [
    "Rochester"
@@ -440,7 +467,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710306
+  "tabroom_id": 1710305,
+  "name_resolved": true
+ },
+ "t1710306": {
+  "id": "t1710306",
+  "name": "Aisha Mbaye",
+  "schools": [
+   "Rochester"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1710306,
+  "name_resolved": true
  },
  "t1374680": {
   "id": "t1374680",
@@ -451,7 +491,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1374680
+  "tabroom_id": 1374680,
+  "name_resolved": true
  },
  "t1710013": {
   "id": "t1710013",
@@ -462,7 +503,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710013
+  "tabroom_id": 1710013,
+  "name_resolved": true
  },
  "t1521977": {
   "id": "t1521977",
@@ -473,7 +515,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1521977
+  "tabroom_id": 1521977,
+  "name_resolved": true
  },
  "t1524455": {
   "id": "t1524455",
@@ -484,7 +527,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1524455
+  "tabroom_id": 1524455,
+  "name_resolved": true
  },
  "t1363005": {
   "id": "t1363005",
@@ -495,7 +539,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363005
+  "tabroom_id": 1363005,
+  "name_resolved": true
  },
  "t1521989": {
   "id": "t1521989",
@@ -506,7 +551,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1521989
+  "tabroom_id": 1521989,
+  "name_resolved": true
  },
  "t1371960": {
   "id": "t1371960",
@@ -517,7 +563,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1371960
+  "tabroom_id": 1371960,
+  "name_resolved": true
  },
  "t1697018": {
   "id": "t1697018",
@@ -528,7 +575,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697018
+  "tabroom_id": 1697018,
+  "name_resolved": true
  },
  "t1709743": {
   "id": "t1709743",
@@ -539,7 +587,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709743
+  "tabroom_id": 1709743,
+  "name_resolved": true
  },
  "t1709755": {
   "id": "t1709755",
@@ -550,21 +599,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709755
+  "tabroom_id": 1709755,
+  "name_resolved": true
  },
  "t1531308": {
   "id": "t1531308",
-  "name": "Asra June",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1531308
- },
- "t1709914": {
-  "id": "t1709914",
   "name": "Nate Boyle",
   "schools": [
    "Kansas"
@@ -572,7 +611,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709914
+  "tabroom_id": 1531308,
+  "name_resolved": true
+ },
+ "t1709914": {
+  "id": "t1709914",
+  "name": "Asra June",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1709914,
+  "name_resolved": true
  },
  "t1526058": {
   "id": "t1526058",
@@ -583,7 +635,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526058
+  "tabroom_id": 1526058,
+  "name_resolved": true
  },
  "t1528190": {
   "id": "t1528190",
@@ -594,7 +647,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528190
+  "tabroom_id": 1528190,
+  "name_resolved": true
  },
  "t1285996": {
   "id": "t1285996",
@@ -605,7 +659,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1285996
+  "tabroom_id": 1285996,
+  "name_resolved": true
  },
  "t1701337": {
   "id": "t1701337",
@@ -616,7 +671,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701337
+  "tabroom_id": 1701337,
+  "name_resolved": true
  },
  "t1357677": {
   "id": "t1357677",
@@ -627,7 +683,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1357677
+  "tabroom_id": 1357677,
+  "name_resolved": true
  },
  "t1529336": {
   "id": "t1529336",
@@ -638,7 +695,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1529336
+  "tabroom_id": 1529336,
+  "name_resolved": true
  },
  "t1228394": {
   "id": "t1228394",
@@ -649,7 +707,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1228394
+  "tabroom_id": 1228394,
+  "name_resolved": true
  },
  "t1228395": {
   "id": "t1228395",
@@ -660,7 +719,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1228395
+  "tabroom_id": 1228395,
+  "name_resolved": true
  },
  "t1329943": {
   "id": "t1329943",
@@ -671,7 +731,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1329943
+  "tabroom_id": 1329943,
+  "name_resolved": true
  },
  "t1709756": {
   "id": "t1709756",
@@ -682,7 +743,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709756
+  "tabroom_id": 1709756,
+  "name_resolved": true
  },
  "t1357738": {
   "id": "t1357738",
@@ -693,7 +755,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1357738
+  "tabroom_id": 1357738,
+  "name_resolved": true
  },
  "t1401781": {
   "id": "t1401781",
@@ -704,21 +767,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1401781
+  "tabroom_id": 1401781,
+  "name_resolved": true
  },
  "t1085961": {
   "id": "t1085961",
-  "name": "Marianne Griffith",
-  "schools": [
-   "Wichita State"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1085961
- },
- "t1517514": {
-  "id": "t1517514",
   "name": "Miguel Molina Chavez",
   "schools": [
    "Wichita State"
@@ -726,7 +779,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1517514
+  "tabroom_id": 1085961,
+  "name_resolved": true
+ },
+ "t1517514": {
+  "id": "t1517514",
+  "name": "Marianne Griffith",
+  "schools": [
+   "Wichita State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1517514,
+  "name_resolved": true
  },
  "t1371969": {
   "id": "t1371969",
@@ -737,7 +803,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1371969
+  "tabroom_id": 1371969,
+  "name_resolved": true
  },
  "t1526075": {
   "id": "t1526075",
@@ -748,7 +815,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526075
+  "tabroom_id": 1526075,
+  "name_resolved": true
  },
  "t1709771": {
   "id": "t1709771",
@@ -759,7 +827,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709771
+  "tabroom_id": 1709771,
+  "name_resolved": true
  },
  "t1709772": {
   "id": "t1709772",
@@ -770,7 +839,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709772
+  "tabroom_id": 1709772,
+  "name_resolved": true
  },
  "t1366131": {
   "id": "t1366131",
@@ -781,7 +851,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1366131
+  "tabroom_id": 1366131,
+  "name_resolved": true
  },
  "t1366134": {
   "id": "t1366134",
@@ -792,21 +863,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1366134
+  "tabroom_id": 1366134,
+  "name_resolved": true
  },
  "t1216117": {
   "id": "t1216117",
-  "name": "Lucas Ballinger",
-  "schools": [
-   "Oklahoma"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1216117
- },
- "t1703391": {
-  "id": "t1703391",
   "name": "Blaire Smith",
   "schools": [
    "Oklahoma"
@@ -814,7 +875,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703391
+  "tabroom_id": 1216117,
+  "name_resolved": true
+ },
+ "t1703391": {
+  "id": "t1703391",
+  "name": "Lucas Ballinger",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1703391,
+  "name_resolved": true
  },
  "t1702549": {
   "id": "t1702549",
@@ -826,7 +900,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702549
+  "tabroom_id": 1702549,
+  "name_resolved": true
  },
  "t1702550": {
   "id": "t1702550",
@@ -838,7 +913,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702550
+  "tabroom_id": 1702550,
+  "name_resolved": true
  },
  "t1369359": {
   "id": "t1369359",
@@ -849,7 +925,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1369359
+  "tabroom_id": 1369359,
+  "name_resolved": true
  },
  "t1531507": {
   "id": "t1531507",
@@ -860,21 +937,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531507
+  "tabroom_id": 1531507,
+  "name_resolved": true
  },
  "t1697005": {
   "id": "t1697005",
-  "name": "Alliana Sherie Huerto",
-  "schools": [
-   "Southern California"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1697005
- },
- "t1701226": {
-  "id": "t1701226",
   "name": "Janet Vega",
   "schools": [
    "Southern California"
@@ -882,21 +949,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701226
+  "tabroom_id": 1697005,
+  "name_resolved": true
  },
- "t1522693": {
-  "id": "t1522693",
-  "name": "Kyle Draeger",
+ "t1701226": {
+  "id": "t1701226",
+  "name": "Alliana Sherie Huerto",
   "schools": [
-   "Kansas State"
+   "Southern California"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1522693
+  "tabroom_id": 1701226,
+  "name_resolved": true
  },
- "t1522697": {
-  "id": "t1522697",
+ "t1522693": {
+  "id": "t1522693",
   "name": "Cody Spurlock",
   "schools": [
    "Kansas State"
@@ -904,7 +973,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1522697
+  "tabroom_id": 1522693,
+  "name_resolved": true
+ },
+ "t1522697": {
+  "id": "t1522697",
+  "name": "Kyle Draeger",
+  "schools": [
+   "Kansas State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1522697,
+  "name_resolved": true
  },
  "t1352009": {
   "id": "t1352009",
@@ -916,7 +998,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1352009
+  "tabroom_id": 1352009,
+  "name_resolved": true
  },
  "t1702551": {
   "id": "t1702551",
@@ -928,7 +1011,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702551
+  "tabroom_id": 1702551,
+  "name_resolved": true
  },
  "t1709739": {
   "id": "t1709739",
@@ -939,7 +1023,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709739
+  "tabroom_id": 1709739,
+  "name_resolved": true
  },
  "t1709758": {
   "id": "t1709758",
@@ -950,21 +1035,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709758
+  "tabroom_id": 1709758,
+  "name_resolved": true
  },
  "t1467707": {
   "id": "t1467707",
-  "name": "Forest william Werner",
-  "schools": [
-   "Oklahoma"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1467707
- },
- "t1703390": {
-  "id": "t1703390",
   "name": "Luis Toro",
   "schools": [
    "Oklahoma"
@@ -972,21 +1047,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703390
+  "tabroom_id": 1467707,
+  "name_resolved": true
  },
- "t1624639": {
-  "id": "t1624639",
-  "name": "Aidyn Lewis",
+ "t1703390": {
+  "id": "t1703390",
+  "name": "Forest william Werner",
   "schools": [
-   "Kansas State"
+   "Oklahoma"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1624639
+  "tabroom_id": 1703390,
+  "name_resolved": true
  },
- "t1700305": {
-  "id": "t1700305",
+ "t1624639": {
+  "id": "t1624639",
   "name": "Ava Williamson",
   "schools": [
    "Kansas State"
@@ -994,21 +1071,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700305
+  "tabroom_id": 1624639,
+  "name_resolved": true
  },
- "t1404859": {
-  "id": "t1404859",
-  "name": "Simone Alcindor",
+ "t1700305": {
+  "id": "t1700305",
+  "name": "Aidyn Lewis",
   "schools": [
-   "Suffolk"
+   "Kansas State"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1404859
+  "tabroom_id": 1700305,
+  "name_resolved": true
  },
- "t1721741": {
-  "id": "t1721741",
+ "t1404859": {
+  "id": "t1404859",
   "name": "Juliette Ludka",
   "schools": [
    "Suffolk"
@@ -1016,7 +1095,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721741
+  "tabroom_id": 1404859,
+  "name_resolved": true
+ },
+ "t1721741": {
+  "id": "t1721741",
+  "name": "Simone Alcindor",
+  "schools": [
+   "Suffolk"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1721741,
+  "name_resolved": true
  },
  "t1221960": {
   "id": "t1221960",
@@ -1027,7 +1119,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1221960
+  "tabroom_id": 1221960,
+  "name_resolved": true
  },
  "t1529636": {
   "id": "t1529636",
@@ -1038,7 +1131,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1529636
+  "tabroom_id": 1529636,
+  "name_resolved": true
  },
  "t1371725": {
   "id": "t1371725",
@@ -1049,7 +1143,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1371725
+  "tabroom_id": 1371725,
+  "name_resolved": true
  },
  "t1542426": {
   "id": "t1542426",
@@ -1060,21 +1155,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1542426
+  "tabroom_id": 1542426,
+  "name_resolved": true
  },
  "t1546558": {
   "id": "t1546558",
-  "name": "Nina Darden",
-  "schools": [
-   "Towson"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1546558
- },
- "t1638806": {
-  "id": "t1638806",
   "name": "Felix Cruz",
   "schools": [
    "Towson"
@@ -1082,7 +1167,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1638806
+  "tabroom_id": 1546558,
+  "name_resolved": true
+ },
+ "t1638806": {
+  "id": "t1638806",
+  "name": "Nina Darden",
+  "schools": [
+   "Towson"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1638806,
+  "name_resolved": true
  },
  "t1723134": {
   "id": "t1723134",
@@ -1093,21 +1191,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1723134
+  "tabroom_id": 1723134,
+  "name_resolved": true
  },
  "t1530763": {
   "id": "t1530763",
-  "name": "James Newton",
-  "schools": [
-   "Johnson County Community"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1530763
- },
- "t1535319": {
-  "id": "t1535319",
   "name": "Isaac Palmer",
   "schools": [
    "Johnson County Community"
@@ -1115,7 +1203,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1535319
+  "tabroom_id": 1530763,
+  "name_resolved": true
+ },
+ "t1535319": {
+  "id": "t1535319",
+  "name": "James Newton",
+  "schools": [
+   "Johnson County Community"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1535319,
+  "name_resolved": true
  },
  "t1534809": {
   "id": "t1534809",
@@ -1126,18 +1227,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1534809
+  "tabroom_id": 1534809,
+  "name_resolved": true
  },
  "t1560514": {
   "id": "t1560514",
-  "name": "Marcy",
+  "name": "Sean Marcy",
   "schools": [
    "Cornell"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1560514
+  "tabroom_id": 1560514,
+  "name_resolved": true
  },
  "t1703940": {
   "id": "t1703940",
@@ -1159,18 +1262,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1549742
+  "tabroom_id": 1549742,
+  "name_resolved": true
  },
  "t1710061": {
   "id": "t1710061",
-  "name": "Quenten Erikson",
+  "name": "Dia Beri",
   "schools": [
    "West Point"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710061
+  "tabroom_id": 1710061,
+  "name_resolved": true
  },
  "t1526643": {
   "id": "t1526643",
@@ -1181,7 +1286,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526643
+  "tabroom_id": 1526643,
+  "name_resolved": true
  },
  "t1526651": {
   "id": "t1526651",
@@ -1192,7 +1298,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526651
+  "tabroom_id": 1526651,
+  "name_resolved": true
  },
  "t1363588": {
   "id": "t1363588",
@@ -1203,7 +1310,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363588
+  "tabroom_id": 1363588,
+  "name_resolved": true
  },
  "t1523064": {
   "id": "t1523064",
@@ -1214,7 +1322,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523064
+  "tabroom_id": 1523064,
+  "name_resolved": true
  },
  "t1661832": {
   "id": "t1661832",
@@ -1225,7 +1334,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1661832
+  "tabroom_id": 1661832,
+  "name_resolved": true
  },
  "t1704065": {
   "id": "t1704065",
@@ -1236,21 +1346,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1704065
+  "tabroom_id": 1704065,
+  "name_resolved": true
  },
  "t1218130": {
   "id": "t1218130",
-  "name": "Rose Larson",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1218130
- },
- "t1460447": {
-  "id": "t1460447",
   "name": "Luna Schultz",
   "schools": [
    "Kansas"
@@ -1258,21 +1358,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1460447
+  "tabroom_id": 1218130,
+  "name_resolved": true
  },
- "t1218770": {
-  "id": "t1218770",
-  "name": "Mike Li",
+ "t1460447": {
+  "id": "t1460447",
+  "name": "Rose Larson",
   "schools": [
-   "Northwestern"
+   "Kansas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218770
+  "tabroom_id": 1460447,
+  "name_resolved": true
  },
- "t1699032": {
-  "id": "t1699032",
+ "t1218770": {
+  "id": "t1218770",
   "name": "Veronica Rubin",
   "schools": [
    "Northwestern"
@@ -1280,7 +1382,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699032
+  "tabroom_id": 1218770,
+  "name_resolved": true
+ },
+ "t1699032": {
+  "id": "t1699032",
+  "name": "Mike Li",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1699032,
+  "name_resolved": true
  },
  "t1007759": {
   "id": "t1007759",
@@ -1291,7 +1406,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1007759
+  "tabroom_id": 1007759,
+  "name_resolved": true
  },
  "t1362513": {
   "id": "t1362513",
@@ -1302,21 +1418,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1362513
+  "tabroom_id": 1362513,
+  "name_resolved": true
  },
  "t1213219": {
   "id": "t1213219",
-  "name": "Arnav Aggarwal",
-  "schools": [
-   "Georgetown"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1213219
- },
- "t1698616": {
-  "id": "t1698616",
   "name": "Connelly Cowan",
   "schools": [
    "Georgetown"
@@ -1324,21 +1430,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698616
+  "tabroom_id": 1213219,
+  "name_resolved": true
  },
- "t1368163": {
-  "id": "t1368163",
-  "name": "Spencer Anderson McElligott",
+ "t1698616": {
+  "id": "t1698616",
+  "name": "Arnav Aggarwal",
   "schools": [
-   "Iowa"
+   "Georgetown"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1368163
+  "tabroom_id": 1698616,
+  "name_resolved": true
  },
- "t1368504": {
-  "id": "t1368504",
+ "t1368163": {
+  "id": "t1368163",
   "name": "Grey Parfenoff",
   "schools": [
    "Iowa"
@@ -1346,7 +1454,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1368504
+  "tabroom_id": 1368163,
+  "name_resolved": true
+ },
+ "t1368504": {
+  "id": "t1368504",
+  "name": "Spencer Anderson McElligott",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1368504,
+  "name_resolved": true
  },
  "t1207238": {
   "id": "t1207238",
@@ -1357,7 +1478,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1207238
+  "tabroom_id": 1207238,
+  "name_resolved": true
  },
  "t1510416": {
   "id": "t1510416",
@@ -1368,21 +1490,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1510416
+  "tabroom_id": 1510416,
+  "name_resolved": true
  },
  "t1203199": {
   "id": "t1203199",
-  "name": "Aaron Kim",
-  "schools": [
-   "Emory"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1203199
- },
- "t1203202": {
-  "id": "t1203202",
   "name": "Jared Shirts",
   "schools": [
    "Emory"
@@ -1390,21 +1502,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1203202
+  "tabroom_id": 1203199,
+  "name_resolved": true
  },
- "t1296843": {
-  "id": "t1296843",
-  "name": "Owen Owings",
+ "t1203202": {
+  "id": "t1203202",
+  "name": "Aaron Kim",
   "schools": [
-   "Kansas"
+   "Emory"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1296843
+  "tabroom_id": 1203202,
+  "name_resolved": true
  },
- "t1328426": {
-  "id": "t1328426",
+ "t1296843": {
+  "id": "t1296843",
   "name": "Zach Willingham",
   "schools": [
    "Kansas"
@@ -1412,7 +1526,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1328426
+  "tabroom_id": 1296843,
+  "name_resolved": true
+ },
+ "t1328426": {
+  "id": "t1328426",
+  "name": "Owen Owings",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1328426,
+  "name_resolved": true
  },
  "t1563202": {
   "id": "t1563202",
@@ -1423,32 +1550,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1563202
+  "tabroom_id": 1563202,
+  "name_resolved": true
  },
  "t1563203": {
   "id": "t1563203",
-  "name": "Kevin Lai",
+  "name": "Devin Lai",
   "schools": [
    "Stanford"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1563203
+  "tabroom_id": 1563203,
+  "name_resolved": true
  },
  "t1214067": {
   "id": "t1214067",
-  "name": "Avi Shah",
-  "schools": [
-   "Michigan"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1214067
- },
- "t1526646": {
-  "id": "t1526646",
   "name": "Conner Shih",
   "schools": [
    "Michigan"
@@ -1456,7 +1574,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526646
+  "tabroom_id": 1214067,
+  "name_resolved": true
+ },
+ "t1526646": {
+  "id": "t1526646",
+  "name": "Avi Shah",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1526646,
+  "name_resolved": true
  },
  "t1330783": {
   "id": "t1330783",
@@ -1467,7 +1598,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1330783
+  "tabroom_id": 1330783,
+  "name_resolved": true
  },
  "t1531168": {
   "id": "t1531168",
@@ -1478,7 +1610,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531168
+  "tabroom_id": 1531168,
+  "name_resolved": true
  },
  "t1220380": {
   "id": "t1220380",
@@ -1489,7 +1622,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1220380
+  "tabroom_id": 1220380,
+  "name_resolved": true
  },
  "t1365821": {
   "id": "t1365821",
@@ -1500,21 +1634,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1365821
+  "tabroom_id": 1365821,
+  "name_resolved": true
  },
  "t1155548": {
   "id": "t1155548",
-  "name": "Lucas Lobo",
-  "schools": [
-   "Emory"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1155548
- },
- "t1203198": {
-  "id": "t1203198",
   "name": "Coralynn Yang",
   "schools": [
    "Emory"
@@ -1522,7 +1646,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1203198
+  "tabroom_id": 1155548,
+  "name_resolved": true
+ },
+ "t1203198": {
+  "id": "t1203198",
+  "name": "Lucas Lobo",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1203198,
+  "name_resolved": true
  },
  "t1211961": {
   "id": "t1211961",
@@ -1533,7 +1670,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1211961
+  "tabroom_id": 1211961,
+  "name_resolved": true
  },
  "t1524553": {
   "id": "t1524553",
@@ -1544,7 +1682,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1524553
+  "tabroom_id": 1524553,
+  "name_resolved": true
  },
  "t1358942": {
   "id": "t1358942",
@@ -1555,7 +1694,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1358942
+  "tabroom_id": 1358942,
+  "name_resolved": true
  },
  "t1523179": {
   "id": "t1523179",
@@ -1566,7 +1706,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523179
+  "tabroom_id": 1523179,
+  "name_resolved": true
  },
  "t1358078": {
   "id": "t1358078",
@@ -1577,7 +1718,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1358078
+  "tabroom_id": 1358078,
+  "name_resolved": true
  },
  "t1689370": {
   "id": "t1689370",
@@ -1588,7 +1730,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1689370
+  "tabroom_id": 1689370,
+  "name_resolved": true
  },
  "t1362512": {
   "id": "t1362512",
@@ -1599,7 +1742,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1362512
+  "tabroom_id": 1362512,
+  "name_resolved": true
  },
  "t1676880": {
   "id": "t1676880",
@@ -1610,21 +1754,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1676880
+  "tabroom_id": 1676880,
+  "name_resolved": true
  },
  "t1370336": {
   "id": "t1370336",
-  "name": "Kate'Lynn Shaw",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1370336
- },
- "t1701834": {
-  "id": "t1701834",
   "name": "Nargis Suleman",
   "schools": [
    "Kansas"
@@ -1632,7 +1766,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701834
+  "tabroom_id": 1370336,
+  "name_resolved": true
+ },
+ "t1701834": {
+  "id": "t1701834",
+  "name": "Kate'Lynn Shaw",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1701834,
+  "name_resolved": true
  },
  "t1526645": {
   "id": "t1526645",
@@ -1643,7 +1790,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526645
+  "tabroom_id": 1526645,
+  "name_resolved": true
  },
  "t1526647": {
   "id": "t1526647",
@@ -1654,7 +1802,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526647
+  "tabroom_id": 1526647,
+  "name_resolved": true
  },
  "t1699033": {
   "id": "t1699033",
@@ -1665,7 +1814,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699033
+  "tabroom_id": 1699033,
+  "name_resolved": true
  },
  "t1699034": {
   "id": "t1699034",
@@ -1676,7 +1826,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699034
+  "tabroom_id": 1699034,
+  "name_resolved": true
  },
  "t1359023": {
   "id": "t1359023",
@@ -1687,7 +1838,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1359023
+  "tabroom_id": 1359023,
+  "name_resolved": true
  },
  "t1705863": {
   "id": "t1705863",
@@ -1698,21 +1850,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705863
+  "tabroom_id": 1705863,
+  "name_resolved": true
  },
  "t1526652": {
   "id": "t1526652",
-  "name": "Sebastian Cho",
-  "schools": [
-   "Michigan"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1526652
- },
- "t1699225": {
-  "id": "t1699225",
   "name": "Ben Saudek",
   "schools": [
    "Michigan"
@@ -1720,7 +1862,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699225
+  "tabroom_id": 1526652,
+  "name_resolved": true
+ },
+ "t1699225": {
+  "id": "t1699225",
+  "name": "Sebastian Cho",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1699225,
+  "name_resolved": true
  },
  "t1533582": {
   "id": "t1533582",
@@ -1731,7 +1886,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1533582
+  "tabroom_id": 1533582,
+  "name_resolved": true
  },
  "t1533583": {
   "id": "t1533583",
@@ -1742,7 +1898,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1533583
+  "tabroom_id": 1533583,
+  "name_resolved": true
  },
  "t1217779": {
   "id": "t1217779",
@@ -1753,7 +1910,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1217779
+  "tabroom_id": 1217779,
+  "name_resolved": true
  },
  "t1217782": {
   "id": "t1217782",
@@ -1764,7 +1922,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1217782
+  "tabroom_id": 1217782,
+  "name_resolved": true
  },
  "t1203196": {
   "id": "t1203196",
@@ -1775,7 +1934,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1203196
+  "tabroom_id": 1203196,
+  "name_resolved": true
  },
  "t1523067": {
   "id": "t1523067",
@@ -1786,7 +1946,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523067
+  "tabroom_id": 1523067,
+  "name_resolved": true
  },
  "t1213466": {
   "id": "t1213466",
@@ -1797,7 +1958,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1213466
+  "tabroom_id": 1213466,
+  "name_resolved": true
  },
  "t1366891": {
   "id": "t1366891",
@@ -1808,7 +1970,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1366891
+  "tabroom_id": 1366891,
+  "name_resolved": true
  },
  "t1091407": {
   "id": "t1091407",
@@ -1819,7 +1982,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1091407
+  "tabroom_id": 1091407,
+  "name_resolved": true
  },
  "t1668182": {
   "id": "t1668182",
@@ -1830,7 +1994,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1668182
+  "tabroom_id": 1668182,
+  "name_resolved": true
  },
  "t1357120": {
   "id": "t1357120",
@@ -1841,7 +2006,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1357120
+  "tabroom_id": 1357120,
+  "name_resolved": true
  },
  "t1369527": {
   "id": "t1369527",
@@ -1852,7 +2018,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1369527
+  "tabroom_id": 1369527,
+  "name_resolved": true
  },
  "t1286240": {
   "id": "t1286240",
@@ -1863,7 +2030,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1286240
+  "tabroom_id": 1286240,
+  "name_resolved": true
  },
  "t1286241": {
   "id": "t1286241",
@@ -1874,7 +2042,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1286241
+  "tabroom_id": 1286241,
+  "name_resolved": true
  },
  "t1542698": {
   "id": "t1542698",
@@ -1885,7 +2054,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1542698
+  "tabroom_id": 1542698,
+  "name_resolved": true
  },
  "t1699031": {
   "id": "t1699031",
@@ -1896,7 +2066,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699031
+  "tabroom_id": 1699031,
+  "name_resolved": true
  },
  "t1703359": {
   "id": "t1703359",
@@ -1907,7 +2078,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703359
+  "tabroom_id": 1703359,
+  "name_resolved": true
  },
  "t1703363": {
   "id": "t1703363",
@@ -1918,7 +2090,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703363
+  "tabroom_id": 1703363,
+  "name_resolved": true
  },
  "t1525363": {
   "id": "t1525363",
@@ -1929,7 +2102,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525363
+  "tabroom_id": 1525363,
+  "name_resolved": true
  },
  "t1700069": {
   "id": "t1700069",
@@ -1940,7 +2114,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700069
+  "tabroom_id": 1700069,
+  "name_resolved": true
  },
  "t1212792": {
   "id": "t1212792",
@@ -1951,7 +2126,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1212792
+  "tabroom_id": 1212792,
+  "name_resolved": true
  },
  "t1558764": {
   "id": "t1558764",
@@ -1962,7 +2138,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1558764
+  "tabroom_id": 1558764,
+  "name_resolved": true
  },
  "t1510475": {
   "id": "t1510475",
@@ -1973,7 +2150,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1510475
+  "tabroom_id": 1510475,
+  "name_resolved": true
  },
  "t1680822": {
   "id": "t1680822",
@@ -1984,7 +2162,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1680822
+  "tabroom_id": 1680822,
+  "name_resolved": true
  },
  "t1705401": {
   "id": "t1705401",
@@ -1995,7 +2174,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705401
+  "tabroom_id": 1705401,
+  "name_resolved": true
  },
  "t1705459": {
   "id": "t1705459",
@@ -2006,7 +2186,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705459
+  "tabroom_id": 1705459,
+  "name_resolved": true
  },
  "t1218752": {
   "id": "t1218752",
@@ -2017,7 +2198,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218752
+  "tabroom_id": 1218752,
+  "name_resolved": true
  },
  "t1699038": {
   "id": "t1699038",
@@ -2028,7 +2210,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699038
+  "tabroom_id": 1699038,
+  "name_resolved": true
  },
  "t1530877": {
   "id": "t1530877",
@@ -2039,7 +2222,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1530877
+  "tabroom_id": 1530877,
+  "name_resolved": true
  },
  "t1703384": {
   "id": "t1703384",
@@ -2050,7 +2234,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703384
+  "tabroom_id": 1703384,
+  "name_resolved": true
  },
  "t1380266": {
   "id": "t1380266",
@@ -2061,7 +2246,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1380266
+  "tabroom_id": 1380266,
+  "name_resolved": true
  },
  "t1699027": {
   "id": "t1699027",
@@ -2072,7 +2258,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699027
+  "tabroom_id": 1699027,
+  "name_resolved": true
  },
  "t1373204": {
   "id": "t1373204",
@@ -2083,7 +2270,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1373204
+  "tabroom_id": 1373204,
+  "name_resolved": true
  },
  "t1703352": {
   "id": "t1703352",
@@ -2094,7 +2282,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703352
+  "tabroom_id": 1703352,
+  "name_resolved": true
  },
  "t1701010": {
   "id": "t1701010",
@@ -2105,7 +2294,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701010
+  "tabroom_id": 1701010,
+  "name_resolved": true
  },
  "t1701016": {
   "id": "t1701016",
@@ -2116,7 +2306,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701016
+  "tabroom_id": 1701016,
+  "name_resolved": true
  },
  "t1367957": {
   "id": "t1367957",
@@ -2127,7 +2318,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1367957
+  "tabroom_id": 1367957,
+  "name_resolved": true
  },
  "t1698618": {
   "id": "t1698618",
@@ -2138,7 +2330,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698618
+  "tabroom_id": 1698618,
+  "name_resolved": true
  },
  "t1523094": {
   "id": "t1523094",
@@ -2149,7 +2342,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523094
+  "tabroom_id": 1523094,
+  "name_resolved": true
  },
  "t1700992": {
   "id": "t1700992",
@@ -2160,7 +2354,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700992
+  "tabroom_id": 1700992,
+  "name_resolved": true
  },
  "t1364821": {
   "id": "t1364821",
@@ -2171,21 +2366,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1364821
+  "tabroom_id": 1364821,
+  "name_resolved": true
  },
  "t1525579": {
   "id": "t1525579",
-  "name": "Ben Kleiman",
-  "schools": [
-   "Iowa"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1525579
- },
- "t1525621": {
-  "id": "t1525621",
   "name": "Lily Severson",
   "schools": [
    "Iowa"
@@ -2193,7 +2378,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525621
+  "tabroom_id": 1525579,
+  "name_resolved": true
+ },
+ "t1525621": {
+  "id": "t1525621",
+  "name": "Ben Kleiman",
+  "schools": [
+   "Iowa"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1525621,
+  "name_resolved": true
  },
  "t1542699": {
   "id": "t1542699",
@@ -2204,7 +2402,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1542699
+  "tabroom_id": 1542699,
+  "name_resolved": true
  },
  "t1699028": {
   "id": "t1699028",
@@ -2215,7 +2414,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699028
+  "tabroom_id": 1699028,
+  "name_resolved": true
  },
  "t1703367": {
   "id": "t1703367",
@@ -2226,7 +2426,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703367
+  "tabroom_id": 1703367,
+  "name_resolved": true
  },
  "t1703368": {
   "id": "t1703368",
@@ -2237,7 +2438,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703368
+  "tabroom_id": 1703368,
+  "name_resolved": true
  },
  "t1352034": {
   "id": "t1352034",
@@ -2248,7 +2450,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1352034
+  "tabroom_id": 1352034,
+  "name_resolved": true
  },
  "t1362993": {
   "id": "t1362993",
@@ -2259,7 +2462,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1362993
+  "tabroom_id": 1362993,
+  "name_resolved": true
  },
  "t1697322": {
   "id": "t1697322",
@@ -2270,7 +2474,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697322
+  "tabroom_id": 1697322,
+  "name_resolved": true
  },
  "t1697325": {
   "id": "t1697325",
@@ -2281,21 +2486,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697325
+  "tabroom_id": 1697325,
+  "name_resolved": true
  },
  "t1524618": {
   "id": "t1524618",
-  "name": "Kadence-Amari Gibson",
-  "schools": [
-   "Gonzaga"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1524618
- },
- "t1682693": {
-  "id": "t1682693",
   "name": "Dash Weinhardt",
   "schools": [
    "Gonzaga"
@@ -2303,21 +2498,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1682693
+  "tabroom_id": 1524618,
+  "name_resolved": true
  },
- "t1207012": {
-  "id": "t1207012",
-  "name": "Charlie Hale",
+ "t1682693": {
+  "id": "t1682693",
+  "name": "Kadence-Amari Gibson",
   "schools": [
-   "UTD"
+   "Gonzaga"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1207012
+  "tabroom_id": 1682693,
+  "name_resolved": true
  },
- "t1523178": {
-  "id": "t1523178",
+ "t1207012": {
+  "id": "t1207012",
   "name": "Mahintha Karthik",
   "schools": [
    "UTD"
@@ -2325,21 +2522,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523178
+  "tabroom_id": 1207012,
+  "name_resolved": true
  },
- "t1695665": {
-  "id": "t1695665",
-  "name": "Vaden Kumar",
+ "t1523178": {
+  "id": "t1523178",
+  "name": "Charlie Hale",
   "schools": [
-   "Western Kentucky"
+   "UTD"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1695665
+  "tabroom_id": 1523178,
+  "name_resolved": true
  },
- "t1695666": {
-  "id": "t1695666",
+ "t1695665": {
+  "id": "t1695665",
   "name": "Riley Ney",
   "schools": [
    "Western Kentucky"
@@ -2347,21 +2546,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1695666
+  "tabroom_id": 1695665,
+  "name_resolved": true
  },
- "t1358955": {
-  "id": "t1358955",
-  "name": "Jessica Dickey",
+ "t1695666": {
+  "id": "t1695666",
+  "name": "Vaden Kumar",
   "schools": [
-   "UTD"
+   "Western Kentucky"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1358955
+  "tabroom_id": 1695666,
+  "name_resolved": true
  },
- "t1676277": {
-  "id": "t1676277",
+ "t1358955": {
+  "id": "t1358955",
   "name": "Joseph-Charles D'Antuono",
   "schools": [
    "UTD"
@@ -2369,7 +2570,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1676277
+  "tabroom_id": 1358955,
+  "name_resolved": true
+ },
+ "t1676277": {
+  "id": "t1676277",
+  "name": "Jessica Dickey",
+  "schools": [
+   "UTD"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1676277,
+  "name_resolved": true
  },
  "t1368160": {
   "id": "t1368160",
@@ -2380,7 +2594,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1368160
+  "tabroom_id": 1368160,
+  "name_resolved": true
  },
  "t1525620": {
   "id": "t1525620",
@@ -2391,7 +2606,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525620
+  "tabroom_id": 1525620,
+  "name_resolved": true
  },
  "t1526981": {
   "id": "t1526981",
@@ -2404,7 +2620,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526981
+  "tabroom_id": 1526981,
+  "name_resolved": true
  },
  "t1703919": {
   "id": "t1703919",
@@ -2416,21 +2633,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703919
+  "tabroom_id": 1703919,
+  "name_resolved": true
  },
  "t1697800": {
   "id": "t1697800",
-  "name": "Ademoreoluwa Aderibigbe",
-  "schools": [
-   "Wake Forest"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1697800
- },
- "t1700053": {
-  "id": "t1700053",
   "name": "Jordan Brown",
   "schools": [
    "Wake Forest"
@@ -2438,7 +2645,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700053
+  "tabroom_id": 1697800,
+  "name_resolved": true
+ },
+ "t1700053": {
+  "id": "t1700053",
+  "name": "Ademoreoluwa Aderibigbe",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1700053,
+  "name_resolved": true
  },
  "t1712382": {
   "id": "t1712382",
@@ -2449,7 +2669,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1712382
+  "tabroom_id": 1712382,
+  "name_resolved": true
  },
  "t1712397": {
   "id": "t1712397",
@@ -2460,21 +2681,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1712397
+  "tabroom_id": 1712397,
+  "name_resolved": true
  },
  "t1233316": {
   "id": "t1233316",
-  "name": "Anuj Jain",
-  "schools": [
-   "NYU"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1233316
- },
- "t1318067": {
-  "id": "t1318067",
   "name": "Callum Theiding",
   "schools": [
    "NYU"
@@ -2482,21 +2693,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1318067
+  "tabroom_id": 1233316,
+  "name_resolved": true
  },
- "t1231489": {
-  "id": "t1231489",
-  "name": "Carson Bath",
+ "t1318067": {
+  "id": "t1318067",
+  "name": "Anuj Jain",
   "schools": [
-   "Kansas"
+   "NYU"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1231489
+  "tabroom_id": 1318067,
+  "name_resolved": true
  },
- "t1531083": {
-  "id": "t1531083",
+ "t1231489": {
+  "id": "t1231489",
   "name": "Sean McConnell",
   "schools": [
    "Kansas"
@@ -2504,21 +2717,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531083
+  "tabroom_id": 1231489,
+  "name_resolved": true
  },
- "t1676278": {
-  "id": "t1676278",
-  "name": "Isaac Hoch",
+ "t1531083": {
+  "id": "t1531083",
+  "name": "Carson Bath",
   "schools": [
-   "UTD"
+   "Kansas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1676278
+  "tabroom_id": 1531083,
+  "name_resolved": true
  },
- "t1676279": {
-  "id": "t1676279",
+ "t1676278": {
+  "id": "t1676278",
   "name": "Adam Humphrey",
   "schools": [
    "UTD"
@@ -2526,7 +2741,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1676279
+  "tabroom_id": 1676278,
+  "name_resolved": true
+ },
+ "t1676279": {
+  "id": "t1676279",
+  "name": "Isaac Hoch",
+  "schools": [
+   "UTD"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1676279,
+  "name_resolved": true
  },
  "t1529458": {
   "id": "t1529458",
@@ -2537,7 +2765,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1529458
+  "tabroom_id": 1529458,
+  "name_resolved": true
  },
  "t1529469": {
   "id": "t1529469",
@@ -2548,21 +2777,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1529469
+  "tabroom_id": 1529469,
+  "name_resolved": true
  },
  "t1530865": {
   "id": "t1530865",
-  "name": "Judah Jones",
-  "schools": [
-   "Dartmouth"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1530865
- },
- "t1530882": {
-  "id": "t1530882",
   "name": "Sebastian Rao",
   "schools": [
    "Dartmouth"
@@ -2570,21 +2789,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1530882
+  "tabroom_id": 1530865,
+  "name_resolved": true
  },
- "t1214251": {
-  "id": "t1214251",
-  "name": "Lenox Leverett",
+ "t1530882": {
+  "id": "t1530882",
+  "name": "Judah Jones",
   "schools": [
-   "Wake Forest"
+   "Dartmouth"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1214251
+  "tabroom_id": 1530882,
+  "name_resolved": true
  },
- "t1525364": {
-  "id": "t1525364",
+ "t1214251": {
+  "id": "t1214251",
   "name": "Cole Wolfe",
   "schools": [
    "Wake Forest"
@@ -2592,21 +2813,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525364
+  "tabroom_id": 1214251,
+  "name_resolved": true
  },
- "t1523041": {
-  "id": "t1523041",
-  "name": "Sanjith Geevarghese",
+ "t1525364": {
+  "id": "t1525364",
+  "name": "Lenox Leverett",
   "schools": [
-   "Emory"
+   "Wake Forest"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523041
+  "tabroom_id": 1525364,
+  "name_resolved": true
  },
- "t1523066": {
-  "id": "t1523066",
+ "t1523041": {
+  "id": "t1523041",
   "name": "Raleigh Maxwell",
   "schools": [
    "Emory"
@@ -2614,7 +2837,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523066
+  "tabroom_id": 1523041,
+  "name_resolved": true
+ },
+ "t1523066": {
+  "id": "t1523066",
+  "name": "Sanjith Geevarghese",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1523066,
+  "name_resolved": true
  },
  "t1366067": {
   "id": "t1366067",
@@ -2625,7 +2861,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1366067
+  "tabroom_id": 1366067,
+  "name_resolved": true
  },
  "t1668184": {
   "id": "t1668184",
@@ -2636,7 +2873,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1668184
+  "tabroom_id": 1668184,
+  "name_resolved": true
  },
  "t1460250": {
   "id": "t1460250",
@@ -2647,7 +2885,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1460250
+  "tabroom_id": 1460250,
+  "name_resolved": true
  },
  "t1559303": {
   "id": "t1559303",
@@ -2658,7 +2897,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1559303
+  "tabroom_id": 1559303,
+  "name_resolved": true
  },
  "t1227909": {
   "id": "t1227909",
@@ -2669,7 +2909,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1227909
+  "tabroom_id": 1227909,
+  "name_resolved": true
  },
  "t1394540": {
   "id": "t1394540",
@@ -2680,7 +2921,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1394540
+  "tabroom_id": 1394540,
+  "name_resolved": true
  },
  "t1703369": {
   "id": "t1703369",
@@ -2691,7 +2933,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703369
+  "tabroom_id": 1703369,
+  "name_resolved": true
  },
  "t1703371": {
   "id": "t1703371",
@@ -2702,21 +2945,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703371
+  "tabroom_id": 1703371,
+  "name_resolved": true
  },
  "t1530016": {
   "id": "t1530016",
-  "name": "Henry Walawender",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1530016
- },
- "t1530017": {
-  "id": "t1530017",
   "name": "Connor Brown",
   "schools": [
    "Kansas"
@@ -2724,21 +2957,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1530017
+  "tabroom_id": 1530016,
+  "name_resolved": true
  },
- "t1242639": {
-  "id": "t1242639",
-  "name": "Truman Connor",
+ "t1530017": {
+  "id": "t1530017",
+  "name": "Henry Walawender",
   "schools": [
-   "Navy"
+   "Kansas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1242639
+  "tabroom_id": 1530017,
+  "name_resolved": true
  },
- "t1362323": {
-  "id": "t1362323",
+ "t1242639": {
+  "id": "t1242639",
   "name": "Armen Rea",
   "schools": [
    "Navy"
@@ -2746,7 +2981,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1362323
+  "tabroom_id": 1242639,
+  "name_resolved": true
+ },
+ "t1362323": {
+  "id": "t1362323",
+  "name": "Truman Connor",
+  "schools": [
+   "Navy"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1362323,
+  "name_resolved": true
  },
  "t1528652": {
   "id": "t1528652",
@@ -2757,7 +3005,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528652
+  "tabroom_id": 1528652,
+  "name_resolved": true
  },
  "t1712653": {
   "id": "t1712653",
@@ -2769,7 +3018,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1712653
+  "tabroom_id": 1712653,
+  "name_resolved": true
  },
  "t1703358": {
   "id": "t1703358",
@@ -2780,7 +3030,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703358
+  "tabroom_id": 1703358,
+  "name_resolved": true
  },
  "t1703366": {
   "id": "t1703366",
@@ -2791,21 +3042,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703366
+  "tabroom_id": 1703366,
+  "name_resolved": true
  },
  "t1697989": {
   "id": "t1697989",
-  "name": "Zoe Cannon",
-  "schools": [
-   "Georgia"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1697989
- },
- "t1697993": {
-  "id": "t1697993",
   "name": "Laurel Pack",
   "schools": [
    "Georgia"
@@ -2813,7 +3054,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697993
+  "tabroom_id": 1697989,
+  "name_resolved": true
+ },
+ "t1697993": {
+  "id": "t1697993",
+  "name": "Zoe Cannon",
+  "schools": [
+   "Georgia"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1697993,
+  "name_resolved": true
  },
  "t1454911": {
   "id": "t1454911",
@@ -2824,7 +3078,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1454911
+  "tabroom_id": 1454911,
+  "name_resolved": true
  },
  "t1532706": {
   "id": "t1532706",
@@ -2835,7 +3090,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1532706
+  "tabroom_id": 1532706,
+  "name_resolved": true
  },
  "t1699220": {
   "id": "t1699220",
@@ -2846,7 +3102,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699220
+  "tabroom_id": 1699220,
+  "name_resolved": true
  },
  "t1699221": {
   "id": "t1699221",
@@ -2857,7 +3114,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699221
+  "tabroom_id": 1699221,
+  "name_resolved": true
  },
  "t1372208": {
   "id": "t1372208",
@@ -2868,7 +3126,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1372208
+  "tabroom_id": 1372208,
+  "name_resolved": true
  },
  "t1531167": {
   "id": "t1531167",
@@ -2879,7 +3138,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531167
+  "tabroom_id": 1531167,
+  "name_resolved": true
  },
  "t1531102": {
   "id": "t1531102",
@@ -2890,7 +3150,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531102
+  "tabroom_id": 1531102,
+  "name_resolved": true
  },
  "t1701835": {
   "id": "t1701835",
@@ -2901,7 +3162,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701835
+  "tabroom_id": 1701835,
+  "name_resolved": true
  },
  "t1524554": {
   "id": "t1524554",
@@ -2912,7 +3174,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1524554
+  "tabroom_id": 1524554,
+  "name_resolved": true
  },
  "t1662071": {
   "id": "t1662071",
@@ -2923,7 +3186,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1662071
+  "tabroom_id": 1662071,
+  "name_resolved": true
  },
  "t1361337": {
   "id": "t1361337",
@@ -2934,7 +3198,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1361337
+  "tabroom_id": 1361337,
+  "name_resolved": true
  },
  "t1367477": {
   "id": "t1367477",
@@ -2945,21 +3210,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1367477
+  "tabroom_id": 1367477,
+  "name_resolved": true
  },
  "t1526644": {
   "id": "t1526644",
-  "name": "William Agustin",
-  "schools": [
-   "Michigan"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1526644
- },
- "t1526650": {
-  "id": "t1526650",
   "name": "Robert Ou",
   "schools": [
    "Michigan"
@@ -2967,7 +3222,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526650
+  "tabroom_id": 1526644,
+  "name_resolved": true
+ },
+ "t1526650": {
+  "id": "t1526650",
+  "name": "William Agustin",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1526650,
+  "name_resolved": true
  },
  "t1132899": {
   "id": "t1132899",
@@ -2979,7 +3247,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1132899
+  "tabroom_id": 1132899,
+  "name_resolved": true
  },
  "t1352014": {
   "id": "t1352014",
@@ -2991,21 +3260,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1352014
+  "tabroom_id": 1352014,
+  "name_resolved": true
  },
  "t1697995": {
   "id": "t1697995",
-  "name": "Ida Chapman",
-  "schools": [
-   "Georgia"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1697995
- },
- "t1701999": {
-  "id": "t1701999",
   "name": "Eshkar Kaidar-Heafetz",
   "schools": [
    "Georgia"
@@ -3013,21 +3272,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701999
+  "tabroom_id": 1697995,
+  "name_resolved": true
  },
- "t1522141": {
-  "id": "t1522141",
-  "name": "Jace Raines",
+ "t1701999": {
+  "id": "t1701999",
+  "name": "Ida Chapman",
   "schools": [
-   "Kansas State"
+   "Georgia"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1522141
+  "tabroom_id": 1701999,
+  "name_resolved": true
  },
- "t1699127": {
-  "id": "t1699127",
+ "t1522141": {
+  "id": "t1522141",
   "name": "Taryn Day",
   "schools": [
    "Kansas State"
@@ -3035,21 +3296,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699127
+  "tabroom_id": 1522141,
+  "name_resolved": true
  },
- "t1716471": {
-  "id": "t1716471",
-  "name": "Michi Synn",
+ "t1699127": {
+  "id": "t1699127",
+  "name": "Jace Raines",
   "schools": [
-   "Harvard"
+   "Kansas State"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1716471
+  "tabroom_id": 1699127,
+  "name_resolved": true
  },
- "t1716472": {
-  "id": "t1716472",
+ "t1716471": {
+  "id": "t1716471",
   "name": "Andrew Jin",
   "schools": [
    "Harvard"
@@ -3057,21 +3320,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1716472
+  "tabroom_id": 1716471,
+  "name_resolved": true
  },
- "t1699029": {
-  "id": "t1699029",
-  "name": "Nathan Heftman",
+ "t1716472": {
+  "id": "t1716472",
+  "name": "Michi Synn",
   "schools": [
-   "Northwestern"
+   "Harvard"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699029
+  "tabroom_id": 1716472,
+  "name_resolved": true
  },
- "t1699037": {
-  "id": "t1699037",
+ "t1699029": {
+  "id": "t1699029",
   "name": "Nathan Peltier",
   "schools": [
    "Northwestern"
@@ -3079,7 +3344,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699037
+  "tabroom_id": 1699029,
+  "name_resolved": true
+ },
+ "t1699037": {
+  "id": "t1699037",
+  "name": "Nathan Heftman",
+  "schools": [
+   "Northwestern"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1699037,
+  "name_resolved": true
  },
  "t1697804": {
   "id": "t1697804",
@@ -3090,7 +3368,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697804
+  "tabroom_id": 1697804,
+  "name_resolved": true
  },
  "t1697806": {
   "id": "t1697806",
@@ -3101,7 +3380,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697806
+  "tabroom_id": 1697806,
+  "name_resolved": true
  },
  "t1525912": {
   "id": "t1525912",
@@ -3112,7 +3392,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525912
+  "tabroom_id": 1525912,
+  "name_resolved": true
  },
  "t1526864": {
   "id": "t1526864",
@@ -3123,7 +3404,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526864
+  "tabroom_id": 1526864,
+  "name_resolved": true
  },
  "t1522295": {
   "id": "t1522295",
@@ -3134,7 +3416,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1522295
+  "tabroom_id": 1522295,
+  "name_resolved": true
  },
  "t1525913": {
   "id": "t1525913",
@@ -3145,7 +3428,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1525913
+  "tabroom_id": 1525913,
+  "name_resolved": true
  },
  "t1695454": {
   "id": "t1695454",
@@ -3156,7 +3440,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1695454
+  "tabroom_id": 1695454,
+  "name_resolved": true
  },
  "t1212645": {
   "id": "t1212645",
@@ -3167,7 +3452,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1212645
+  "tabroom_id": 1212645,
+  "name_resolved": true
  },
  "t1544710": {
   "id": "t1544710",
@@ -3178,7 +3464,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1544710
+  "tabroom_id": 1544710,
+  "name_resolved": true
  },
  "t1698621": {
   "id": "t1698621",
@@ -3189,7 +3476,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698621
+  "tabroom_id": 1698621,
+  "name_resolved": true
  },
  "t1698623": {
   "id": "t1698623",
@@ -3200,21 +3488,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698623
+  "tabroom_id": 1698623,
+  "name_resolved": true
  },
  "t1716499": {
   "id": "t1716499",
-  "name": "Dora Chen",
-  "schools": [
-   "Harvard"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1716499
- },
- "t1716511": {
-  "id": "t1716511",
   "name": "Mirei Saneyoshi",
   "schools": [
    "Harvard"
@@ -3222,21 +3500,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1716511
+  "tabroom_id": 1716499,
+  "name_resolved": true
  },
- "t1368560": {
-  "id": "t1368560",
-  "name": "Bashir Eltyeb",
+ "t1716511": {
+  "id": "t1716511",
+  "name": "Dora Chen",
   "schools": [
-   "Iowa"
+   "Harvard"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1368560
+  "tabroom_id": 1716511,
+  "name_resolved": true
  },
- "t1696448": {
-  "id": "t1696448",
+ "t1368560": {
+  "id": "t1368560",
   "name": "Nathan Weimar",
   "schools": [
    "Iowa"
@@ -3244,21 +3524,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1696448
+  "tabroom_id": 1368560,
+  "name_resolved": true
  },
- "t1523177": {
-  "id": "t1523177",
-  "name": "Theo Khakoo",
+ "t1696448": {
+  "id": "t1696448",
+  "name": "Bashir Eltyeb",
   "schools": [
-   "UTD"
+   "Iowa"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523177
+  "tabroom_id": 1696448,
+  "name_resolved": true
  },
- "t1714065": {
-  "id": "t1714065",
+ "t1523177": {
+  "id": "t1523177",
   "name": "Robert Underwood",
   "schools": [
    "UTD"
@@ -3266,7 +3548,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1714065
+  "tabroom_id": 1523177,
+  "name_resolved": true
+ },
+ "t1714065": {
+  "id": "t1714065",
+  "name": "Theo Khakoo",
+  "schools": [
+   "UTD"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1714065,
+  "name_resolved": true
  },
  "t1709767": {
   "id": "t1709767",
@@ -3277,7 +3572,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709767
+  "tabroom_id": 1709767,
+  "name_resolved": true
  },
  "t1709769": {
   "id": "t1709769",
@@ -3288,7 +3584,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709769
+  "tabroom_id": 1709769,
+  "name_resolved": true
  },
  "t1376406": {
   "id": "t1376406",
@@ -3299,7 +3596,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1376406
+  "tabroom_id": 1376406,
+  "name_resolved": true
  },
  "t1622079": {
   "id": "t1622079",
@@ -3310,7 +3608,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1622079
+  "tabroom_id": 1622079,
+  "name_resolved": true
  },
  "t1709751": {
   "id": "t1709751",
@@ -3321,7 +3620,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709751
+  "tabroom_id": 1709751,
+  "name_resolved": true
  },
  "t1709754": {
   "id": "t1709754",
@@ -3332,7 +3632,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709754
+  "tabroom_id": 1709754,
+  "name_resolved": true
  },
  "t1701057": {
   "id": "t1701057",
@@ -3343,7 +3644,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701057
+  "tabroom_id": 1701057,
+  "name_resolved": true
  },
  "t1701502": {
   "id": "t1701502",
@@ -3354,7 +3656,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701502
+  "tabroom_id": 1701502,
+  "name_resolved": true
  },
  "t1082386": {
   "id": "t1082386",
@@ -3365,7 +3668,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1082386
+  "tabroom_id": 1082386,
+  "name_resolved": true
  },
  "t1704157": {
   "id": "t1704157",
@@ -3376,21 +3680,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1704157
+  "tabroom_id": 1704157,
+  "name_resolved": true
  },
  "t1215337": {
   "id": "t1215337",
-  "name": "Zackhery Facey",
-  "schools": [
-   "Harvard"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1215337
- },
- "t1537160": {
-  "id": "t1537160",
   "name": "Kimtee Kundu",
   "schools": [
    "Harvard"
@@ -3398,7 +3692,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1537160
+  "tabroom_id": 1215337,
+  "name_resolved": true
+ },
+ "t1537160": {
+  "id": "t1537160",
+  "name": "Zackhery Facey",
+  "schools": [
+   "Harvard"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1537160,
+  "name_resolved": true
  },
  "t1555010": {
   "id": "t1555010",
@@ -3409,7 +3716,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555010
+  "tabroom_id": 1555010,
+  "name_resolved": true
  },
  "t1702066": {
   "id": "t1702066",
@@ -3420,7 +3728,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702066
+  "tabroom_id": 1702066,
+  "name_resolved": true
  },
  "t1526642": {
   "id": "t1526642",
@@ -3431,7 +3740,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526642
+  "tabroom_id": 1526642,
+  "name_resolved": true
  },
  "t1526654": {
   "id": "t1526654",
@@ -3442,7 +3752,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526654
+  "tabroom_id": 1526654,
+  "name_resolved": true
  },
  "t1698620": {
   "id": "t1698620",
@@ -3453,7 +3764,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698620
+  "tabroom_id": 1698620,
+  "name_resolved": true
  },
  "t1698622": {
   "id": "t1698622",
@@ -3464,7 +3776,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698622
+  "tabroom_id": 1698622,
+  "name_resolved": true
  },
  "t1232664": {
   "id": "t1232664",
@@ -3475,7 +3788,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1232664
+  "tabroom_id": 1232664,
+  "name_resolved": true
  },
  "t1404095": {
   "id": "t1404095",
@@ -3486,7 +3800,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1404095
+  "tabroom_id": 1404095,
+  "name_resolved": true
  },
  "t1528703": {
   "id": "t1528703",
@@ -3497,7 +3812,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528703
+  "tabroom_id": 1528703,
+  "name_resolved": true
  },
  "t1699030": {
   "id": "t1699030",
@@ -3508,21 +3824,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699030
+  "tabroom_id": 1699030,
+  "name_resolved": true
  },
  "t1523039": {
   "id": "t1523039",
-  "name": "Will Cannaday",
-  "schools": [
-   "Emory"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1523039
- },
- "t1526543": {
-  "id": "t1526543",
   "name": "Maggie Stearns",
   "schools": [
    "Emory"
@@ -3530,7 +3836,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526543
+  "tabroom_id": 1523039,
+  "name_resolved": true
+ },
+ "t1526543": {
+  "id": "t1526543",
+  "name": "Will Cannaday",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1526543,
+  "name_resolved": true
  },
  "t1699157": {
   "id": "t1699157",
@@ -3541,7 +3860,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699157
+  "tabroom_id": 1699157,
+  "name_resolved": true
  },
  "t1699158": {
   "id": "t1699158",
@@ -3552,7 +3872,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699158
+  "tabroom_id": 1699158,
+  "name_resolved": true
  },
  "t1367857": {
   "id": "t1367857",
@@ -3563,7 +3884,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1367857
+  "tabroom_id": 1367857,
+  "name_resolved": true
  },
  "t1593689": {
   "id": "t1593689",
@@ -3574,7 +3896,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1593689
+  "tabroom_id": 1593689,
+  "name_resolved": true
  },
  "t1546727": {
   "id": "t1546727",
@@ -3585,7 +3908,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1546727
+  "tabroom_id": 1546727,
+  "name_resolved": true
  },
  "t1575660": {
   "id": "t1575660",
@@ -3596,32 +3920,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1575660
+  "tabroom_id": 1575660,
+  "name_resolved": true
  },
  "t1662279": {
   "id": "t1662279",
-  "name": "Clare Bradley",
+  "name": "Anish Bhadani",
   "schools": [
    "Southern California"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1662279
+  "tabroom_id": 1662279,
+  "name_resolved": true
  },
  "t1217890": {
   "id": "t1217890",
-  "name": "Hector Doratt",
-  "schools": [
-   "Houston"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1217890
- },
- "t1217891": {
-  "id": "t1217891",
   "name": "Aaron Fernandez",
   "schools": [
    "Houston"
@@ -3629,21 +3944,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1217891
+  "tabroom_id": 1217890,
+  "name_resolved": true
  },
- "t1231400": {
-  "id": "t1231400",
-  "name": "Brooklyn King",
+ "t1217891": {
+  "id": "t1217891",
+  "name": "Hector Doratt",
   "schools": [
-   "Trinity"
+   "Houston"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1231400
+  "tabroom_id": 1217891,
+  "name_resolved": true
  },
- "t1364663": {
-  "id": "t1364663",
+ "t1231400": {
+  "id": "t1231400",
   "name": "Ruth Patterson",
   "schools": [
    "Trinity"
@@ -3651,7 +3968,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1364663
+  "tabroom_id": 1231400,
+  "name_resolved": true
+ },
+ "t1364663": {
+  "id": "t1364663",
+  "name": "Brooklyn King",
+  "schools": [
+   "Trinity"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1364663,
+  "name_resolved": true
  },
  "t1359202": {
   "id": "t1359202",
@@ -3662,7 +3992,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1359202
+  "tabroom_id": 1359202,
+  "name_resolved": true
  },
  "t1693210": {
   "id": "t1693210",
@@ -3673,7 +4004,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1693210
+  "tabroom_id": 1693210,
+  "name_resolved": true
  },
  "t1217887": {
   "id": "t1217887",
@@ -3685,7 +4017,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1217887
+  "tabroom_id": 1217887,
+  "name_resolved": true
  },
  "t1734654": {
   "id": "t1734654",
@@ -3696,7 +4029,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1734654
+  "tabroom_id": 1734654,
+  "name_resolved": true
  },
  "t1700985": {
   "id": "t1700985",
@@ -3707,21 +4041,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700985
+  "tabroom_id": 1700985,
+  "name_resolved": true
  },
  "t1367282": {
   "id": "t1367282",
-  "name": "Yobani Bustos",
-  "schools": [
-   "Oklahoma"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1367282
- },
- "t1703459": {
-  "id": "t1703459",
   "name": "Napayshni-Ohitekah Morales",
   "schools": [
    "Oklahoma"
@@ -3729,7 +4053,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703459
+  "tabroom_id": 1367282,
+  "name_resolved": true
+ },
+ "t1703459": {
+  "id": "t1703459",
+  "name": "Yobani Bustos",
+  "schools": [
+   "Oklahoma"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1703459,
+  "name_resolved": true
  },
  "t1629076": {
   "id": "t1629076",
@@ -3740,7 +4077,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1629076
+  "tabroom_id": 1629076,
+  "name_resolved": true
  },
  "t1720153": {
   "id": "t1720153",
@@ -3751,7 +4089,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1720153
+  "tabroom_id": 1720153,
+  "name_resolved": true
  },
  "t1660969": {
   "id": "t1660969",
@@ -3762,7 +4101,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1660969
+  "tabroom_id": 1660969,
+  "name_resolved": true
  },
  "t1699156": {
   "id": "t1699156",
@@ -3773,7 +4113,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699156
+  "tabroom_id": 1699156,
+  "name_resolved": true
  },
  "t1541899": {
   "id": "t1541899",
@@ -3784,7 +4125,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1541899
+  "tabroom_id": 1541899,
+  "name_resolved": true
  },
  "t1699276": {
   "id": "t1699276",
@@ -3795,7 +4137,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699276
+  "tabroom_id": 1699276,
+  "name_resolved": true
  },
  "t1700982": {
   "id": "t1700982",
@@ -3806,7 +4149,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1700982
+  "tabroom_id": 1700982,
+  "name_resolved": true
  },
  "t1523200": {
   "id": "t1523200",
@@ -3817,7 +4161,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1523200
+  "tabroom_id": 1523200,
+  "name_resolved": true
  },
  "t1668227": {
   "id": "t1668227",
@@ -3828,7 +4173,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1668227
+  "tabroom_id": 1668227,
+  "name_resolved": true
  },
  "t1363597": {
   "id": "t1363597",
@@ -3839,7 +4185,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363597
+  "tabroom_id": 1363597,
+  "name_resolved": true
  },
  "t1701043": {
   "id": "t1701043",
@@ -3850,7 +4197,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701043
+  "tabroom_id": 1701043,
+  "name_resolved": true
  },
  "t1697802": {
   "id": "t1697802",
@@ -3861,7 +4209,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697802
+  "tabroom_id": 1697802,
+  "name_resolved": true
  },
  "t1486245": {
   "id": "t1486245",
@@ -3872,7 +4221,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1486245
+  "tabroom_id": 1486245,
+  "name_resolved": true
  },
  "t1527796": {
   "id": "t1527796",
@@ -3883,7 +4233,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1527796
+  "tabroom_id": 1527796,
+  "name_resolved": true
  },
  "t1373987": {
   "id": "t1373987",
@@ -3894,7 +4245,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1373987
+  "tabroom_id": 1373987,
+  "name_resolved": true
  },
  "t1701229": {
   "id": "t1701229",
@@ -3905,7 +4257,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701229
+  "tabroom_id": 1701229,
+  "name_resolved": true
  },
  "t1702553": {
   "id": "t1702553",
@@ -3916,7 +4269,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702553
+  "tabroom_id": 1702553,
+  "name_resolved": true
  },
  "t1703753": {
   "id": "t1703753",
@@ -3928,7 +4282,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703753
+  "tabroom_id": 1703753,
+  "name_resolved": true
  },
  "t1400939": {
   "id": "t1400939",
@@ -3939,7 +4294,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1400939
+  "tabroom_id": 1400939,
+  "name_resolved": true
  },
  "t1400943": {
   "id": "t1400943",
@@ -3950,7 +4306,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1400943
+  "tabroom_id": 1400943,
+  "name_resolved": true
  },
  "t1660987": {
   "id": "t1660987",
@@ -3965,14 +4322,15 @@
  },
  "t1676854": {
   "id": "t1676854",
-  "name": "Jonn Rushing",
+  "name": "Haddie Schedler",
   "schools": [
    "Kentucky"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1676854
+  "tabroom_id": 1676854,
+  "name_resolved": true
  },
  "t1361863": {
   "id": "t1361863",
@@ -3983,7 +4341,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1361863
+  "tabroom_id": 1361863,
+  "name_resolved": true
  },
  "t1720799": {
   "id": "t1720799",
@@ -3994,7 +4353,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1720799
+  "tabroom_id": 1720799,
+  "name_resolved": true
  },
  "t1532524": {
   "id": "t1532524",
@@ -4005,7 +4365,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1532524
+  "tabroom_id": 1532524,
+  "name_resolved": true
  },
  "t1532545": {
   "id": "t1532545",
@@ -4016,7 +4377,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1532545
+  "tabroom_id": 1532545,
+  "name_resolved": true
  },
  "t1539590": {
   "id": "t1539590",
@@ -4027,7 +4389,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1539590
+  "tabroom_id": 1539590,
+  "name_resolved": true
  },
  "t1731668": {
   "id": "t1731668",
@@ -4038,7 +4401,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1731668
+  "tabroom_id": 1731668,
+  "name_resolved": true
  },
  "t1712784": {
   "id": "t1712784",
@@ -4050,7 +4414,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1712784
+  "tabroom_id": 1712784,
+  "name_resolved": true
  },
  "t1698006": {
   "id": "t1698006",
@@ -4061,7 +4426,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698006
+  "tabroom_id": 1698006,
+  "name_resolved": true
  },
  "t1699224": {
   "id": "t1699224",
@@ -4072,7 +4438,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699224
+  "tabroom_id": 1699224,
+  "name_resolved": true
  },
  "t1699413": {
   "id": "t1699413",
@@ -4083,7 +4450,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699413
+  "tabroom_id": 1699413,
+  "name_resolved": true
  },
  "t1703365": {
   "id": "t1703365",
@@ -4094,7 +4462,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703365
+  "tabroom_id": 1703365,
+  "name_resolved": true
  },
  "t1743891": {
   "id": "t1743891",
@@ -4105,7 +4474,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1743891
+  "tabroom_id": 1743891,
+  "name_resolved": true
  },
  "t1154660": {
   "id": "t1154660",
@@ -4116,7 +4486,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1154660
+  "tabroom_id": 1154660,
+  "name_resolved": true
  },
  "t1384493": {
   "id": "t1384493",
@@ -4127,7 +4498,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1384493
+  "tabroom_id": 1384493,
+  "name_resolved": true
  },
  "t1715495": {
   "id": "t1715495",
@@ -4138,7 +4510,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1715495
+  "tabroom_id": 1715495,
+  "name_resolved": true
  },
  "t1715497": {
   "id": "t1715497",
@@ -4149,7 +4522,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1715497
+  "tabroom_id": 1715497,
+  "name_resolved": true
  },
  "t1232665": {
   "id": "t1232665",
@@ -4160,7 +4534,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1232665
+  "tabroom_id": 1232665,
+  "name_resolved": true
  },
  "t1574235": {
   "id": "t1574235",
@@ -4171,7 +4546,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1574235
+  "tabroom_id": 1574235,
+  "name_resolved": true
  },
  "t1703360": {
   "id": "t1703360",
@@ -4182,7 +4558,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703360
+  "tabroom_id": 1703360,
+  "name_resolved": true
  },
  "t1739036": {
   "id": "t1739036",
@@ -4193,7 +4570,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739036
+  "tabroom_id": 1739036,
+  "name_resolved": true
  },
  "t1371599": {
   "id": "t1371599",
@@ -4204,7 +4582,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1371599
+  "tabroom_id": 1371599,
+  "name_resolved": true
  },
  "t1521870": {
   "id": "t1521870",
@@ -4215,18 +4594,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1521870
+  "tabroom_id": 1521870,
+  "name_resolved": true
  },
  "t1526297": {
   "id": "t1526297",
-  "name": "Coralynn Yang",
+  "name": "Tinghan Wang",
   "schools": [
    "Emory"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526297
+  "tabroom_id": 1526297,
+  "name_resolved": true
  },
  "t1632350": {
   "id": "t1632350",
@@ -4237,21 +4618,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1632350
+  "tabroom_id": 1632350,
+  "name_resolved": true
  },
  "t1710123": {
   "id": "t1710123",
-  "name": "Cameron Linde",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1710123
- },
- "t1710221": {
-  "id": "t1710221",
   "name": "Grayson Weber",
   "schools": [
    "Kansas"
@@ -4259,7 +4630,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710221
+  "tabroom_id": 1710123,
+  "name_resolved": true
+ },
+ "t1710221": {
+  "id": "t1710221",
+  "name": "Cameron Linde",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1710221,
+  "name_resolved": true
  },
  "t1230399": {
   "id": "t1230399",
@@ -4270,7 +4654,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1230399
+  "tabroom_id": 1230399,
+  "name_resolved": true
  },
  "t1541804": {
   "id": "t1541804",
@@ -4281,11 +4666,12 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1541804
+  "tabroom_id": 1541804,
+  "name_resolved": true
  },
  "t1218552": {
   "id": "t1218552",
-  "name": "Q Cooper",
+  "name": "James Granger",
   "schools": [
    "Missouri State",
    "MoState"
@@ -4293,18 +4679,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218552
+  "tabroom_id": 1218552,
+  "name_resolved": true
  },
  "t1513733": {
   "id": "t1513733",
-  "name": "James Granger",
+  "name": "Q Cooper",
   "schools": [
    "Missouri State"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1513733
+  "tabroom_id": 1513733,
+  "name_resolved": true
  },
  "t1702548": {
   "id": "t1702548",
@@ -4316,7 +4704,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702548
+  "tabroom_id": 1702548,
+  "name_resolved": true
  },
  "t1419717": {
   "id": "t1419717",
@@ -4327,7 +4716,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1419717
+  "tabroom_id": 1419717,
+  "name_resolved": true
  },
  "t1738236": {
   "id": "t1738236",
@@ -4338,7 +4728,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1738236
+  "tabroom_id": 1738236,
+  "name_resolved": true
  },
  "t1218442": {
   "id": "t1218442",
@@ -4349,7 +4740,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1218442
+  "tabroom_id": 1218442,
+  "name_resolved": true
  },
  "t1336152": {
   "id": "t1336152",
@@ -4360,21 +4752,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1336152
+  "tabroom_id": 1336152,
+  "name_resolved": true
  },
  "t1379560": {
   "id": "t1379560",
-  "name": "Charly Bisson",
-  "schools": [
-   "Arizona State"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1379560
- },
- "t1396894": {
-  "id": "t1396894",
   "name": "Sophia Lin",
   "schools": [
    "Arizona State"
@@ -4382,21 +4764,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1396894
+  "tabroom_id": 1379560,
+  "name_resolved": true
  },
- "t1494546": {
-  "id": "t1494546",
-  "name": "Noah Gabric",
+ "t1396894": {
+  "id": "t1396894",
+  "name": "Charly Bisson",
   "schools": [
-   "Hillsdale"
+   "Arizona State"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1494546
+  "tabroom_id": 1396894,
+  "name_resolved": true
  },
- "t1747588": {
-  "id": "t1747588",
+ "t1494546": {
+  "id": "t1494546",
   "name": "Rebekah George",
   "schools": [
    "Hillsdale"
@@ -4404,7 +4788,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1747588
+  "tabroom_id": 1494546,
+  "name_resolved": true
+ },
+ "t1747588": {
+  "id": "t1747588",
+  "name": "Noah Gabric",
+  "schools": [
+   "Hillsdale"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1747588,
+  "name_resolved": true
  },
  "t1411761": {
   "id": "t1411761",
@@ -4415,7 +4812,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1411761
+  "tabroom_id": 1411761,
+  "name_resolved": true
  },
  "t1555539": {
   "id": "t1555539",
@@ -4426,21 +4824,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555539
+  "tabroom_id": 1555539,
+  "name_resolved": true
  },
  "t1318049": {
   "id": "t1318049",
-  "name": "James Bernhisel",
-  "schools": [
-   "Weber State"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1318049
- },
- "t1731065": {
-  "id": "t1731065",
   "name": "Cristofer Henderson",
   "schools": [
    "Weber State"
@@ -4448,7 +4836,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1731065
+  "tabroom_id": 1318049,
+  "name_resolved": true
+ },
+ "t1731065": {
+  "id": "t1731065",
+  "name": "James Bernhisel",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1731065,
+  "name_resolved": true
  },
  "t1564408": {
   "id": "t1564408",
@@ -4459,7 +4860,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1564408
+  "tabroom_id": 1564408,
+  "name_resolved": true
  },
  "t1746151": {
   "id": "t1746151",
@@ -4470,21 +4872,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1746151
+  "tabroom_id": 1746151,
+  "name_resolved": true
  },
  "t1246579": {
   "id": "t1246579",
-  "name": "Don Seminega",
-  "schools": [
-   "Weber State"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1246579
- },
- "t1583664": {
-  "id": "t1583664",
   "name": "Raissa Kamikazi",
   "schools": [
    "Weber State"
@@ -4492,7 +4884,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1583664
+  "tabroom_id": 1246579,
+  "name_resolved": true
+ },
+ "t1583664": {
+  "id": "t1583664",
+  "name": "Don Seminega",
+  "schools": [
+   "Weber State"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1583664,
+  "name_resolved": true
  },
  "t1555536": {
   "id": "t1555536",
@@ -4503,7 +4908,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555536
+  "tabroom_id": 1555536,
+  "name_resolved": true
  },
  "t1629140": {
   "id": "t1629140",
@@ -4514,7 +4920,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1629140
+  "tabroom_id": 1629140,
+  "name_resolved": true
  },
  "t1547536": {
   "id": "t1547536",
@@ -4525,7 +4932,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1547536
+  "tabroom_id": 1547536,
+  "name_resolved": true
  },
  "t1593823": {
   "id": "t1593823",
@@ -4536,29 +4944,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1593823
+  "tabroom_id": 1593823,
+  "name_resolved": true
  },
  "t1227875": {
   "id": "t1227875",
-  "name": "Abasi Aguilar",
+  "name": "Jorge Aguilar",
   "schools": [
    "CSU - Northridge"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1227875
+  "tabroom_id": 1227875,
+  "name_resolved": true
  },
  "t1586250": {
   "id": "t1586250",
-  "name": "Thornton",
+  "name": "Andrew Abasi",
   "schools": [
    "CSU - Northridge"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1586250
+  "tabroom_id": 1586250,
+  "name_resolved": true
  },
  "t1419139": {
   "id": "t1419139",
@@ -4569,7 +4980,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1419139
+  "tabroom_id": 1419139,
+  "name_resolved": true
  },
  "t1419140": {
   "id": "t1419140",
@@ -4580,7 +4992,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1419140
+  "tabroom_id": 1419140,
+  "name_resolved": true
  },
  "t1559857": {
   "id": "t1559857",
@@ -4613,7 +5026,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1533152
+  "tabroom_id": 1533152,
+  "name_resolved": true
  },
  "t1732919": {
   "id": "t1732919",
@@ -4624,21 +5038,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1732919
+  "tabroom_id": 1732919,
+  "name_resolved": true
  },
  "t1594444": {
   "id": "t1594444",
-  "name": "Maria Brannon",
-  "schools": [
-   "Minnesota"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1594444
- },
- "t1651261": {
-  "id": "t1651261",
   "name": "Lingshu Ye",
   "schools": [
    "Minnesota"
@@ -4646,21 +5050,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1651261
+  "tabroom_id": 1594444,
+  "name_resolved": true
  },
- "t1555990": {
-  "id": "t1555990",
-  "name": "James Dinh",
+ "t1651261": {
+  "id": "t1651261",
+  "name": "Maria Brannon",
   "schools": [
-   "Western Washington"
+   "Minnesota"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555990
+  "tabroom_id": 1651261,
+  "name_resolved": true
  },
- "t1555997": {
-  "id": "t1555997",
+ "t1555990": {
+  "id": "t1555990",
   "name": "Matthew Loewen",
   "schools": [
    "Western Washington"
@@ -4668,21 +5074,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555997
+  "tabroom_id": 1555990,
+  "name_resolved": true
  },
- "t1547537": {
-  "id": "t1547537",
-  "name": "Noah Woo",
+ "t1555997": {
+  "id": "t1555997",
+  "name": "James Dinh",
   "schools": [
-   "Hillsdale"
+   "Western Washington"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1547537
+  "tabroom_id": 1555997,
+  "name_resolved": true
  },
- "t1547539": {
-  "id": "t1547539",
+ "t1547537": {
+  "id": "t1547537",
   "name": "Jonathan Evans",
   "schools": [
    "Hillsdale"
@@ -4690,7 +5098,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1547539
+  "tabroom_id": 1547537,
+  "name_resolved": true
+ },
+ "t1547539": {
+  "id": "t1547539",
+  "name": "Noah Woo",
+  "schools": [
+   "Hillsdale"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1547539,
+  "name_resolved": true
  },
  "t1661008": {
   "id": "t1661008",
@@ -4701,21 +5122,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1661008
+  "tabroom_id": 1661008,
+  "name_resolved": true
  },
  "t1367391": {
   "id": "t1367391",
-  "name": "Mae Dingley",
-  "schools": [
-   "Wake Forest"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1367391
- },
- "t1531012": {
-  "id": "t1531012",
   "name": "Elizabeth Elliott",
   "schools": [
    "Wake Forest"
@@ -4723,7 +5134,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1531012
+  "tabroom_id": 1367391,
+  "name_resolved": true
+ },
+ "t1531012": {
+  "id": "t1531012",
+  "name": "Mae Dingley",
+  "schools": [
+   "Wake Forest"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1531012,
+  "name_resolved": true
  },
  "t1765835": {
   "id": "t1765835",
@@ -4734,7 +5158,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1765835
+  "tabroom_id": 1765835,
+  "name_resolved": true
  },
  "t1526049": {
   "id": "t1526049",
@@ -4745,7 +5170,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526049
+  "tabroom_id": 1526049,
+  "name_resolved": true
  },
  "t1528191": {
   "id": "t1528191",
@@ -4756,21 +5182,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528191
+  "tabroom_id": 1528191,
+  "name_resolved": true
  },
  "t1699234": {
   "id": "t1699234",
-  "name": "Ava Almand",
-  "schools": [
-   "Michigan"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1699234
- },
- "t1699268": {
-  "id": "t1699268",
   "name": "Ava Moon",
   "schools": [
    "Michigan"
@@ -4778,18 +5194,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699268
+  "tabroom_id": 1699234,
+  "name_resolved": true
+ },
+ "t1699268": {
+  "id": "t1699268",
+  "name": "Ava Almand",
+  "schools": [
+   "Michigan"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1699268,
+  "name_resolved": true
  },
  "t1698617": {
   "id": "t1698617",
-  "name": "Leroy Tamfu",
+  "name": "Nora Perez-Rubio",
   "schools": [
    "Georgetown"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698617
+  "tabroom_id": 1698617,
+  "name_resolved": true
  },
  "t1528653": {
   "id": "t1528653",
@@ -4800,33 +5230,36 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528653
+  "tabroom_id": 1528653,
+  "name_resolved": true
  },
  "t1759069": {
   "id": "t1759069",
-  "name": "Martin Saenz",
+  "name": "Gabrielle Smith",
   "schools": [
    "CSU Long Beach"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1759069
+  "tabroom_id": 1759069,
+  "name_resolved": true
  },
  "t1380270": {
   "id": "t1380270",
-  "name": "Ari Arceo",
+  "name": "Brock Hines",
   "schools": [
    "Northwestern"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1380270
+  "tabroom_id": 1380270,
+  "name_resolved": true
  },
  "t1715250": {
   "id": "t1715250",
-  "name": "Michi Synn",
+  "name": "Ashley Lourenco",
   "schools": [
    "Harvard",
    "Amherst"
@@ -4834,7 +5267,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1715250
+  "tabroom_id": 1715250,
+  "name_resolved": true
  },
  "t1698066": {
   "id": "t1698066",
@@ -4845,7 +5279,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698066
+  "tabroom_id": 1698066,
+  "name_resolved": true
  },
  "t1559507": {
   "id": "t1559507",
@@ -4856,7 +5291,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1559507
+  "tabroom_id": 1559507,
+  "name_resolved": true
  },
  "t1364953": {
   "id": "t1364953",
@@ -4867,7 +5303,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1364953
+  "tabroom_id": 1364953,
+  "name_resolved": true
  },
  "t1699223": {
   "id": "t1699223",
@@ -4878,7 +5315,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699223
+  "tabroom_id": 1699223,
+  "name_resolved": true
  },
  "t1736262": {
   "id": "t1736262",
@@ -4889,21 +5327,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1736262
+  "tabroom_id": 1736262,
+  "name_resolved": true
  },
  "t1729732": {
   "id": "t1729732",
-  "name": "Hermon Mulugeta",
-  "schools": [
-   "Utah"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1729732
- },
- "t1739896": {
-  "id": "t1739896",
   "name": "Elliot Tilley",
   "schools": [
    "Utah"
@@ -4911,7 +5339,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739896
+  "tabroom_id": 1729732,
+  "name_resolved": true
+ },
+ "t1739896": {
+  "id": "t1739896",
+  "name": "Hermon Mulugeta",
+  "schools": [
+   "Utah"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1739896,
+  "name_resolved": true
  },
  "t1442417": {
   "id": "t1442417",
@@ -4922,7 +5363,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1442417
+  "tabroom_id": 1442417,
+  "name_resolved": true
  },
  "t1729613": {
   "id": "t1729613",
@@ -4933,7 +5375,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1729613
+  "tabroom_id": 1729613,
+  "name_resolved": true
  },
  "t1739898": {
   "id": "t1739898",
@@ -4944,7 +5387,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739898
+  "tabroom_id": 1739898,
+  "name_resolved": true
  },
  "t1719030": {
   "id": "t1719030",
@@ -4955,7 +5399,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1719030
+  "tabroom_id": 1719030,
+  "name_resolved": true
  },
  "t1527667": {
   "id": "t1527667",
@@ -4966,7 +5411,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1527667
+  "tabroom_id": 1527667,
+  "name_resolved": true
  },
  "t1537839": {
   "id": "t1537839",
@@ -4977,21 +5423,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1537839
+  "tabroom_id": 1537839,
+  "name_resolved": true
  },
  "t1729615": {
   "id": "t1729615",
-  "name": "Jeremy Curry Young",
-  "schools": [
-   "Utah"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1729615
- },
- "t1739907": {
-  "id": "t1739907",
   "name": "Suzy Radzinski",
   "schools": [
    "Utah"
@@ -4999,7 +5435,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739907
+  "tabroom_id": 1729615,
+  "name_resolved": true
+ },
+ "t1739907": {
+  "id": "t1739907",
+  "name": "Jeremy Curry Young",
+  "schools": [
+   "Utah"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1739907,
+  "name_resolved": true
  },
  "t1729611": {
   "id": "t1729611",
@@ -5010,7 +5459,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1729611
+  "tabroom_id": 1729611,
+  "name_resolved": true
  },
  "t1739902": {
   "id": "t1739902",
@@ -5021,7 +5471,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739902
+  "tabroom_id": 1739902,
+  "name_resolved": true
  },
  "t1558747": {
   "id": "t1558747",
@@ -5032,7 +5483,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1558747
+  "tabroom_id": 1558747,
+  "name_resolved": true
  },
  "t1647166": {
   "id": "t1647166",
@@ -5043,7 +5495,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1647166
+  "tabroom_id": 1647166,
+  "name_resolved": true
  },
  "t1739904": {
   "id": "t1739904",
@@ -5054,7 +5507,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739904
+  "tabroom_id": 1739904,
+  "name_resolved": true
  },
  "t1739905": {
   "id": "t1739905",
@@ -5065,7 +5519,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739905
+  "tabroom_id": 1739905,
+  "name_resolved": true
  },
  "t1370251": {
   "id": "t1370251",
@@ -5076,7 +5531,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1370251
+  "tabroom_id": 1370251,
+  "name_resolved": true
  },
  "t1521372": {
   "id": "t1521372",
@@ -5087,7 +5543,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1521372
+  "tabroom_id": 1521372,
+  "name_resolved": true
  },
  "t1541179": {
   "id": "t1541179",
@@ -5098,7 +5555,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1541179
+  "tabroom_id": 1541179,
+  "name_resolved": true
  },
  "t1729614": {
   "id": "t1729614",
@@ -5109,21 +5567,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1729614
+  "tabroom_id": 1729614,
+  "name_resolved": true
  },
  "t1739895": {
   "id": "t1739895",
-  "name": "Maria Manousakis",
-  "schools": [
-   "Utah"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1739895
- },
- "t1739903": {
-  "id": "t1739903",
   "name": "Emily Scott",
   "schools": [
    "Utah"
@@ -5131,21 +5579,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1739903
+  "tabroom_id": 1739895,
+  "name_resolved": true
  },
- "t1491507": {
-  "id": "t1491507",
-  "name": "Mario Arciniega",
+ "t1739903": {
+  "id": "t1739903",
+  "name": "Maria Manousakis",
   "schools": [
-   "Southwestern"
+   "Utah"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1491507
+  "tabroom_id": 1739903,
+  "name_resolved": true
  },
- "t1734309": {
-  "id": "t1734309",
+ "t1491507": {
+  "id": "t1491507",
   "name": "Jaci\u00e1n Arreola",
   "schools": [
    "Southwestern"
@@ -5153,7 +5603,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1734309
+  "tabroom_id": 1491507,
+  "name_resolved": true
+ },
+ "t1734309": {
+  "id": "t1734309",
+  "name": "Mario Arciniega",
+  "schools": [
+   "Southwestern"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1734309,
+  "name_resolved": true
  },
  "t1696618": {
   "id": "t1696618",
@@ -5164,7 +5627,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1696618
+  "tabroom_id": 1696618,
+  "name_resolved": true
  },
  "t1696619": {
   "id": "t1696619",
@@ -5175,7 +5639,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1696619
+  "tabroom_id": 1696619,
+  "name_resolved": true
  },
  "t1719042": {
   "id": "t1719042",
@@ -5186,7 +5651,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1719042
+  "tabroom_id": 1719042,
+  "name_resolved": true
  },
  "t1771181": {
   "id": "t1771181",
@@ -5197,7 +5663,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1771181
+  "tabroom_id": 1771181,
+  "name_resolved": true
  },
  "t1771182": {
   "id": "t1771182",
@@ -5208,21 +5675,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1771182
+  "tabroom_id": 1771182,
+  "name_resolved": true
  },
  "t1771180": {
   "id": "t1771180",
-  "name": "Justin Pham",
-  "schools": [
-   "Cal State Fullerton"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1771180
- },
- "t1771183": {
-  "id": "t1771183",
   "name": "\"AJ\" Ali Soltani",
   "schools": [
    "Cal State Fullerton"
@@ -5230,7 +5687,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1771183
+  "tabroom_id": 1771180,
+  "name_resolved": true
+ },
+ "t1771183": {
+  "id": "t1771183",
+  "name": "Justin Pham",
+  "schools": [
+   "Cal State Fullerton"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1771183,
+  "name_resolved": true
  },
  "t1737385": {
   "id": "t1737385",
@@ -5241,7 +5711,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1737385
+  "tabroom_id": 1737385,
+  "name_resolved": true
  },
  "t1737409": {
   "id": "t1737409",
@@ -5252,7 +5723,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1737409
+  "tabroom_id": 1737409,
+  "name_resolved": true
  },
  "t1737394": {
   "id": "t1737394",
@@ -5285,7 +5757,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1718101
+  "tabroom_id": 1718101,
+  "name_resolved": true
  },
  "t1772263": {
   "id": "t1772263",
@@ -5296,7 +5769,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1772263
+  "tabroom_id": 1772263,
+  "name_resolved": true
  },
  "t1709021": {
   "id": "t1709021",
@@ -5307,21 +5781,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1709021
+  "tabroom_id": 1709021,
+  "name_resolved": true
  },
  "t1713112": {
   "id": "t1713112",
-  "name": "mollie Gilbertson",
-  "schools": [
-   "New School"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1713112
- },
- "t1738004": {
-  "id": "t1738004",
   "name": "Cozette Calderon",
   "schools": [
    "New School"
@@ -5329,18 +5793,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1738004
+  "tabroom_id": 1713112,
+  "name_resolved": true
+ },
+ "t1738004": {
+  "id": "t1738004",
+  "name": "mollie Gilbertson",
+  "schools": [
+   "New School"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1738004,
+  "name_resolved": true
  },
  "t1621460": {
   "id": "t1621460",
-  "name": "Nina Darden",
+  "name": "Arya Persaud",
   "schools": [
    "Towson"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1621460
+  "tabroom_id": 1621460,
+  "name_resolved": true
  },
  "t1250202": {
   "id": "t1250202",
@@ -5351,7 +5829,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1250202
+  "tabroom_id": 1250202,
+  "name_resolved": true
  },
  "t1541368": {
   "id": "t1541368",
@@ -5362,7 +5841,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1541368
+  "tabroom_id": 1541368,
+  "name_resolved": true
  },
  "t1758873": {
   "id": "t1758873",
@@ -5373,7 +5853,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1758873
+  "tabroom_id": 1758873,
+  "name_resolved": true
  },
  "t1363594": {
   "id": "t1363594",
@@ -5384,7 +5865,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363594
+  "tabroom_id": 1363594,
+  "name_resolved": true
  },
  "t1404389": {
   "id": "t1404389",
@@ -5395,18 +5877,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1404389
+  "tabroom_id": 1404389,
+  "name_resolved": true
  },
  "t1363589": {
   "id": "t1363589",
-  "name": "Will Cannaday",
+  "name": "Conor Feldman",
   "schools": [
    "Emory"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363589
+  "tabroom_id": 1363589,
+  "name_resolved": true
  },
  "t1088166": {
   "id": "t1088166",
@@ -5417,7 +5901,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1088166
+  "tabroom_id": 1088166,
+  "name_resolved": true
  },
  "t1389360": {
   "id": "t1389360",
@@ -5428,7 +5913,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1389360
+  "tabroom_id": 1389360,
+  "name_resolved": true
  },
  "t1766366": {
   "id": "t1766366",
@@ -5439,7 +5925,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1766366
+  "tabroom_id": 1766366,
+  "name_resolved": true
  },
  "t1526470": {
   "id": "t1526470",
@@ -5450,7 +5937,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526470
+  "tabroom_id": 1526470,
+  "name_resolved": true
  },
  "t1758989": {
   "id": "t1758989",
@@ -5461,21 +5949,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1758989
+  "tabroom_id": 1758989,
+  "name_resolved": true
  },
  "t1698624": {
   "id": "t1698624",
-  "name": "Leon Wang",
-  "schools": [
-   "Georgetown"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1698624
- },
- "t1705530": {
-  "id": "t1705530",
   "name": "Jackie Correa",
   "schools": [
    "Georgetown"
@@ -5483,7 +5961,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705530
+  "tabroom_id": 1698624,
+  "name_resolved": true
+ },
+ "t1705530": {
+  "id": "t1705530",
+  "name": "Leon Wang",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1705530,
+  "name_resolved": true
  },
  "t1705861": {
   "id": "t1705861",
@@ -5494,7 +5985,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705861
+  "tabroom_id": 1705861,
+  "name_resolved": true
  },
  "t1705864": {
   "id": "t1705864",
@@ -5505,21 +5997,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705864
+  "tabroom_id": 1705864,
+  "name_resolved": true
  },
  "t1222351": {
   "id": "t1222351",
-  "name": "Estrella Hernandez",
-  "schools": [
-   "Kansas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1222351
- },
- "t1543241": {
-  "id": "t1543241",
   "name": "Isaac Martinez",
   "schools": [
    "Kansas"
@@ -5527,7 +6009,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1543241
+  "tabroom_id": 1222351,
+  "name_resolved": true
+ },
+ "t1543241": {
+  "id": "t1543241",
+  "name": "Estrella Hernandez",
+  "schools": [
+   "Kansas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1543241,
+  "name_resolved": true
  },
  "t1661754": {
   "id": "t1661754",
@@ -5542,14 +6037,15 @@
  },
  "t1701658": {
   "id": "t1701658",
-  "name": "Ta'Ron Johnson",
+  "name": "Allison Van Dyke",
   "schools": [
    "Louisville"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701658
+  "tabroom_id": 1701658,
+  "name_resolved": true
  },
  "t1743271": {
   "id": "t1743271",
@@ -5560,7 +6056,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1743271
+  "tabroom_id": 1743271,
+  "name_resolved": true
  },
  "t1528441": {
   "id": "t1528441",
@@ -5571,7 +6068,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1528441
+  "tabroom_id": 1528441,
+  "name_resolved": true
  },
  "t1403527": {
   "id": "t1403527",
@@ -5582,7 +6080,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1403527
+  "tabroom_id": 1403527,
+  "name_resolved": true
  },
  "t1541370": {
   "id": "t1541370",
@@ -5593,7 +6092,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1541370
+  "tabroom_id": 1541370,
+  "name_resolved": true
  },
  "t1721859": {
   "id": "t1721859",
@@ -5604,7 +6104,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721859
+  "tabroom_id": 1721859,
+  "name_resolved": true
  },
  "t1721860": {
   "id": "t1721860",
@@ -5615,7 +6116,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721860
+  "tabroom_id": 1721860,
+  "name_resolved": true
  },
  "t1555500": {
   "id": "t1555500",
@@ -5626,7 +6128,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555500
+  "tabroom_id": 1555500,
+  "name_resolved": true
  },
  "t1777385": {
   "id": "t1777385",
@@ -5637,7 +6140,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1777385
+  "tabroom_id": 1777385,
+  "name_resolved": true
  },
  "t1644874": {
   "id": "t1644874",
@@ -5648,7 +6152,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1644874
+  "tabroom_id": 1644874,
+  "name_resolved": true
  },
  "t1721170": {
   "id": "t1721170",
@@ -5659,7 +6164,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721170
+  "tabroom_id": 1721170,
+  "name_resolved": true
  },
  "t1721167": {
   "id": "t1721167",
@@ -5670,7 +6176,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721167
+  "tabroom_id": 1721167,
+  "name_resolved": true
  },
  "t1721171": {
   "id": "t1721171",
@@ -5681,7 +6188,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1721171
+  "tabroom_id": 1721171,
+  "name_resolved": true
  },
  "t1551472": {
   "id": "t1551472",
@@ -5692,7 +6200,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1551472
+  "tabroom_id": 1551472,
+  "name_resolved": true
  },
  "t1551473": {
   "id": "t1551473",
@@ -5703,18 +6212,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1551473
+  "tabroom_id": 1551473,
+  "name_resolved": true
  },
  "t1714952": {
   "id": "t1714952",
-  "name": "Simone Alcindor",
+  "name": "Jaden DaCruz",
   "schools": [
    "Suffolk"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1714952
+  "tabroom_id": 1714952,
+  "name_resolved": true
  },
  "t1722558": {
   "id": "t1722558",
@@ -5726,7 +6237,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1722558
+  "tabroom_id": 1722558,
+  "name_resolved": true
  },
  "t1722561": {
   "id": "t1722561",
@@ -5737,40 +6249,44 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1722561
+  "tabroom_id": 1722561,
+  "name_resolved": true
  },
  "t1702187": {
   "id": "t1702187",
-  "name": "Emanuel Vargas",
+  "name": "Ronen Bowman",
   "schools": [
    "North Texas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702187
+  "tabroom_id": 1702187,
+  "name_resolved": true
  },
  "t1329942": {
   "id": "t1329942",
-  "name": "Abigail Fordyce",
+  "name": "Cooper Hefty",
   "schools": [
    "Kansas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1329942
+  "tabroom_id": 1329942,
+  "name_resolved": true
  },
  "t1794888": {
   "id": "t1794888",
-  "name": "Kyle Draeger",
+  "name": "Johnathon Fellows",
   "schools": [
    "Kansas State"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1794888
+  "tabroom_id": 1794888,
+  "name_resolved": true
  },
  "t1535575": {
   "id": "t1535575",
@@ -5781,7 +6297,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1535575
+  "tabroom_id": 1535575,
+  "name_resolved": true
  },
  "t1535591": {
   "id": "t1535591",
@@ -5792,21 +6309,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1535591
+  "tabroom_id": 1535591,
+  "name_resolved": true
  },
  "t1547465": {
   "id": "t1547465",
-  "name": "Rylie Gilbert",
-  "schools": [
-   "UT San Antonio"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1547465
- },
- "t1701336": {
-  "id": "t1701336",
   "name": "Makenna Jackson",
   "schools": [
    "UT San Antonio"
@@ -5814,7 +6321,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701336
+  "tabroom_id": 1547465,
+  "name_resolved": true
+ },
+ "t1701336": {
+  "id": "t1701336",
+  "name": "Rylie Gilbert",
+  "schools": [
+   "UT San Antonio"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1701336,
+  "name_resolved": true
  },
  "t1232771": {
   "id": "t1232771",
@@ -5825,7 +6345,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1232771
+  "tabroom_id": 1232771,
+  "name_resolved": true
  },
  "t1603253": {
   "id": "t1603253",
@@ -5836,7 +6357,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1603253
+  "tabroom_id": 1603253,
+  "name_resolved": true
  },
  "t1184009": {
   "id": "t1184009",
@@ -5847,18 +6369,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1184009
+  "tabroom_id": 1184009,
+  "name_resolved": true
  },
  "t1358956": {
   "id": "t1358956",
-  "name": "Noah Winters",
+  "name": "Will Kochel",
   "schools": [
    "Macalester"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1358956
+  "tabroom_id": 1358956,
+  "name_resolved": true
  },
  "t1799767": {
   "id": "t1799767",
@@ -5869,7 +6393,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1799767
+  "tabroom_id": 1799767,
+  "name_resolved": true
  },
  "t1803225": {
   "id": "t1803225",
@@ -5880,7 +6405,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1803225
+  "tabroom_id": 1803225,
+  "name_resolved": true
  },
  "t1803226": {
   "id": "t1803226",
@@ -5891,32 +6417,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1803226
+  "tabroom_id": 1803226,
+  "name_resolved": true
  },
  "t1699036": {
   "id": "t1699036",
-  "name": "Temilola Olorunsola",
+  "name": "Foster LippSmith",
   "schools": [
    "Northwestern"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699036
+  "tabroom_id": 1699036,
+  "name_resolved": true
  },
  "t1421379": {
   "id": "t1421379",
-  "name": "Sumya Paruchuri",
-  "schools": [
-   "North Texas"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1421379
- },
- "t1702091": {
-  "id": "t1702091",
   "name": "Nicholette Sharp",
   "schools": [
    "North Texas"
@@ -5924,7 +6441,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702091
+  "tabroom_id": 1421379,
+  "name_resolved": true
+ },
+ "t1702091": {
+  "id": "t1702091",
+  "name": "Sumya Paruchuri",
+  "schools": [
+   "North Texas"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1702091,
+  "name_resolved": true
  },
  "t1650082": {
   "id": "t1650082",
@@ -5935,7 +6465,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1650082
+  "tabroom_id": 1650082,
+  "name_resolved": true
  },
  "t1723065": {
   "id": "t1723065",
@@ -5946,7 +6477,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1723065
+  "tabroom_id": 1723065,
+  "name_resolved": true
  },
  "t1767771": {
   "id": "t1767771",
@@ -5957,7 +6489,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1767771
+  "tabroom_id": 1767771,
+  "name_resolved": true
  },
  "t1698129": {
   "id": "t1698129",
@@ -5968,7 +6501,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698129
+  "tabroom_id": 1698129,
+  "name_resolved": true
  },
  "t1698194": {
   "id": "t1698194",
@@ -5979,7 +6513,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698194
+  "tabroom_id": 1698194,
+  "name_resolved": true
  },
  "t1400484": {
   "id": "t1400484",
@@ -5990,54 +6525,47 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1400484
+  "tabroom_id": 1400484,
+  "name_resolved": true
  },
  "t1540340": {
   "id": "t1540340",
-  "name": "Mariska Khalikov",
+  "name": "Faith Olabanji",
   "schools": [
    "Trinity"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1540340
+  "tabroom_id": 1540340,
+  "name_resolved": true
  },
  "t1078600": {
   "id": "t1078600",
-  "name": "Patel",
+  "name": "J Say",
   "schools": [
    "Wake Forest"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1078600
+  "tabroom_id": 1078600,
+  "name_resolved": true
  },
  "t1697803": {
   "id": "t1697803",
-  "name": "Sayoto",
+  "name": "Vriti Patel",
   "schools": [
    "Wake Forest"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1697803
+  "tabroom_id": 1697803,
+  "name_resolved": true
  },
  "t1809162": {
   "id": "t1809162",
-  "name": "Sameer Varkantham",
-  "schools": [
-   "Georgetown"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1809162
- },
- "t1809163": {
-  "id": "t1809163",
   "name": "Haider Zaidi",
   "schools": [
    "Georgetown"
@@ -6045,7 +6573,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1809163
+  "tabroom_id": 1809162,
+  "name_resolved": true
+ },
+ "t1809163": {
+  "id": "t1809163",
+  "name": "Sameer Varkantham",
+  "schools": [
+   "Georgetown"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1809163,
+  "name_resolved": true
  },
  "t1744710": {
   "id": "t1744710",
@@ -6056,7 +6597,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1744710
+  "tabroom_id": 1744710,
+  "name_resolved": true
  },
  "t1815636": {
   "id": "t1815636",
@@ -6067,18 +6609,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1815636
+  "tabroom_id": 1815636,
+  "name_resolved": true
  },
  "t1554848": {
   "id": "t1554848",
-  "name": "Jorge Aguilar",
+  "name": "Natalie Munoz-Esparza",
   "schools": [
    "CSU - Northridge"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1554848
+  "tabroom_id": 1554848,
+  "name_resolved": true
  },
  "t1806203": {
   "id": "t1806203",
@@ -6089,7 +6633,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1806203
+  "tabroom_id": 1806203,
+  "name_resolved": true
  },
  "t1563015": {
   "id": "t1563015",
@@ -6100,7 +6645,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1563015
+  "tabroom_id": 1563015,
+  "name_resolved": true
  },
  "t1725603": {
   "id": "t1725603",
@@ -6111,7 +6657,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1725603
+  "tabroom_id": 1725603,
+  "name_resolved": true
  },
  "t1401132": {
   "id": "t1401132",
@@ -6122,29 +6669,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1401132
+  "tabroom_id": 1401132,
+  "name_resolved": true
  },
  "t1736665": {
   "id": "t1736665",
-  "name": "Abbigail Halpin",
+  "name": "William Halpin",
   "schools": [
    "Western Washington"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1736665
+  "tabroom_id": 1736665,
+  "name_resolved": true
  },
  "t1651287": {
   "id": "t1651287",
-  "name": "Lingshu Ye",
+  "name": "Nadia Woolner",
   "schools": [
    "Minnesota"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1651287
+  "tabroom_id": 1651287,
+  "name_resolved": true
  },
  "t1736660": {
   "id": "t1736660",
@@ -6155,7 +6705,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1736660
+  "tabroom_id": 1736660,
+  "name_resolved": true
  },
  "t1537406": {
   "id": "t1537406",
@@ -6166,7 +6717,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1537406
+  "tabroom_id": 1537406,
+  "name_resolved": true
  },
  "t1703357": {
   "id": "t1703357",
@@ -6177,7 +6729,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703357
+  "tabroom_id": 1703357,
+  "name_resolved": true
  },
  "t1710531": {
   "id": "t1710531",
@@ -6188,7 +6741,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1710531
+  "tabroom_id": 1710531,
+  "name_resolved": true
  },
  "t1647772": {
   "id": "t1647772",
@@ -6199,7 +6753,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1647772
+  "tabroom_id": 1647772,
+  "name_resolved": true
  },
  "t1703453": {
   "id": "t1703453",
@@ -6210,7 +6765,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703453
+  "tabroom_id": 1703453,
+  "name_resolved": true
  },
  "t1722559": {
   "id": "t1722559",
@@ -6221,7 +6777,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1722559
+  "tabroom_id": 1722559,
+  "name_resolved": true
  },
  "t1722560": {
   "id": "t1722560",
@@ -6232,32 +6789,23 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1722560
+  "tabroom_id": 1722560,
+  "name_resolved": true
  },
  "t1568045": {
   "id": "t1568045",
-  "name": "Kensington Walker",
+  "name": "Eric Eckard",
   "schools": [
    "Central Oklahoma"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1568045
+  "tabroom_id": 1568045,
+  "name_resolved": true
  },
  "t1363590": {
   "id": "t1363590",
-  "name": "Eloise So",
-  "schools": [
-   "Emory"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1363590
- },
- "t1363595": {
-  "id": "t1363595",
   "name": "Micah Wang",
   "schools": [
    "Emory"
@@ -6265,7 +6813,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1363595
+  "tabroom_id": 1363590,
+  "name_resolved": true
+ },
+ "t1363595": {
+  "id": "t1363595",
+  "name": "Eloise So",
+  "schools": [
+   "Emory"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1363595,
+  "name_resolved": true
  },
  "t1381448": {
   "id": "t1381448",
@@ -6276,18 +6837,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1381448
+  "tabroom_id": 1381448,
+  "name_resolved": true
  },
  "t1526648": {
   "id": "t1526648",
-  "name": "Gautam Chamarthy",
+  "name": "Ishan Sharma",
   "schools": [
    "Michigan"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1526648
+  "tabroom_id": 1526648,
+  "name_resolved": true
  },
  "t1743272": {
   "id": "t1743272",
@@ -6298,18 +6861,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1743272
+  "tabroom_id": 1743272,
+  "name_resolved": true
  },
  "t1217780": {
   "id": "t1217780",
-  "name": "Team NYU",
+  "name": "Shreeram Modi",
   "schools": [
    "NYU"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1217780
+  "tabroom_id": 1217780,
+  "name_resolved": true
  },
  "t1724323": {
   "id": "t1724323",
@@ -6320,18 +6885,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1724323
+  "tabroom_id": 1724323,
+  "name_resolved": true
  },
  "t1654680": {
   "id": "t1654680",
-  "name": "Student 1654680",
+  "name": "Ryan Curran(StJohns)",
   "schools": [
    "New School"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1654680
+  "tabroom_id": 1654680,
+  "name_resolved": true
  },
  "t1703755": {
   "id": "t1703755",
@@ -6342,7 +6909,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703755
+  "tabroom_id": 1703755,
+  "name_resolved": true
  },
  "t1714088": {
   "id": "t1714088",
@@ -6353,29 +6921,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1714088
+  "tabroom_id": 1714088,
+  "name_resolved": true
  },
  "t1374684": {
   "id": "t1374684",
-  "name": "Ailish MacDonnell",
+  "name": "Aiden Peffers",
   "schools": [
    "West Point"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1374684
+  "tabroom_id": 1374684,
+  "name_resolved": true
  },
  "t1734676": {
   "id": "t1734676",
-  "name": "Patrick Macasaet",
+  "name": "Yousef Shehata",
   "schools": [
    "Houston"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1734676
+  "tabroom_id": 1734676,
+  "name_resolved": true
  },
  "t1701659": {
   "id": "t1701659",
@@ -6386,7 +6957,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1701659
+  "tabroom_id": 1701659,
+  "name_resolved": true
  },
  "t1128959": {
   "id": "t1128959",
@@ -6397,7 +6969,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1128959
+  "tabroom_id": 1128959,
+  "name_resolved": true
  },
  "t1479096": {
   "id": "t1479096",
@@ -6408,7 +6981,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1479096
+  "tabroom_id": 1479096,
+  "name_resolved": true
  },
  "t1555983": {
   "id": "t1555983",
@@ -6419,7 +6993,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1555983
+  "tabroom_id": 1555983,
+  "name_resolved": true
  },
  "t1419128": {
   "id": "t1419128",
@@ -6452,7 +7027,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1743380
+  "tabroom_id": 1743380,
+  "name_resolved": true
  },
  "t1437815": {
   "id": "t1437815",
@@ -6463,7 +7039,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1437815
+  "tabroom_id": 1437815,
+  "name_resolved": true
  },
  "t1564412": {
   "id": "t1564412",
@@ -6474,7 +7051,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1564412
+  "tabroom_id": 1564412,
+  "name_resolved": true
  },
  "t1829921": {
   "id": "t1829921",
@@ -6485,18 +7063,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1829921
+  "tabroom_id": 1829921,
+  "name_resolved": true
  },
  "t1593828": {
   "id": "t1593828",
-  "name": "Ewan McNamara",
+  "name": "Noah Abrudeanu",
   "schools": [
    "Hillsdale"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1593828
+  "tabroom_id": 1593828,
+  "name_resolved": true
  },
  "t1550900": {
   "id": "t1550900",
@@ -6507,7 +7087,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1550900
+  "tabroom_id": 1550900,
+  "name_resolved": true
  },
  "t1764800": {
   "id": "t1764800",
@@ -6518,7 +7099,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1764800
+  "tabroom_id": 1764800,
+  "name_resolved": true
  },
  "t1246582": {
   "id": "t1246582",
@@ -6540,7 +7122,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702552
+  "tabroom_id": 1702552,
+  "name_resolved": true
  },
  "t1720131": {
   "id": "t1720131",
@@ -6551,7 +7134,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1720131
+  "tabroom_id": 1720131,
+  "name_resolved": true
  },
  "t1813761": {
   "id": "t1813761",
@@ -6562,7 +7146,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1813761
+  "tabroom_id": 1813761,
+  "name_resolved": true
  },
  "t1743267": {
   "id": "t1743267",
@@ -6573,7 +7158,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1743267
+  "tabroom_id": 1743267,
+  "name_resolved": true
  },
  "t1754005": {
   "id": "t1754005",
@@ -6584,18 +7170,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1754005
+  "tabroom_id": 1754005,
+  "name_resolved": true
  },
  "t1814186": {
   "id": "t1814186",
-  "name": "Blaine Sutton",
+  "name": "Grayson Allen",
   "schools": [
    "Texas"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1814186
+  "tabroom_id": 1814186,
+  "name_resolved": true
  },
  "t1533415": {
   "id": "t1533415",
@@ -6606,7 +7194,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1533415
+  "tabroom_id": 1533415,
+  "name_resolved": true
  },
  "t1698086": {
   "id": "t1698086",
@@ -6617,7 +7206,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698086
+  "tabroom_id": 1698086,
+  "name_resolved": true
  },
  "t1720129": {
   "id": "t1720129",
@@ -6628,7 +7218,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1720129
+  "tabroom_id": 1720129,
+  "name_resolved": true
  },
  "t1813762": {
   "id": "t1813762",
@@ -6639,18 +7230,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1813762
+  "tabroom_id": 1813762,
+  "name_resolved": true
  },
  "t1703447": {
   "id": "t1703447",
-  "name": "Yobani Bustos",
+  "name": "Daven Daniel",
   "schools": [
    "Oklahoma"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703447
+  "tabroom_id": 1703447,
+  "name_resolved": true
  },
  "t1698087": {
   "id": "t1698087",
@@ -6661,7 +7254,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698087
+  "tabroom_id": 1698087,
+  "name_resolved": true
  },
  "t1698729": {
   "id": "t1698729",
@@ -6672,7 +7266,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1698729
+  "tabroom_id": 1698729,
+  "name_resolved": true
  },
  "t1533416": {
   "id": "t1533416",
@@ -6683,18 +7278,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1533416
+  "tabroom_id": 1533416,
+  "name_resolved": true
  },
  "t1735043": {
   "id": "t1735043",
-  "name": "Teddy Munson",
+  "name": "Abigail Brown",
   "schools": [
    "Minnesota"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1735043
+  "tabroom_id": 1735043,
+  "name_resolved": true
  },
  "t1699112": {
   "id": "t1699112",
@@ -6705,7 +7302,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699112
+  "tabroom_id": 1699112,
+  "name_resolved": true
  },
  "t1699124": {
   "id": "t1699124",
@@ -6716,7 +7314,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699124
+  "tabroom_id": 1699124,
+  "name_resolved": true
  },
  "t1848980": {
   "id": "t1848980",
@@ -6727,7 +7326,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1848980
+  "tabroom_id": 1848980,
+  "name_resolved": true
  },
  "t1714959": {
   "id": "t1714959",
@@ -6738,7 +7338,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1714959
+  "tabroom_id": 1714959,
+  "name_resolved": true
  },
  "t1807724": {
   "id": "t1807724",
@@ -6749,7 +7350,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1807724
+  "tabroom_id": 1807724,
+  "name_resolved": true
  },
  "t1809030": {
   "id": "t1809030",
@@ -6760,7 +7362,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1809030
+  "tabroom_id": 1809030,
+  "name_resolved": true
  },
  "t1720171": {
   "id": "t1720171",
@@ -6771,7 +7374,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1720171
+  "tabroom_id": 1720171,
+  "name_resolved": true
  },
  "t1825047": {
   "id": "t1825047",
@@ -6782,7 +7386,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1825047
+  "tabroom_id": 1825047,
+  "name_resolved": true
  },
  "t1699122": {
   "id": "t1699122",
@@ -6793,7 +7398,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699122
+  "tabroom_id": 1699122,
+  "name_resolved": true
  },
  "t1703762": {
   "id": "t1703762",
@@ -6804,7 +7410,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1703762
+  "tabroom_id": 1703762,
+  "name_resolved": true
  },
  "t1729612": {
   "id": "t1729612",
@@ -6815,7 +7422,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1729612
+  "tabroom_id": 1729612,
+  "name_resolved": true
  },
  "t1847461": {
   "id": "t1847461",
@@ -6826,7 +7434,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1847461
+  "tabroom_id": 1847461,
+  "name_resolved": true
  },
  "t1544243": {
   "id": "t1544243",
@@ -6837,7 +7446,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1544243
+  "tabroom_id": 1544243,
+  "name_resolved": true
  },
  "t1722346": {
   "id": "t1722346",
@@ -6848,18 +7458,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1722346
+  "tabroom_id": 1722346,
+  "name_resolved": true
  },
  "t1773612": {
   "id": "t1773612",
-  "name": "Rosalie Willson",
+  "name": "Hayvn Morrison",
   "schools": [
    "Wyoming"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1773612
+  "tabroom_id": 1773612,
+  "name_resolved": true
  },
  "t1699113": {
   "id": "t1699113",
@@ -6870,7 +7482,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1699113
+  "tabroom_id": 1699113,
+  "name_resolved": true
  },
  "t1705964": {
   "id": "t1705964",
@@ -6881,7 +7494,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1705964
+  "tabroom_id": 1705964,
+  "name_resolved": true
  },
  "t1815736": {
   "id": "t1815736",
@@ -6892,21 +7506,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1815736
+  "tabroom_id": 1815736,
+  "name_resolved": true
  },
  "t1621722": {
   "id": "t1621722",
-  "name": "Caitlin Travers",
-  "schools": [
-   "NYU"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1621722
- },
- "t1744618": {
-  "id": "t1744618",
   "name": "Justin Tseng",
   "schools": [
    "NYU"
@@ -6914,7 +7518,20 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1744618
+  "tabroom_id": 1621722,
+  "name_resolved": true
+ },
+ "t1744618": {
+  "id": "t1744618",
+  "name": "Caitlin Travers",
+  "schools": [
+   "NYU"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1744618,
+  "name_resolved": true
  },
  "t1834530": {
   "id": "t1834530",
@@ -6925,21 +7542,11 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1834530
+  "tabroom_id": 1834530,
+  "name_resolved": true
  },
  "t1537217": {
   "id": "t1537217",
-  "name": "Ismaila Chongan",
-  "schools": [
-   "Johnson County Community"
-  ],
-  "seasons": [
-   "2025-26"
-  ],
-  "tabroom_id": 1537217
- },
- "t1702226": {
-  "id": "t1702226",
   "name": "Mariama Jallow",
   "schools": [
    "Johnson County Community"
@@ -6947,18 +7554,32 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1702226
+  "tabroom_id": 1537217,
+  "name_resolved": true
+ },
+ "t1702226": {
+  "id": "t1702226",
+  "name": "Ismaila Chongan",
+  "schools": [
+   "Johnson County Community"
+  ],
+  "seasons": [
+   "2025-26"
+  ],
+  "tabroom_id": 1702226,
+  "name_resolved": true
  },
  "t1548271": {
   "id": "t1548271",
-  "name": "Yousef Shehata",
+  "name": "Ramana Aqeel",
   "schools": [
    "Houston"
   ],
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1548271
+  "tabroom_id": 1548271,
+  "name_resolved": true
  },
  "t1724071": {
   "id": "t1724071",
@@ -6969,7 +7590,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1724071
+  "tabroom_id": 1724071,
+  "name_resolved": true
  },
  "t1830871": {
   "id": "t1830871",
@@ -6980,7 +7602,8 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1830871
+  "tabroom_id": 1830871,
+  "name_resolved": true
  },
  "t1715655": {
   "id": "t1715655",
@@ -6991,6 +7614,7 @@
   "seasons": [
    "2025-26"
   ],
-  "tabroom_id": 1715655
+  "tabroom_id": 1715655,
+  "name_resolved": true
  }
 }

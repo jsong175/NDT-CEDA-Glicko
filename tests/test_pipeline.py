@@ -141,6 +141,33 @@ except ImportError as exc:  # pragma: no cover
     check("load_config rejects a cutoff under the floor", False, str(exc))
 
 
+# --- cache hygiene ------------------------------------------------------------
+# Tabroom serves its rate-limit notice as HTTP 200 with an ordinary-looking page,
+# and the text only appears near the very END of the body. Cached, it is
+# indistinguishable from the real page on every later run.
+sys.path.insert(0, os.path.join(ROOT, "scripts"))
+import tabroom_client as tc  # noqa: E402
+
+tail = "<html>" + ("x" * 22000) + ("<h4>Your requests have hit our rate limit; you "
+                                   "may not access this page for another hour.</h4></html>")
+check("rate-limit notice is caught at the tail of a page", tc._is_rate_limited(tail))
+check("an ordinary page is not mistaken for one",
+      not tc._is_rate_limited("<html>" + "x" * 30000 + "</html>"))
+
+import glob  # noqa: E402
+import gzip  # noqa: E402
+poisoned = []
+for f in glob.glob(os.path.join(tc.CACHE_DIR, "*", "*.html.gz")):
+    try:
+        with gzip.open(f, "rt", encoding="utf-8", errors="replace") as fh:
+            if tc._is_rate_limited(fh.read()):
+                poisoned.append(f)
+    except OSError:
+        pass
+check("no rate-limit pages sitting in the cache", not poisoned,
+      "%d found" % len(poisoned))
+
+
 # --- person files -------------------------------------------------------------
 person_dir = os.path.join(DATA, "person")
 check("a detail file exists for every debater",
