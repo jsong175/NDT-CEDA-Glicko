@@ -121,7 +121,13 @@ _DIVISION_RULES = [
     ("novice", re.compile(r"\b(nov(ice)?s?|rookie)\b|^nov", re.I)),
     ("jv", re.compile(r"\b(jv|junior\s*varsity)\b|^jv|^j\.v\.", re.I)),
     ("open", re.compile(
-        r"\b(open|varsity|championship|champs|national\s*debate\s*tournament)\b"
+        r"\b(open|varsity|championship|champs|policy"
+        r"|national\s*debate\s*tournament)\b"
+        # NDT district qualifiers ("District 4", "NDT Qualifiers", "D2
+        # Qualification", "Districts") and CEDA Nationals ("Policy Debate") are
+        # varsity fields whose names don't say "open". Novice/JV are matched
+        # first above, so these only catch true varsity divisions.
+        r"|\bdistricts?\b|\bqualif\w*\b"
         r"|^opn\b|^open", re.I)),
 ]
 

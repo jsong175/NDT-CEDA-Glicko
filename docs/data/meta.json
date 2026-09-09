@@ -1,18 +1,17 @@
 {
- "generated": "2026-09-08T20:39:51Z",
- "synthetic": true,
- "synthetic_share": 1.0,
+ "generated": "2026-09-09T03:16:56Z",
+ "synthetic": false,
+ "synthetic_share": 0.0,
  "seasons": [
-  "2025-26",
-  "2026-27"
+  "2025-26"
  ],
- "current_season": "2026-27",
- "latest_tournament_date": "2027-02-12",
+ "current_season": "2025-26",
+ "latest_tournament_date": "2026-04-02",
  "counts": {
-  "debaters": 430,
-  "ranked": 206,
-  "debates": 9080,
-  "tournaments": 58
+  "debaters": 634,
+  "ranked": 72,
+  "debates": 4654,
+  "tournaments": 33
  },
  "config": {
   "divisions": [
@@ -29,84 +28,84 @@
   "provisional_rd": 110.0
  },
  "side_bias": {
-  "aff_win_rate": 0.5164,
-  "elo_offset": 11.4,
-  "n": 9080
+  "aff_win_rate": 0.4867,
+  "elo_offset": -9.3,
+  "n": 4654
  },
  "metrics": {
   "all": {
-   "n": 9080,
-   "accuracy": 0.6383,
-   "brier": 0.2227,
-   "log_loss": 0.6369
+   "n": 4654,
+   "accuracy": 0.659,
+   "brier": 0.2071,
+   "log_loss": 0.5994
   },
   "settled": {
-   "n": 3213,
-   "accuracy": 0.6729,
-   "brier": 0.2103,
-   "log_loss": 0.6086
+   "n": 632,
+   "accuracy": 0.7674,
+   "brier": 0.1655,
+   "log_loss": 0.5049
   },
-  "baseline_always_aff": 0.5164,
+  "baseline_always_aff": 0.4867,
   "calibration": [
    {
     "bin": "0.0-0.1",
-    "n": 139,
-    "predicted": 0.0718,
-    "actual": 0.1439
+    "n": 169,
+    "predicted": 0.0623,
+    "actual": 0.0828
    },
    {
     "bin": "0.1-0.2",
-    "n": 549,
-    "predicted": 0.1568,
-    "actual": 0.2277
+    "n": 353,
+    "predicted": 0.1546,
+    "actual": 0.1586
    },
    {
     "bin": "0.2-0.3",
-    "n": 889,
-    "predicted": 0.2542,
-    "actual": 0.3105
+    "n": 462,
+    "predicted": 0.2496,
+    "actual": 0.2468
    },
    {
     "bin": "0.3-0.4",
-    "n": 1241,
-    "predicted": 0.3523,
-    "actual": 0.3836
+    "n": 562,
+    "predicted": 0.3487,
+    "actual": 0.3594
    },
    {
     "bin": "0.4-0.5",
-    "n": 1369,
-    "predicted": 0.4505,
-    "actual": 0.4697
+    "n": 1138,
+    "predicted": 0.4717,
+    "actual": 0.4877
    },
    {
     "bin": "0.5-0.6",
-    "n": 1710,
-    "predicted": 0.5432,
-    "actual": 0.5468
+    "n": 581,
+    "predicted": 0.5494,
+    "actual": 0.5353
    },
    {
     "bin": "0.6-0.7",
-    "n": 1275,
-    "predicted": 0.6488,
-    "actual": 0.611
+    "n": 489,
+    "predicted": 0.6468,
+    "actual": 0.6115
    },
    {
     "bin": "0.7-0.8",
-    "n": 1080,
-    "predicted": 0.746,
-    "actual": 0.7065
+    "n": 417,
+    "predicted": 0.7499,
+    "actual": 0.7218
    },
    {
     "bin": "0.8-0.9",
-    "n": 625,
-    "predicted": 0.8435,
-    "actual": 0.7952
+    "n": 325,
+    "predicted": 0.8449,
+    "actual": 0.8185
    },
    {
     "bin": "0.9-1.0",
-    "n": 203,
-    "predicted": 0.9273,
-    "actual": 0.8621
+    "n": 158,
+    "predicted": 0.9361,
+    "actual": 0.9304
    }
   ]
  },
@@ -116,406 +115,231 @@
    "name": "George Mason Debate Tournament",
    "season": "2025-26",
    "start": "2025-09-12",
-   "debates": 189
+   "debates": 75
   },
   {
    "tourn_id": 36669,
    "name": "MoState College Tournament",
    "season": "2025-26",
    "start": "2025-09-12",
-   "debates": 145
-  },
-  {
-   "tourn_id": 36165,
-   "name": "53rd Annual Run for the Roses hosted by UK",
-   "season": "2025-26",
-   "start": "2025-09-24",
-   "debates": 53
+   "debates": 74
   },
   {
    "tourn_id": 36431,
    "name": "Binghamton 8th Annual Phyllis Schatz Invitational",
    "season": "2025-26",
    "start": "2025-09-25",
-   "debates": 133
+   "debates": 68
   },
   {
    "tourn_id": 36166,
    "name": "55th Annual JW Patterson Debates hosted by UK",
    "season": "2025-26",
    "start": "2025-09-27",
-   "debates": 195
+   "debates": 403
   },
   {
    "tourn_id": 37322,
    "name": "Baird Debates",
    "season": "2025-26",
    "start": "2025-10-03",
-   "debates": 53
+   "debates": 19
   },
   {
    "tourn_id": 36816,
    "name": "University of Houston College Debate Tournament",
    "season": "2025-26",
    "start": "2025-10-11",
-   "debates": 109
+   "debates": 61
   },
   {
    "tourn_id": 36167,
    "name": "Minnesota College Debate Invitational",
    "season": "2025-26",
    "start": "2025-10-17",
-   "debates": 145
+   "debates": 166
   },
   {
    "tourn_id": 37376,
    "name": "West Point Debate Tournament",
    "season": "2025-26",
    "start": "2025-10-17",
-   "debates": 109
+   "debates": 45
   },
   {
    "tourn_id": 36936,
    "name": "University of Oklahoma Tournament",
    "season": "2025-26",
    "start": "2025-10-31",
-   "debates": 195
-  },
-  {
-   "tourn_id": 37029,
-   "name": "James Madison University College Debate Tournament",
-   "season": "2025-26",
-   "start": "2025-10-31",
-   "debates": 165
+   "debates": 78
   },
   {
    "tourn_id": 36419,
    "name": "Gonzaga University Jesuit Debates",
    "season": "2025-26",
    "start": "2025-11-01",
-   "debates": 165
+   "debates": 388
   },
   {
    "tourn_id": 37578,
    "name": "Robert Barbera Invitational",
    "season": "2025-26",
    "start": "2025-11-07",
-   "debates": 133
+   "debates": 43
   },
   {
    "tourn_id": 36743,
    "name": "Rochester Brad Smith Memorial",
    "season": "2025-26",
    "start": "2025-11-08",
-   "debates": 115
+   "debates": 17
   },
   {
    "tourn_id": 36610,
    "name": "FR Shirley and ADA Fall Champions at WFU",
    "season": "2025-26",
    "start": "2025-11-15",
-   "debates": 375
+   "debates": 503
   },
   {
    "tourn_id": 37971,
    "name": "Jersey Shore Invitational at Monmouth",
    "season": "2025-26",
    "start": "2025-11-21",
-   "debates": 201
+   "debates": 33
   },
   {
    "tourn_id": 37011,
    "name": "4th Big Tent Online",
    "season": "2025-26",
    "start": "2025-12-05",
-   "debates": 127
+   "debates": 34
   },
   {
    "tourn_id": 37193,
    "name": "Georgetown College Tournament",
    "season": "2025-26",
    "start": "2026-01-03",
-   "debates": 375
+   "debates": 356
   },
   {
    "tourn_id": 38004,
    "name": "3rd Annual Sunflower Swing Part 1 hosted by KU",
    "season": "2025-26",
    "start": "2026-01-03",
-   "debates": 127
+   "debates": 74
   },
   {
    "tourn_id": 37980,
    "name": "Sunflower Swing 2 K State 2026",
    "season": "2025-26",
    "start": "2026-01-07",
-   "debates": 103
-  },
-  {
-   "tourn_id": 37762,
-   "name": "Great Salt Lake Invitational",
-   "season": "2025-26",
-   "start": "2026-01-16",
-   "debates": 121
+   "debates": 74
   },
   {
    "tourn_id": 37885,
    "name": "UTSA Earthseed Invitational",
    "season": "2025-26",
    "start": "2026-01-16",
-   "debates": 145
+   "debates": 46
   },
   {
    "tourn_id": 38522,
    "name": "USNA Crowe Warken Debates",
    "season": "2025-26",
    "start": "2026-01-17",
-   "debates": 189
+   "debates": 132
   },
   {
    "tourn_id": 38966,
    "name": "Herbert L James Debates at Dartmouth",
    "season": "2025-26",
    "start": "2026-01-17",
-   "debates": 201
-  },
-  {
-   "tourn_id": 38986,
-   "name": "Rutgers University Newark Brick City Round Robin",
-   "season": "2025-26",
-   "start": "2026-01-17",
-   "debates": 53
+   "debates": 21
   },
   {
    "tourn_id": 36226,
    "name": "Hoosier Invitational Tournament HIT",
    "season": "2025-26",
    "start": "2026-01-24",
-   "debates": 177
+   "debates": 73
   },
   {
    "tourn_id": 38490,
    "name": "ASU College Tournament",
    "season": "2025-26",
    "start": "2026-01-24",
-   "debates": 145
+   "debates": 50
   },
   {
    "tourn_id": 37010,
    "name": "Texas Open",
    "season": "2025-26",
    "start": "2026-01-31",
-   "debates": 97
+   "debates": 534
   },
   {
    "tourn_id": 39031,
    "name": "Gotham Debates at The New SchoolNYC",
    "season": "2025-26",
    "start": "2026-02-07",
-   "debates": 201
-  },
-  {
-   "tourn_id": 39405,
-   "name": "D6 Districts",
-   "season": "2025-26",
-   "start": "2026-02-14",
-   "debates": 145
+   "debates": 61
   },
   {
    "tourn_id": 38955,
    "name": "NDT District VII Qualifier",
    "season": "2025-26",
    "start": "2026-02-16",
-   "debates": 103
+   "debates": 36
   },
   {
    "tourn_id": 38796,
    "name": "D1 Pacific Champs NDT Qual and CARD at Beach",
    "season": "2025-26",
    "start": "2026-02-20",
-   "debates": 177
+   "debates": 58
   },
   {
    "tourn_id": 38995,
    "name": "NDT D3 And The Mid America Championship",
    "season": "2025-26",
    "start": "2026-02-20",
-   "debates": 201
-  },
-  {
-   "tourn_id": 39452,
-   "name": "District 2 NDT Qualifier Rankings",
-   "season": "2025-26",
-   "start": "2026-02-20",
-   "debates": 189
+   "debates": 164
   },
   {
    "tourn_id": 39462,
    "name": "D4 D5 NDT Qualifiers",
    "season": "2025-26",
    "start": "2026-02-20",
-   "debates": 127
+   "debates": 7
   },
   {
    "tourn_id": 39232,
    "name": "D8 NDT Qualifier and NE Championship At Suffolk University",
    "season": "2025-26",
    "start": "2026-02-21",
-   "debates": 207
-  },
-  {
-   "tourn_id": 38894,
-   "name": "JVNovice Nationals at Fairmont State University",
-   "season": "2025-26",
-   "start": "2026-02-27",
-   "debates": 127
+   "debates": 30
   },
   {
    "tourn_id": 37153,
    "name": "ADA Nationals at Emory University",
    "season": "2025-26",
    "start": "2026-03-07",
-   "debates": 177
-  },
-  {
-   "tourn_id": 37783,
-   "name": "Pi Kappa Delta",
-   "season": "2025-26",
-   "start": "2026-03-18",
-   "debates": 139
+   "debates": 215
   },
   {
    "tourn_id": 39306,
    "name": "80th National Debate Tournament",
    "season": "2025-26",
    "start": "2026-03-26",
-   "debates": 375
+   "debates": 333
   },
   {
    "tourn_id": 38602,
    "name": "CEDA Nationals at Binghamton University",
    "season": "2025-26",
    "start": "2026-04-02",
-   "debates": 375
-  },
-  {
-   "tourn_id": 40615,
-   "name": "George Mason Debate Tournament",
-   "season": "2026-27",
-   "start": "2026-09-11",
-   "debates": 159
-  },
-  {
-   "tourn_id": 40465,
-   "name": "Owen L Coon Memorial Debates at Northwestern",
-   "season": "2026-27",
-   "start": "2026-09-12",
-   "debates": 295
-  },
-  {
-   "tourn_id": 41070,
-   "name": "MoState College Tournament",
-   "season": "2026-27",
-   "start": "2026-09-18",
-   "debates": 97
-  },
-  {
-   "tourn_id": 40771,
-   "name": "54th Annual Run for the Roses hosted by UK",
-   "season": "2026-27",
-   "start": "2026-09-23",
-   "debates": 43
-  },
-  {
-   "tourn_id": 40669,
-   "name": "Phyllis Schatz Invitational at Binghamton",
-   "season": "2026-27",
-   "start": "2026-09-25",
-   "debates": 109
-  },
-  {
-   "tourn_id": 40663,
-   "name": "56th Annual JW Patterson Debates hosted by UK",
-   "season": "2026-27",
-   "start": "2026-09-26",
-   "debates": 91
-  },
-  {
-   "tourn_id": 41056,
-   "name": "Liberty University",
-   "season": "2026-27",
-   "start": "2026-10-02",
-   "debates": 109
-  },
-  {
-   "tourn_id": 40862,
-   "name": "University of Houston College Debate Tournament",
-   "season": "2026-27",
-   "start": "2026-10-10",
-   "debates": 103
-  },
-  {
-   "tourn_id": 40482,
-   "name": "University of Minnesota College Invitational",
-   "season": "2026-27",
-   "start": "2026-10-16",
-   "debates": 121
-  },
-  {
-   "tourn_id": 41265,
-   "name": "West Point Debate Tournament",
-   "season": "2026-27",
-   "start": "2026-10-23",
-   "debates": 109
-  },
-  {
-   "tourn_id": 40425,
-   "name": "University of New Mexico College Debate Tournament",
-   "season": "2026-27",
-   "start": "2026-10-24",
-   "debates": 115
-  },
-  {
-   "tourn_id": 40954,
-   "name": "Weber State Debate Classic",
-   "season": "2026-27",
-   "start": "2026-10-24",
-   "debates": 79
-  },
-  {
-   "tourn_id": 40740,
-   "name": "The Doug Duke Invitational at UCO",
-   "season": "2026-27",
-   "start": "2026-10-30",
-   "debates": 139
-  },
-  {
-   "tourn_id": 40923,
-   "name": "Harvard College Tournament",
-   "season": "2026-27",
-   "start": "2026-10-31",
-   "debates": 115
-  },
-  {
-   "tourn_id": 41002,
-   "name": "FR Shirley and ADA Champs at Wake Forest",
-   "season": "2026-27",
-   "start": "2026-11-14",
-   "debates": 295
-  },
-  {
-   "tourn_id": 41101,
-   "name": "ASU College Tournament",
-   "season": "2026-27",
-   "start": "2027-01-22",
-   "debates": 91
-  },
-  {
-   "tourn_id": 41199,
-   "name": "UTSA Earthseed Invitational",
-   "season": "2026-27",
-   "start": "2027-02-12",
-   "debates": 127
+   "debates": 383
   }
  ],
  "defaults": {
