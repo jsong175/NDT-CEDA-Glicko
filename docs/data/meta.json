@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T12:50:22Z",
+ "generated": "2026-09-09T12:54:32Z",
  "synthetic": false,
  "synthetic_share": 0.0,
  "seasons": [
@@ -9,7 +9,7 @@
  "latest_tournament_date": "2026-04-02",
  "counts": {
   "debaters": 634,
-  "ranked": 379,
+  "ranked": 507,
   "debates": 4654,
   "tournaments": 33
  },
@@ -24,8 +24,8 @@
   "elim_weight": 1.0,
   "ballot_scores": false,
   "side_bias": "auto",
-  "min_rounds_ranked": 12,
-  "provisional_rd": 200.0
+  "min_rounds_ranked": 8,
+  "provisional_rd": 250.0
  },
  "side_bias": {
   "aff_win_rate": 0.4867,

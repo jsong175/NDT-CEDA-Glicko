@@ -157,13 +157,20 @@ reopened to at least 150.
 predictions and updates.
 
 **Who gets ranked.** A debater is provisional — kept off the default board —
-under `min_rounds_ranked` (12) rounds, or with an RD still wider than
-`provisional_rd` (200). Those two are meant to say the same thing, so the RD bar
-is set near the uncertainty a debater actually carries at the round minimum
-(~208 in the 2025-26 pool). It must also stay above `season_rd_floor`: every
-rating is reopened to at least that floor when a season turns over, so a cutoff
-underneath it marks the entire pool provisional every September and empties the
-board until midseason. `load_config()` refuses that combination outright.
+under `min_rounds_ranked` (8) rounds, or with an RD still wider than
+`provisional_rd` (250). That ranks 507 of 634 debaters; everyone excluded is one
+or two tournaments in.
+
+Both numbers are set against the pool's own spread, which is ~264 Elo (sd). A
+rating carries a 95% interval of ±2 RD, so past RD ≈ 264 that interval covers
+the whole field and the rating stops placing anyone in it — that is the ceiling,
+and 250 sits just inside it. Below 8 rounds nobody clears it anyway: that group
+runs RD 238–296, median 265.
+
+`provisional_rd` must also stay above `season_rd_floor`. Every rating is
+reopened to at least that floor when a season turns over, so a cutoff underneath
+it marks the entire pool provisional every September and empties the board until
+midseason. `load_config()` refuses that combination outright.
 
 Everything above is configurable in `config.json`.
 

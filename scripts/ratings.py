@@ -53,8 +53,8 @@ DEFAULT_CONFIG = {
     "elim_weight": 1.0,
     "ballot_scores": False,
     "side_bias": "auto",
-    "min_rounds_ranked": 12,
-    "provisional_rd": 200.0,
+    "min_rounds_ranked": 8,
+    "provisional_rd": 250.0,
 }
 
 
