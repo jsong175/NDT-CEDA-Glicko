@@ -101,12 +101,22 @@ def get_events(tourn_id):
 
 # --- entries ------------------------------------------------------------------
 
-def get_entries(tourn_id, event_id):
-    """Map entry code -> {school, debaters:[names]} for one event.
+# Each entry row on the field list links to the pair's cumulative record at
+# team_results.mhtml?id1=<student>&id2=<student>. Those ids are Tabroom's stable
+# per-student identifiers -- the thing that lets us track a debater across
+# partner changes -- so this link is the single most valuable field on the page.
+TEAM_LINK_RE = re.compile(
+    r"team_results\.mhtml\?id1=(\d+)(?:&(?:amp;)?id2=(\d+))?", re.I)
 
-    Tabroom's field list is one row per entry, with the school, the entry code
-    ("Michigan KM"), and the debaters' names in some order of columns that is
-    not stable across tournaments -- hence the header matching.
+
+def get_entries(tourn_id, event_id):
+    """Map entry code -> {school, ids:[student_id...], surnames:[...]} for an event.
+
+    The NDT/CEDA field list is one row per entry, with columns that vary between
+    tournaments, so columns are found by header text. The important columns are
+    the entry Code ("Baylor BK"), used to join to the results pages, and the
+    student ids in the row's team_results link, used for identity. The Entry
+    column carries the two debaters' surnames, kept as a fallback for names.
     """
     html = tc.fetch("/index/tourn/fields.mhtml?tourn_id=%d&event_id=%d"
                     % (tourn_id, event_id))
@@ -117,26 +127,72 @@ def get_entries(tourn_id, event_id):
             continue
         head = cells(rows[0])
         i_school = header_index(head, "school", "institution")
-        i_code = header_index(head, "code", "entry", "team")
-        i_names = header_index(head, "name", "debater", "student", "competitor")
-        if i_code is None and i_names is None:
+        i_code = header_index(head, "code")
+        i_entry = header_index(head, "entry", "name", "debater", "student", "team")
+        if i_code is None:
+            # No dedicated Code column: fall back to the Entry column as the key.
+            i_code = i_entry
+        if i_code is None:
             continue
         for row in rows[1:]:
             cs = cells(row)
-            if len(cs) < 2:
+            if len(cs) < 2 or i_code >= len(cs):
                 continue
-            code = cs[i_code] if i_code is not None and i_code < len(cs) else ""
-            school = cs[i_school] if i_school is not None and i_school < len(cs) else ""
-            names_blob = cs[i_names] if i_names is not None and i_names < len(cs) else ""
-            names = split_names(names_blob)
-            if not names and i_names is None:
-                # Some field lists put both debaters in the code cell.
-                names = split_names(code)
-            if not code:
-                code = "%s %s" % (school, "".join(n[:1] for n in names))
-            if names:
-                entries[code.strip()] = {"school": school.strip(), "debaters": names}
+            code = cs[i_code].strip()
+            if not code or code.lower() in ("code", "entry"):
+                continue
+            school = cs[i_school].strip() if i_school is not None and i_school < len(cs) else ""
+            surnames = split_names(cs[i_entry]) if i_entry is not None and i_entry < len(cs) else []
+
+            ids = []
+            m = TEAM_LINK_RE.search(row)
+            if m:
+                ids = [int(g) for g in m.groups() if g]
+
+            entries[code] = {"school": school, "ids": ids, "surnames": surnames}
     return entries
+
+
+# The entry-record page carries a heading like "Jack Pacconi & Antonio Souchet".
+# It's cached on disk, so resolving the same entry again -- across rounds,
+# tournaments, or re-runs -- costs Tabroom nothing.
+_TITLE_H_RE = re.compile(r"<h[1-5][^>]*>(.*?)</h[1-5]>", re.S | re.I)
+
+
+def resolve_entry_names(tourn_id, entry_id, surnames=None):
+    """Full debater names for one entry, aligned to `surnames` when given.
+
+    Returns a list like ["Jack Pacconi", "Antonio Souchet"], or [] if the page
+    can't be read (the caller then falls back to the field-list surnames).
+
+    The record page has several headings -- the tournament name ("FR Shirley and
+    ADA Fall Champions at WFU"), a location, section titles -- so we can't just
+    grab the one containing "&". When we know the entry's surnames we accept only
+    the heading whose parts end in exactly those surnames, which is unambiguous.
+    """
+    if not entry_id:
+        return []
+    try:
+        html = tc.fetch("/index/tourn/postings/entry_record.mhtml?tourn_id=%d&entry_id=%d"
+                        % (tourn_id, entry_id))
+    except (tc.FetchError, tc.AuthError):
+        return []
+
+    want = sorted(s.split()[-1].lower() for s in surnames) if surnames else None
+    for frag in _TITLE_H_RE.findall(html):
+        heading = text(frag)
+        if not ("&" in heading or " and " in heading.lower()) or len(heading) > 90:
+            continue
+        parts = [p.strip() for p in re.split(r"\s*&\s*|\s+and\s+", heading) if p.strip()]
+        if want is not None:
+            if sorted(p.split()[-1].lower() for p in parts) == want:
+                return parts
+        elif parts and all(" " in p and len(p.split()) <= 4 for p in parts) \
+                and "schematic" not in heading.lower():
+            # No surnames to check against: accept a plausibly name-shaped
+            # heading, but only one made of "First Last" style parts.
+            return parts
+    return []
 
 
 NAME_SPLIT_RE = re.compile(r"\s*(?:&amp;|&|,\s*and\s+|\band\b|\+|/|;)\s*", re.I)
@@ -166,10 +222,15 @@ def split_names(blob):
 
 # --- rounds and results -------------------------------------------------------
 
-ROUND_LINK_RE = re.compile(r'href="[^"]*?round_id=(\d+)[^"]*"[^>]*>\s*(.*?)\s*</a>', re.S | re.I)
-WIN_RE = re.compile(r"\b(win|won|w)\b", re.I)
-LOSS_RE = re.compile(r"\b(loss|lost|lose|l)\b", re.I)
-BALLOT_RE = re.compile(r"\b([0-5])\s*[-–]\s*([0-5])\b")
+# Round results live at round_results.mhtml?tourn_id=..&round_id=.., linked from
+# the event's results index. We take the round_id from those links specifically.
+ROUND_LINK_RE = re.compile(
+    r'round_results\.mhtml\?tourn_id=\d+&(?:amp;)?round_id=(\d+)"[^>]*>\s*(.*?)\s*</a>',
+    re.S | re.I)
+BALLOT_RE = re.compile(r"(\d+)\s*[-–]\s*(\d+)")
+# Each Aff/Neg cell links to that entry's record page, which is the reliable
+# source of both debaters' full names.
+ENTRY_ID_RE = re.compile(r"entry_record\.mhtml\?tourn_id=\d+&(?:amp;)?entry_id=(\d+)", re.I)
 
 
 def get_rounds(tourn_id, event_id):
@@ -178,62 +239,90 @@ def get_rounds(tourn_id, event_id):
                     % (tourn_id, event_id))
     found = {}
     for rid, label in ROUND_LINK_RE.findall(html):
-        name = text(label)
+        name = text(label).replace(" Round results", "").strip()
         if name:
             found.setdefault(int(rid), name)
     return [{"round_id": rid, "name": name} for rid, name in found.items()]
 
 
-def get_round_pairings(round_id):
-    """Parse one round's pairings into (aff_code, neg_code, winner) triples.
+def _clean_code(cell):
+    """Strip the decorations Tabroom appends to a code in a results cell
+    ('North Texas VB - ONLINE') so it joins to the field-list code."""
+    cell = re.sub(r"\s*-\s*online\s*$", "", cell, flags=re.I)
+    cell = re.sub(r"\s*\((?:online|hybrid|forfeit|fft?)\)\s*$", "", cell, flags=re.I)
+    return cell.strip()
 
-    Tabroom renders a completed round as a table with an aff column, a neg
-    column, and some indication of who won -- sometimes a "Win"/"Loss" word,
-    sometimes a ballot count like "3-0", sometimes bolding on the winner. We
-    accept the first two and skip anything else rather than guess.
+
+def _decide(verdict):
+    """(winner, (aff_ballots, neg_ballots)) from a Win/Votes cell.
+
+    Two shapes on this circuit:
+      prelims: the cell is just "Aff" or "Neg"
+      elims:   the cell is "5-0 AFF", "4-1 NEG", ...   (winner-loser ballots)
     """
-    html = tc.fetch("/index/tourn/postings/round.mhtml?round_id=%d" % round_id)
+    v = verdict.strip()
+    low = v.lower()
+    side = None
+    if re.search(r"\baff\b", low):
+        side = "aff"
+    elif re.search(r"\bneg\b", low):
+        side = "neg"
+
+    m = BALLOT_RE.search(v)
+    ballots = None
+    if m:
+        hi, lo = int(m.group(1)), int(m.group(2))
+        if hi == lo:
+            return None, None  # a tie/panel we can't read is not scoreable
+        # The pair is winner-loser; if we couldn't read a side, infer nothing.
+        if side == "aff":
+            ballots = (max(hi, lo), min(hi, lo))
+        elif side == "neg":
+            ballots = (min(hi, lo), max(hi, lo))
+    return side, ballots
+
+
+def get_round_pairings(tourn_id, round_id):
+    """Parse one round into {aff, neg, winner, ballots} rows, keyed by entry code.
+
+    Anything whose winner cannot be read confidently is skipped rather than
+    guessed at -- a mis-scored round is a wrong rating nobody can trace.
+    """
+    html = tc.fetch("/index/tourn/results/round_results.mhtml?tourn_id=%d&round_id=%d"
+                    % (tourn_id, round_id))
     out = []
     for tbl in tables(html):
         rows = ROW_RE.findall(tbl)
         if len(rows) < 2:
             continue
         head = cells(rows[0])
-        i_aff = header_index(head, "aff", "affirmative", "team 1")
-        i_neg = header_index(head, "neg", "negative", "team 2")
-        i_win = header_index(head, "win", "result", "decision", "vote", "ballot")
-        if i_aff is None or i_neg is None:
+        i_aff = header_index(head, "aff")
+        i_neg = header_index(head, "neg")
+        # "Win" is the decision on both page shapes; prefer it over "Votes".
+        i_win = header_index(head, "win", "result", "decision")
+        if i_win is None:
+            i_win = header_index(head, "vote", "ballot")
+        if i_aff is None or i_neg is None or i_win is None:
             continue
         for row in rows[1:]:
             cs = cells(row)
-            if max(i_aff, i_neg) >= len(cs):
+            rc = raw_cells(row)
+            if max(i_aff, i_neg, i_win) >= len(cs):
                 continue
-            aff, neg = cs[i_aff].strip(), cs[i_neg].strip()
-            if not aff or not neg or aff.lower() == "bye" or neg.lower() == "bye":
+            aff, neg = _clean_code(cs[i_aff]), _clean_code(cs[i_neg])
+            if not aff or not neg or "bye" in (aff.lower(), neg.lower()):
                 continue
-            winner = ballots = None
-            if i_win is not None and i_win < len(cs):
-                verdict = cs[i_win]
-                m = BALLOT_RE.search(verdict)
-                if m:
-                    a, b = int(m.group(1)), int(m.group(2))
-                    if a != b:
-                        winner, ballots = ("aff" if a > b else "neg"), (a, b)
-                elif re.search(r"\baff\b", verdict, re.I):
-                    winner = "aff"
-                elif re.search(r"\bneg\b", verdict, re.I):
-                    winner = "neg"
-            if winner is None:
-                # Fall back to which side is marked as the winner in the markup.
-                rc = raw_cells(row)
-                if max(i_aff, i_neg) < len(rc):
-                    aff_won = bool(re.search(r"<(b|strong)\b|winner", rc[i_aff], re.I))
-                    neg_won = bool(re.search(r"<(b|strong)\b|winner", rc[i_neg], re.I))
-                    if aff_won != neg_won:
-                        winner = "aff" if aff_won else "neg"
-            if winner:
-                out.append({"aff": aff, "neg": neg, "winner": winner,
-                            "ballots": ballots})
+            winner, ballots = _decide(cs[i_win])
+            if not winner:
+                continue
+
+            def entry_id(idx):
+                m = ENTRY_ID_RE.search(rc[idx]) if idx < len(rc) else None
+                return int(m.group(1)) if m else None
+
+            out.append({"aff": aff, "neg": neg, "winner": winner,
+                        "ballots": ballots,
+                        "aff_entry": entry_id(i_aff), "neg_entry": entry_id(i_neg)})
     return out
 
 
@@ -274,18 +363,54 @@ def scrape_tournament(t, registry, debates, report, divisions):
             report["empty_fields"].append({"tourn_id": tid, "event": ev["name"]})
             continue
 
-        # code -> [person ids]
-        roster = {}
+        # normalized code -> entry info. Identity comes from the student ids in
+        # the team_results link; names are resolved lazily below so we only fetch
+        # a team_results page for entries that actually debated.
+        by_code = {}
         for code, info in entries.items():
-            pids = [registry.resolve(n, school=info["school"], season=t.get("season"))
-                    for n in info["debaters"]]
+            if len(info.get("ids") or []) == 2:
+                by_code[normalize_code(code)] = info
+
+        resolved = {}  # normalized code -> [person id, person id], memoised
+
+        def roster_lookup(code, entry_id):
+            key = normalize_code(code)
+            if key in resolved:
+                return resolved[key]
+            info = by_code.get(key)
+            if not info:
+                resolved[key] = None
+                return None
+            ids = info["ids"]
+            surnames = info.get("surnames") or []
+            full = resolve_entry_names(tid, entry_id, surnames)  # cached on disk
+
+            pids = []
+            for i, sid in enumerate(ids):
+                surname = surnames[i] if i < len(surnames) else ""
+                # Prefer the full name whose surname matches this student's
+                # field-list surname; fall back to positional order, then to
+                # the surname alone. Identity is the student id either way.
+                name = ""
+                if surname:
+                    for fn in full:
+                        if fn.split()[-1].lower() == surname.split()[-1].lower():
+                            name = fn
+                            break
+                if not name and i < len(full):
+                    name = full[i]
+                if not name:
+                    name = surname
+                pids.append(registry.resolve(name or ("student %d" % sid),
+                                             school=info["school"],
+                                             student_id=sid, season=t.get("season")))
             pids = [p for p in pids if p]
-            if len(pids) == 2:
-                roster[normalize_code(code)] = pids
+            resolved[key] = pids if len(pids) == 2 else None
+            return resolved[key]
 
         for rd in rounds:
             try:
-                pairings = get_round_pairings(rd["round_id"])
+                pairings = get_round_pairings(tid, rd["round_id"])
             except tc.AuthError:
                 raise
             except Exception as exc:  # noqa: BLE001
@@ -293,8 +418,8 @@ def scrape_tournament(t, registry, debates, report, divisions):
                                                 "error": str(exc)})
                 continue
             for p in pairings:
-                aff = roster.get(normalize_code(p["aff"]))
-                neg = roster.get(normalize_code(p["neg"]))
+                aff = roster_lookup(p["aff"], p.get("aff_entry"))
+                neg = roster_lookup(p["neg"], p.get("neg_entry"))
                 if not aff or not neg:
                     report["unmatched_entries"].append(
                         {"tourn_id": tid, "event": ev["name"], "round": rd["name"],
@@ -317,8 +442,12 @@ CODE_CLEAN_RE = re.compile(r"[^a-z0-9]+")
 
 def normalize_code(code):
     """Entry codes are typed by hand and drift between pages ('Michigan KM',
-    'Michigan  K-M'), so compare them stripped of case and punctuation."""
-    return CODE_CLEAN_RE.sub("", (code or "").lower())
+    'Michigan  K-M'), and the field list tags online entries ('Houston MS -
+    ONLINE') where the results pages do not, so compare them stripped of case,
+    punctuation, and the online/hybrid marker."""
+    code = _clean_code(code or "")
+    code = CODE_CLEAN_RE.sub("", code.lower())
+    return re.sub(r"(online|hybrid)$", "", code)
 
 
 def main():
@@ -464,29 +593,37 @@ def inspect(tourn_id):
                 print("      %s" % (cells(row)[:9],))
 
     entries = get_entries(tourn_id, ev["event_id"])
-    print("\n  parsed %d entries; first few:" % len(entries))
+    print("\n  parsed %d entries; first few (ids + field-list surnames):" % len(entries))
     for code, info in list(entries.items())[:5]:
-        print("    %-22s %-22s %s" % (code, info["school"], info["debaters"]))
+        print("    %-20s ids=%-18s %s"
+              % (code, info.get("ids"), " & ".join(info.get("surnames") or [])))
 
     rounds = get_rounds(tourn_id, ev["event_id"])
     print("\n=== rounds (%d) ===" % len(rounds))
-    for rd in rounds[:12]:
+    for rd in rounds[:14]:
         print("  %-9s %s" % (rd["round_id"], rd["name"]))
     if rounds:
-        rid = rounds[0]["round_id"]
-        print("\n=== round %s pairing tables ===" % rid)
-        rhtml = tc.fetch("/index/tourn/postings/round.mhtml?round_id=%d" % rid)
+        rid = rounds[-1]["round_id"]  # a prelim, the common case
+        print("\n=== '%s' (round %s) results table ===" % (rounds[-1]["name"], rid))
+        rhtml = tc.fetch(
+            "/index/tourn/results/round_results.mhtml?tourn_id=%d&round_id=%d"
+            % (tourn_id, rid))
         for i, tbl in enumerate(tables(rhtml)):
             rows = ROW_RE.findall(tbl)
             if rows:
-                print("  table %d: %s" % (i, cells(rows[0])[:9]))
-                for row in rows[1:3]:
-                    print("      %s" % (cells(row)[:9],))
-        pairings = get_round_pairings(rid)
-        print("\n  parsed %d pairings; first few:" % len(pairings))
-        for p in pairings[:5]:
-            print("    %-24s vs %-24s -> %s %s"
-                  % (p["aff"][:24], p["neg"][:24], p["winner"], p["ballots"] or ""))
+                print("  table %d header: %s" % (i, cells(rows[0])[:8]))
+        codes = {normalize_code(c) for c in entries}
+        for label, rd in ((rounds[-1]["name"], rounds[-1]),
+                          (rounds[0]["name"], rounds[0])):
+            pairings = get_round_pairings(tourn_id, rd["round_id"])
+            hits = sum(1 for p in pairings
+                       if normalize_code(p["aff"]) in codes
+                       and normalize_code(p["neg"]) in codes)
+            print("\n  %-8s parsed %d pairings, %d matching the field list; first few:"
+                  % (label, len(pairings), hits))
+            for p in pairings[:4]:
+                print("    %-22s vs %-22s -> %s %s"
+                      % (p["aff"][:22], p["neg"][:22], p["winner"], p["ballots"] or ""))
 
 
 if __name__ == "__main__":
