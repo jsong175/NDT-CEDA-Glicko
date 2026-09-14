@@ -448,6 +448,14 @@
   "divisions_listed": "JV, Nov, SHIR, Obsvr"
  },
  {
+  "tourn_id": 41430,
+  "name": "Monmouth University Debate Tournament",
+  "season": "2026-27",
+  "start": "2026-11-20",
+  "location": "Monmouth, NY",
+  "divisions_listed": "Novice, Open"
+ },
+ {
   "tourn_id": 41101,
   "name": "ASU College Tournament",
   "season": "2026-27",
@@ -461,6 +469,14 @@
   "season": "2026-27",
   "start": "2027-02-12",
   "location": "TX",
+  "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 41379,
+  "name": "NE Regionals and D8 Qualifier at New School Gotham",
+  "season": "2026-27",
+  "start": "2027-02-27",
+  "location": "New York, NY",
   "divisions_listed": "JV, Nov, Open"
  }
 ]
