@@ -421,7 +421,7 @@
   "season": "2026-27",
   "start": "2026-10-24",
   "location": "Ogden, UT",
-  "divisions_listed": "CardJV, CardOP, CX-OP"
+  "divisions_listed": "CardJV, CardOP, CX-OP, CXJV, CXNov"
  },
  {
   "tourn_id": 40740,
@@ -454,6 +454,14 @@
   "start": "2026-11-20",
   "location": "Monmouth, NY",
   "divisions_listed": "Novice, Open"
+ },
+ {
+  "tourn_id": 41472,
+  "name": "4th Annual Sunflower Swing Part 1 hosted by KU",
+  "season": "2026-27",
+  "start": "2027-01-03",
+  "location": "Lawrence, KS",
+  "divisions_listed": "JV, Nov, Open"
  },
  {
   "tourn_id": 41101,
