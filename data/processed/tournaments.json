@@ -424,19 +424,19 @@
   "divisions_listed": "CardJV, CardOP, CX-OP, CXJV, CXNov"
  },
  {
+  "tourn_id": 40923,
+  "name": "Harvard College Tournament",
+  "season": "2026-27",
+  "start": "2026-10-30",
+  "location": "Online",
+  "divisions_listed": "JV, NOV, Open"
+ },
+ {
   "tourn_id": 40740,
   "name": "The Doug Duke Invitational at UCO",
   "season": "2026-27",
   "start": "2026-10-30",
   "location": "Edmond, OK",
-  "divisions_listed": "JV, NOV, Open"
- },
- {
-  "tourn_id": 40923,
-  "name": "Harvard College Tournament",
-  "season": "2026-27",
-  "start": "2026-10-31",
-  "location": "Online",
   "divisions_listed": "JV, NOV, Open"
  },
  {
@@ -484,7 +484,7 @@
   "name": "UTSA Earthseed Invitational",
   "season": "2026-27",
   "start": "2027-02-12",
-  "location": "TX",
+  "location": "San Antonio, TX",
   "divisions_listed": "JV, Nov, Open"
  },
  {
