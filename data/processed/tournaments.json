@@ -464,12 +464,28 @@
   "divisions_listed": "Novice, Open"
  },
  {
+  "tourn_id": 41940,
+  "name": "5th Big Ten Online",
+  "season": "2026-27",
+  "start": "2026-12-04",
+  "location": "Online",
+  "divisions_listed": "ACCA, ACEX, ACINF, ACPOI, ACPRO, BCADS, BCDI, BCDUO, BImp2, BCPer, BCPOE, JVAPD, JVBP, JVCARD, JVCPF, JHSLD, JHSCX, JHSPF, JIPDA, JCEDA, JNEDA, JVLD, JNPDA, JTIPDA, NAPDA, NBP, NCARD, NCPF, NHSLD, NHSCX, NHSPF, NCEDA, NNEDA, NLD, NNPDA, NIPDA, VAPDA, VBP, VCARD, VCPF, VHSLD, VHSCX, VHSPF, VIPDA, VCEDA, VNEDA, VLD, VNPDA, VTIPDA"
+ },
+ {
   "tourn_id": 41472,
   "name": "4th Annual Sunflower Swing Part 1 hosted by KU",
   "season": "2026-27",
   "start": "2027-01-03",
   "location": "Lawrence, KS",
   "divisions_listed": "JV, Nov, Open"
+ },
+ {
+  "tourn_id": 41961,
+  "name": "Great Salt Lake Invitational",
+  "season": "2026-27",
+  "start": "2027-01-15",
+  "location": "Salt Lake City, UT",
+  "divisions_listed": "NPTE, CEDA"
  },
  {
   "tourn_id": 41101,
